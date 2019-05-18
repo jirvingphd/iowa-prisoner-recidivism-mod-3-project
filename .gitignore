@@ -29,3 +29,4 @@ punkt/corpora/stopwords/russian
 punkt/corpora/stopwords/spanish
 punkt/corpora/stopwords/swedish
 punkt/corpora/stopwords/turkish
+*.json
