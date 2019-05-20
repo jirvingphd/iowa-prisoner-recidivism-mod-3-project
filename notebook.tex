@@ -1,0 +1,1489 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{blog\_post\_making\_using\_bs\_ds\_no\_EDA}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    
+
+    \hypertarget{how-i-published-my-own-python-package-and-how-you-can-too}{%
+\section{How I published my own Python package and how YOU can
+too!}\label{how-i-published-my-own-python-package-and-how-you-can-too}}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+https://pypi.org/project/bs-ds/ ‡
+
+\texttt{pip\ install\ bs\_ds} \_\_\_
+
+‡ \emph{Note: BroadSteel DataScience is: inspired by, an homage to,
+legally distinct from, and in no way representative of} \textbf{Flatiron
+School's Online
+\href{https://flatironschool.com/career-courses/data-science-bootcamp/online/}{Data
+Science bootcamp program.}}
+
+\hypertarget{in-this-post-we-will}{%
+\subsection{\texorpdfstring{In this post, we
+will:}{In this post, we will: }}\label{in-this-post-we-will}}
+
+\hypertarget{walk-you-through-how-i-made-and-published-my-own-pip-installable-python-package-called-broadsteel_datascience-a.k.a.-bs_ds---using-the-python-package-cookiecutter-to-set-up-the-infrastructure-for-a-professional-quality-pythin-package.}{%
+\paragraph{\texorpdfstring{1) \textbf{Walk you through how I made and
+published my own pip-installable Python package} called
+BroadSteel\_DataScience (A.K.A.
+\href{https://pypi.org/project/bs-ds/}{\texttt{bs\_ds}}) - using the
+python package \texttt{cookiecutter} to set up the infrastructure for a
+professional quality Pythin
+package.}{1) Walk you through how I made and published my own pip-installable Python package  called BroadSteel\_DataScience (A.K.A. bs\_ds) - using the python package cookiecutter to set up the infrastructure for a professional quality Pythin package.}}\label{walk-you-through-how-i-made-and-published-my-own-pip-installable-python-package-called-broadsteel_datascience-a.k.a.-bs_ds---using-the-python-package-cookiecutter-to-set-up-the-infrastructure-for-a-professional-quality-pythin-package.}}
+
+\begin{itemize}
+\tightlist
+\item
+  incuding \href{https://bs-ds.readthedocs.io/en/latest/}{auto-generated
+  documentation with Sphinx}
+\item
+  automatic build-testing and deployment with
+  \href{https://travis-ci.org/}{travis-ci.org.} 
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \textbf{Explain how to share access and control of the github/pypi
+  package with collaborators}. 
+\item
+  **Walk through some of my favorite tools in bs\_ds for EDA and
+  prettifying DataFrames for projects and presentations.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{butwhy-would-i-bother-you-may-be-wondering}{%
+\section{\texorpdfstring{``But\ldots{}\emph{why would I bother?}'', you
+may be
+wondering\ldots{}}{``But\ldots{}why would I bother?'', you may be wondering\ldots{}}}\label{butwhy-would-i-bother-you-may-be-wondering}}
+
+\hypertarget{lots-of-reasons-mostly-convenience}{%
+\subsection{\texorpdfstring{\textbf{Lots of reasons!} (\emph{mostly
+convenience})}{Lots of reasons! (mostly convenience)}}\label{lots-of-reasons-mostly-convenience}}
+
+\hypertarget{but-also}{%
+\subsubsection{But also\ldots{}}\label{but-also}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Becuase you're \emph{sick} of having to copy and paste your
+  favorite functions into every new notebook.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I work on several computers and also in the cloud. It was always a
+    pain to have to log into Dropbox on any new computer and remmeber
+    where I saved that notebook that had all of those cool little
+    functions I wrote\ldots{}I
+  \end{itemize}
+\item
+  \textbf{Because you collaborate with others and want to ensure you all
+  have the same toolkit at your disposal.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    My collaborator and fellow student,
+    \href{https://github.com/MichaelMoravetz}{Michael Moravetz}, and I
+    have been working closely together and we wanted an easy way to
+    share the cool/helpful tools each of us that we either wrote
+    ourselves or were given in our bootcamp lessons.
+  \end{itemize}
+\item
+  \textbf{Because you're instructor tells you that your notebook has WAY
+  too many functions up front, and its distracting\ldots{}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\emph{You:}} ``But aren't I \emph{supposed} to write a lot
+    of functions to become a better programmer?''"
+  \item
+    \textbf{\emph{Me:}} ``Yes\ldots{}you're right\ldots{} BUT when
+    someone has to scroll through a lot of functions-as-appetizers
+    before geting to your main-course-notebook, they may not have much
+    attentional-appetite left.''
+  \end{itemize}
+\item
+  \textbf{Because you're a little OCD and like having ALL of your
+  notebook's settings JUST THE RIGHT WAY.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    pandas.set\_options()
+  \item
+    HTML/CSS styling, etc.)
+  \item
+    Matplotlib Params
+  \end{itemize}
+\item
+  \textbf{Finally, becuase you're lazy coder} and just want all of your
+  tools imported for you and ready to use whereever you go with as
+  little effort as possible.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{I'm a big believer in exerting extra up-front-effort in the
+    name of future-laziness-convience.}
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{ok-i-get-it-youre-hopefully-thinking-so-how}{%
+\section{\texorpdfstring{``OK, I get it,'' you're (hopefully)
+thinking\ldots{} ``So,
+\emph{how?}''}{``OK, I get it,'' you're (hopefully) thinking\ldots{} ``So, how?''}}\label{ok-i-get-it-youre-hopefully-thinking-so-how}}
+
+There are simpler ways to go about this, but I am going to show you the
+exact tools I use that allow me to have an
+automatically-updated-and-deployed package with very little effort (once
+its set up). \#\# THE TOOLS I USE: -
+\href{https://www.anaconda.com/}{Anaconda-installed Python} -
+\href{https://code.visualstudio.com/docs/introvideos/basics}{Microsoft's
+Visual Studio Code} - Its optionally installed with Anaconda and has
+quickly become my favorite editor. \emph{(Sorry, SublimeText3\ldots{}
+It's not you! Its me. I still love you..I'm just not as }\textbf{in
+love}* with you as I used to be. But we can still be friends, right?!)*
+- \href{https://desktop.github.com/}{GitHub Desktop} - Its SO convenient
+and simplifies the workflow and collaboration immensely. -
+\href{https://cookiecutter-pypackage.readthedocs.io/en/latest/}{Cookiecutter}
+python package - For the total package infrastructure, with the opton of
+setting up automation and documentation generation. - \href{}{Google
+Colab}, \href{}{Microsoft Azure Notebooks} - For testing the package in
+cloud Jupyter notebooks. Just add an `!' to the pip install command in
+any cloud-notebook \texttt{!pip\ install\ bs\_ds}
+
+    \hypertarget{how-to-create-your-package-infrastructure-using-cookiecutter}{%
+\section{HOW TO CREATE YOUR PACKAGE INFRASTRUCTURE USING
+COOKIECUTTER}\label{how-to-create-your-package-infrastructure-using-cookiecutter}}
+
+\hypertarget{please-open-the-official-cookiecutter-tutorial}{%
+\subsection{PLEASE OPEN THE OFFICIAL COOKIECUTTER
+TUTORIAL:}\label{please-open-the-official-cookiecutter-tutorial}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} \textbf{Open Cookiecutter's
+  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html}{official
+  tutorial from their documentation.}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Its very good overall but I suggest doing a few steps a little
+    differently. My suggested steps will start with ``REC'D'' to
+    indicate deviations from the official steps.
+  \end{itemize}
+\item
+  {[} {]} \textbf{Make sure to reference BOTH my instructions beklow as
+  well as the official tutorial.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Make \textbf{read my recommended steps first,} as I suggest doing
+    some steps earlier than the tutorial does.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{my-recommended-steps-for-cutting-your-first-cookies}{%
+\subsection{MY RECOMMENDED STEPS FOR CUTTING YOUR FIRST
+COOKIES:}\label{my-recommended-steps-for-cutting-your-first-cookies}}
+
+\hypertarget{before-getting-started-create-accounts-for-requireddesired-services}{%
+\subsubsection{\texorpdfstring{BEFORE GETTING STARTED, CREATE ACCOUNTS
+FOR REQUIRED/DESIRED
+SERVICES:}{BEFORE GETTING STARTED, CREATE ACCOUNTS FOR REQUIRED/DESIRED SERVICES: }}\label{before-getting-started-create-accounts-for-requireddesired-services}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} \textbf{Go to PyPi.org and ``Register'' a new account.
+  {[}REQUIRED{]}} PyPi.org is the offical service that hosts
+  pip-installable packages.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You will need your account name very soon, during the initial
+    cookie-cutting step below.
+  \item
+    You will need your password later, when you are ready to upload your
+    package to PyPi. 
+  \end{itemize}
+\item
+  {[} {]} \textbf{Register your github account with www.travis-ci.org.
+  {[}OPTIONAL, BUT HIGHLY RECOMMENDED{]}} for automated build testing
+  and auto-deployment to PyPi.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    NOTE: Make sure to go to \textbf{www.travis-ci.ORG} (\textbf{NOT}
+    travis-ci.\textbf{COM}, which is for commerical, non-open source
+    pcakges) 
+  \item
+    \textbf{Suggestion: This is totally worth it.} It adds a little
+    complexity to the cookie-cutting set up process, but it:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      makes updating your package a breeze.
+    \item
+      makes it easier for others to contribute to your package
+    \item
+      it will pre-test any Pull Requests so you will already know if the
+      code is functional before you merge their code with yours.
+    \end{itemize}
+  \end{itemize}
+\item
+  {[} {]} \textbf{Register an account on
+  \href{https://readthedocs.org/}{readthedocs.org} {[}OPTIONAL, BUT
+  REC'D IF SHARING YOUR WORK{]}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Readthedocs will host your generated user documentation for your
+    package.
+  \item
+    Note: Cookiecutter will fill in a lot of the documentation basics
+    for you.
+  \item
+    Note: There is an additional advanced method to auto-generate all
+    documentation from docstrings, which I will mention in the tutorial
+    below.
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{recd-step-0.-before-instaling-anything-you-should}{%
+\subsubsection{\texorpdfstring{REC'D STEP 0. \textbf{BEFORE INSTALING
+ANYTHING}, you
+should:}{REC'D STEP 0. BEFORE INSTALING ANYTHING, you should: }}\label{recd-step-0.-before-instaling-anything-you-should}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} \textbf{Create a new virtual environment}, preferably by
+  cloning your current one.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Anaconda Navigator makes the cloning process easy.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      In Navigator, click on the \texttt{Environments} tab in the
+      sidebar.
+    \item
+      Click on your current enivornment of choice, then click the Clone
+      button, and give it a new name.
+    \end{itemize}
+  \item
+    {[} {]} Add this to your Jupyter notebook kernels using
+    \texttt{python\ -m\ ipykernel\ install\ -\/-user\ -\/-name\ myenv}
+  \end{itemize}
+\item
+  {[} {]} \textbf{Backup and export your current enviornment} to a .yml
+  file, which you can use to re-install your env, if need be.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    For Anaconda environments, open your terminal and activate your
+    environment before exporting: \texttt{source\ activate\ env-name}
+    \texttt{conda\ env\ export\ \textgreater{}\ my\_environment.yml}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \emph{where ``env-name'' is the name of the environment you'd like
+      to clone and ``my\_environment''.yml is any-name-you'd-like.yml}
+    \end{itemize}
+  \item
+    This will save the .yml into your current directory that can be used
+    to install your environment in the future
+    using:\texttt{conda\ env\ create\ -f\ my\_environment.yml}
+  \end{itemize}
+\item
+  \textbf{DO NOT SKIP THIS STEP.} I have warned you and I am not
+  responsible for any broken environments.While nothing \emph{should}
+  break, it's always a GOOD idea to create a new environment for
+  creating and installing test packages. Really, I should say its a DUMB
+  idea not to. 
+\end{itemize}
+
+\hypertarget{recd-step-1-install-cookiecutter-into-your-new-environment.}{%
+\subsubsection{REC'D STEP 1: Install cookiecutter into your new
+environment.}\label{recd-step-1-install-cookiecutter-into-your-new-environment.}}
+
+\begin{itemize}
+\tightlist
+\item
+  Tutorial ``Step 1: Install Cookiecutter'': Install Cookie Cutter and
+  cookie-cut the default template cookiecuter repo.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {[}x{]} You may ignore the first part of Step 1 (using virtualenv to
+    create an env). 
+  \item
+    {[} {]} Install cookiecutter via pip:
+    \texttt{pip\ install\ cookiecutter}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{recd-step-2-create-a-new-github-repo-for-your-package-and-clone-it-locally}{%
+\subsubsection{REC'D STEP 2: Create a new GitHub repo for your package
+and clone it
+locally}\label{recd-step-2-create-a-new-github-repo-for-your-package-and-clone-it-locally}}
+
+\textbf{\emph{NOTE: My recommendation deviates from the tutorial. This
+will replace ``Step 3: Create a GitHub Repo''.}} - {[} {]} Log into your
+your GitHub profile on github.com and Create a New Repository by
+clicking the + sign next to your account picture on the top-right of the
+page. - {[} {]} Create a New Repository, using the desired name for your
+published package for the repo name. - {[} {]} Check
+``\texttt{Initialize\ this\ repo\ with\ a\ README}'' (you can't clone an
+empty repo). - Leave the rest of the options blank/none.
+\texttt{Initialzie\ with\ Add\ a\ .git\ ignore},
+\texttt{Add\ a\ license} - Cookiecutter will ask you to choose a license
+later in the process. - {[} {]} Clone the new repo to your computer.
+(This is the perfect chance to try using
+\href{https://desktop.github.com/}{GitHub Desktop}, if you haven't
+before. ) - Click Clone or Download and: - Copy the url if you plan on
+using your terminal to clone. - OR ``Open in Desktop'' if you've
+installed and logged in to the GitHub Desktop App. 
+
+    \hypertarget{official-step-3.-use-the-cookiecutter-command-to-cut-your-first-cookie-template.}{%
+\subsubsection{OFFICIAL STEP \#3. Use the cookiecutter command to
+cut-your-first-cookie-template.}\label{official-step-3.-use-the-cookiecutter-command-to-cut-your-first-cookie-template.}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} Activate cloned environment from step \#1, \texttt{cd}into
+  your repo's folder.
+\item
+  {[} {]} Enter the following command to create the template
+  infrastructure:
+\end{itemize}
+
+\begin{quote}
+\texttt{cookiecutter\ https://github.com/audreyr/cookiecutter-pypackage.git}
+\end{quote}
+
+\hypertarget{cookiecutter-prompts-and-recommended-answers}{%
+\subsubsection{Cookiecutter Prompts and recommended
+answers:}\label{cookiecutter-prompts-and-recommended-answers}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Cookiecutter will ask you several questions during the
+  cookie-cutting process,
+  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/prompts.html}{check
+  this resouce to see the descriptions for each prompt.}}
+\end{itemize}
+
+\hypertarget{the-cookiecutter-options-i-selected-for-bs_ds-were-as-follows}{%
+\paragraph{The cookiecutter options I selected for bs\_ds were as
+follows:}\label{the-cookiecutter-options-i-selected-for-bs_ds-were-as-follows}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{``project\_slug''}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    should match the name of your new repo from step \#2.
+  \item
+    It should be something terminal-syntax (no -'s or spaces, etc.)
+  \end{itemize}
+\item
+  \textbf{``project\_name''}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    will be what appears in all of the generated documentation. It can
+    have spaces and any characters that you wish.
+  \end{itemize}
+\item
+  \textbf{``use\_pytest''}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    use default `n'
+  \end{itemize}
+\item
+  \textbf{``use\_pypi\_deployment\_with\_travis''}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    use `y' for auto-deployment with travis-ci.org (will need an
+    account, as described above)
+  \end{itemize}
+\item
+  \textbf{``add\_pyup\_badge''}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    use default `n'
+  \end{itemize}
+\item
+  \textbf{``Select command\_line\_interface:''}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I suggest option 2 for No command-line interface.
+  \end{itemize}
+\item
+  \textbf{``Select open source license''}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is an important choice that determines what people are allowed
+    to do with your code with or without your permission.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Consult https://choosealicense.com/ (github website explaining
+      licenses) for information.
+    \end{itemize}
+  \item
+    Note: bs\_ds is published using option 5 - GNU General Public
+    License v3, which choosealicense.com defines as: \textgreater{}``The
+    GNU GPLv3 also lets people do almost anything they want with your
+    project, except to distribute closed source versions.''
+  \end{itemize}
+\item
+  \textbf{Cookiecutter will then create a new folder inside of your main
+  repo folder, whose name is determined by the ``project\_slug'' entered
+  above.}
+\end{itemize}
+
+\hypertarget{step-3b-required-if-you-followed-recd-step-2-and-created-the-repo-first}{%
+\paragraph{STEP \#3B {[}REQUIRED if you followed REC'D STEP \#2 and
+created the repo
+first{]}:}\label{step-3b-required-if-you-followed-recd-step-2-and-created-the-repo-first}}
+
+\begin{itemize}
+\tightlist
+\item
+  If you followed my REC'D STEP \#2, you main repo folder should now
+  contain:
+
+  \begin{itemize}
+  \item
+    a README.md file
+  \item
+    a ``.git'' folder
+  \item
+    a new subfolder whose name == project\_slug entered above (I will
+    refer to as ``slug folder \#1'')
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Inside of the project\_slug folder, you should find:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        a " .github" folder
+      \item
+        a ``docs'' folder
+      \item
+        a ``tests'' folder
+      \item
+        ANOTHER folder whose name == project\_slug (I will refer to as
+        ``slug folder \#2'')
+      \item
+        and a text file called ``requirements\_dev.txt'', several .rst
+        files, setup.py, setup.cfg, and several other files.
+      \end{itemize}
+    \end{itemize}
+  \item
+    {[} {]} \textbf{Move(or cut) all of the contents from inside slug
+    folder \#1 and move/paste them into the main repo folder.}
+  \item
+    After moving the contents to the main repo folder, there should be :
+
+    \begin{itemize}
+    \item
+      A project\_slug folder (which is actually slug\_folder\#2 now),
+    \item
+      requirements-dev.txt
+    \item
+      and the .rst and setup files originally from slug folder\#2.
+    \item
+      Inisde of the project\_slug folder, there should only be 2 files
+      and 0 folders:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        \textbf{init}.py
+      \item
+        project\_slug.py
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{If so congratulations! You have the infrastructure properly
+  installed!}
+\end{itemize}
+
+    \hypertarget{official-step-4-install-dev-requirements}{%
+\subsubsection{Official Step 4: Install Dev
+Requirements}\label{official-step-4-install-dev-requirements}}
+
+\begin{itemize}
+\item
+  In your terminal, make sure you are still located in the main repo
+  folder, which contains \textbf{requirements-dev.txt}
+\item
+  Make sure you are still using your newly cloned environment, then
+  enter: \texttt{pip\ install\ -r\ requirements\_dev.txt} \_\_\_
+\item
+  {[} {]} This is a decent place to take a moment to commit your changes
+  and push to your github repo. \_\_\_
+\end{itemize}
+
+\hypertarget{official-step-5-set-up-travis-ci}{%
+\subsubsection{Official Step 5: Set Up Travis
+CI}\label{official-step-5-set-up-travis-ci}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} \textbf{In order to follow the offical step 5, you will need
+  to install Travis CLI tool, which requires Ruby.}
+  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/travis_pypi_setup.html\#travis-pypi-setup}{Instructions
+  are located here and are OS-specific},
+
+  \begin{itemize}
+  \tightlist
+  \item
+    For MacOS, they recommend using the Homebrew travis package:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \texttt{brew\ install\ travis}
+    \end{itemize}
+  \item
+    For windows, you will need to install ruby and then use
+    \texttt{gem\ install} to install travis.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      {[} {]} \href{http://www.ruby-lang.org/en/downloads/}{Install
+      Ruby} (if not already installed on your system)
+    \item
+      {[} {]} Install Travis CLI tool: (See the OS-specifc instructions
+      directly above)
+
+      \begin{itemize}
+      \tightlist
+      \item
+        After Ruby is installed, enter the following command to install
+        Travis CLI tool.
+        \texttt{gem\ install\ travis\ -v\ 1.8.10\ -\/-no-rdoc\ -\/-no-ri}
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item
+  {[} {]} \textbf{Once Travis CLI is installed, you may continue to
+  follow the
+  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html\#step-5-set-up-travis-ci}{official
+  tutorial instructions for step \#5}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    NOTE: Here is where you will need to have your password for PyPi
+    available.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \textbf{CAUTION:} When entering your PyPi username and password in
+      the terminal, there will be \textbf{NO VISUAL INDICATOR that you
+      have typed your password.} 
+    \item
+      There are no characters displayed and no dots or placeholders to
+      indicated the \# of characters entered, so \textbf{carefully enter
+      your password when prompted and press enter.}
+    \end{itemize}
+  \item
+    \textbf{TROUBLESHOOTING NOTE: If Travis doesn't does not ask for
+    your password after entering username:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      I experienced an issue when attempting to follow step \#5, after
+      entering the \texttt{travis\ encrypt\ -\/-add\ deploy.password}
+      command, you should first be prompted for your username, then your
+      password.
+    \item
+      I use Git Bash for my main terminal on Windows and for some reason
+      \textbf{Travis would hang after I entered my username and would
+      never ask me for password.}
+
+      \begin{itemize}
+      \tightlist
+      \item
+        I got around the issue by \textbf{using the normal windows cmd
+        prompt for this step instead of using GitBash.} (This is a
+        one-time step that will encrypt your password and store it in a
+        config file so you never have to enter it again.)
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{official-step-6-set-up-readthedocs}{%
+\subsubsection{Official Step 6: Set Up
+ReadTheDocs}\label{official-step-6-set-up-readthedocs}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} Follow the
+  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html\#step-6-set-up-readthedocs}{official
+  tutorial step 6} for setting up documentation on readthedocs.org.
+\end{itemize}
+
+\hypertarget{official-step-7set-up-pyup.io}{%
+\subsubsection{\texorpdfstring{\sout{Official Step 7:Set Up
+pyup.io}}{Official Step 7:Set Up pyup.io}}\label{official-step-7set-up-pyup.io}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Short Version: This is an added level of complexity that I
+  chose to skip for myself and recommend you do the same for now.}
+\item
+  I recommended skipping setting up pyup.io during the cookiecutter
+  prompt responses above.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This service would alert you when any of the required python
+    packages that are your package needs to run have been updated, so
+    that you can update the versions in your installation requirements\\
+    \textbf{\emph{ }}
+  \end{itemize}
+\end{itemize}
+
+\textbf{SIDEBAR: As of now, you may realize that you have not actually
+added any code to your python package, and yet the next official step is
+to release on PyPi.}
+
+\begin{itemize}
+\tightlist
+\item
+  If you'd like to add some of your code before submitting your package
+  to PyPi, jump down to the ``Adding Your Code / Editing your package''
+  section ( after the official instructions).
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{official-step-8-release-on-pypi}{%
+\subsubsection{Official Step 8: Release on
+PyPi}\label{official-step-8-release-on-pypi}}
+
+\hypertarget{one-last-annoying-first-time-only-hurdle-and-then-youre-on-your-way-to-automated-deployment-for-the-future}{%
+\paragraph{One last annoying, first-time-only hurdle and then you're on
+your way to automated deployment for the
+future!}\label{one-last-annoying-first-time-only-hurdle-and-then-youre-on-your-way-to-automated-deployment-for-the-future}}
+
+\begin{itemize}
+\tightlist
+\item
+  Travis-CI will automate the process for generating the distribution
+  files for your package and uploading them to PyPi, BUT it cannot
+  CREATE a NEW package that doesn't already exist on PyPi's servers.
+\item
+  {[} {]} To \emph{register} your new package with PyPi for the very
+  first version, you must \textbf{manually create and upload the very
+  first version} of your package.
+  \href{https://packaging.python.org/tutorials/packaging-projects/\#generating-distribution-archives}{Official
+  Python instructions for ``generating distribution archives'',
+  summarized below}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Briefly, from inside the main folder of your repo (that contains the
+    setup.py file):
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      {[} {]} In your terminal (in your cloned environment), make sure
+      you have the current setuptools installed:
+      \texttt{python3\ -m\ pip\ install\ -\/-user\ -\/-upgrade\ setuptools\ wheel}
+    \item
+      {[} {]} Build the current version of your package
+      \texttt{python3\ setup.py\ sdist\ bdist\_wheel}
+    \item
+      {[} {]} Install the tool for uploading to pypi, twine:
+      \texttt{python3\ -m\ pip\ install\ -\/-user\ -\/-upgrade\ twine}
+    \item
+      {[} {]} Upload the distribution files created above (inside a new
+      folder called dist/) \texttt{twine\ upload\ dist/*}
+
+      \begin{itemize}
+      \tightlist
+      \item
+        {[} {]} When prompted, enter your PyPi.org username and
+        password.
+      \end{itemize}
+    \item
+      Thats it! You can go to PyPi.org, log into your account and you
+      should see your package appear under ``Your Projects''\\
+    \end{enumerate}
+
+    \begin{itemize}
+    \item
+      **After a couple moments, your package should be available on pip.
+      \texttt{pip\ install\ my\_package\_name} to install locally or
+      \texttt{!pip\ install\ my\_package\_name} to install in a cloud
+      notebook.
+    \item
+      TROUBLESHOOTING NOTE:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        For me, using \texttt{python3} for the above commnads did not
+        work. I simply had to change \texttt{python3} to just
+        \texttt{python}
+
+        \begin{itemize}
+        \tightlist
+        \item
+          Example:
+          \texttt{python\ -m\ pip\ install\ -\/-user\ -\/-upgrade\ setuptools\ wheel}
+        \end{itemize}
+      \item
+        If this doesn't fix it for you, you may need to update your
+        systems Path variable (basically a list that tells your computer
+        all of the locations on your PC where you may have
+        scripts/functions saved to run from your terminal).
+
+        \begin{itemize}
+        \tightlist
+        \item
+          For Windows,
+          \href{https://geek-university.com/python/add-python-to-the-windows-path/}{check
+          this article} for instructions on how to add python to your
+          system path.
+        \item
+          For Mac,
+          \href{https://programwithus.com/learn-to-code/install-python3-mac/}{try
+          this article's suggestions}
+        \end{itemize}
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+    \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{adding-your-code-editing-your-packagemodules}{%
+\section{Adding Your Code / Editing your
+package/modules}\label{adding-your-code-editing-your-packagemodules}}
+
+\begin{itemize}
+\tightlist
+\item
+  When working on your package/modules, I highly recommend using
+  \textbf{Microsoft Visual Studio Code.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Visual Studio was likely installed with Anaconda, but if it wasn't.
+    Open Anaconda Navigator, and look for Visual Studio code on the Home
+    tab, in the same section as Jupyter Lab and Jupyter Notebooks.
+  \end{itemize}
+\item
+  The easiest way to manage all of your package's setup files and
+  modules is to the the File \textgreater{} Open Folder option and
+  select your repo's main folder.
+\end{itemize}
+
+\hypertarget{important-files-you-will-want-to-edit}{%
+\subsection{Important Files You Will Want to
+Edit:}\label{important-files-you-will-want-to-edit}}
+
+\hypertarget{your-package-init-and-module-.py-files}{%
+\subsubsection{\texorpdfstring{Your package \textbf{init} and module .py
+files:}{Your package init and module .py files:}}\label{your-package-init-and-module-.py-files}}
+
+\begin{itemize}
+\tightlist
+\item
+  Inside of your main repo folder, you should have your project\_slug
+  folder (where project\_slug = your package's name)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    There should be 2 files inside that folder: \textbf{init}.py, and
+    project\_slug.py .
+
+    \begin{itemize}
+    \item
+      \textbf{\textbf{init}.py is the most critical file of your
+      package.} When you import your package, you are actually running
+      the \textbf{init}.py file and importing the functions inside it.
+    \item
+      \textbf{The simplest way to add your own functions is to add them
+      to the \textbf{init}.py file.}
+
+      \begin{itemize}
+      \tightlist
+      \item
+        When you use \texttt{import\ package\_name}:
+
+        \begin{itemize}
+        \tightlist
+        \item
+          The functions and commands contained in your \textbf{init}.py
+          file will be imported under your package's name.
+        \item
+          Example:\texttt{package\_name.some\_function()}
+        \end{itemize}
+      \item
+        As with all python packages, you can assign it a short handle to
+        make accessing your functions less tedious:
+
+        \begin{itemize}
+        \tightlist
+        \item
+          Example
+          \texttt{import\ package\_name\ as\ pn\ \ pn.some\_function()}
+        \end{itemize}
+      \item
+        If you use \texttt{from\ package\_name\ import\ *}:
+
+        \begin{itemize}
+        \item
+          All of the functions inside of the init file will be available
+          without needing to specify the package.
+        \item
+          Example:
+          \texttt{from\ package\_name\ import\ *}\texttt{some\_function()}
+        \end{itemize}
+      \end{itemize}
+    \item
+      **The more advanced way to add your own functions is to add them
+      as a sub-module.
+
+      \begin{itemize}
+      \tightlist
+      \item
+        The project\_slug.py file is actually a submodule of your
+        package, but shares the same name.
+
+        \begin{itemize}
+        \tightlist
+        \item
+          For bs\_ds, we have many functions stored inside of the
+          package submodule:
+
+          \begin{itemize}
+          \tightlist
+          \item
+            Which is accessed by bs\_ds.bs\_ds which is the
+            (package\_name).(submodule\_name)
+          \item
+            The package name is essentially the project\_slug folder and
+            then the submodule name is specifying which .py file (INSIDE
+            of that folder) should be imported.
+          \end{itemize}
+        \end{itemize}
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{setup.py}{%
+\subsubsection{Setup.py}\label{setup.py}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} Adding dependencies to be installed with your package:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    At the top of the file, you will see an empty list called
+    requirements \texttt{requirements\ =\ {[}\ {]}}
+  \item
+    Add any packages that you would like to be installed with your
+    package.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      If the user is missing any of these pip will install them as well.
+      \texttt{requirements\ =\ {[}\textquotesingle{}numpy\textquotesingle{},\textquotesingle{}pandas\textquotesingle{},\textquotesingle{}scikit-learn\textquotesingle{},\textquotesingle{}matplotlib\textquotesingle{},\textquotesingle{}scipy\textquotesingle{},\textquotesingle{}pprint\textquotesingle{}{]}}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{travis.yml}{%
+\subsubsection{travis.yml}\label{travis.yml}}
+
+\textbf{travis.yml controls the build testing and deployment process.} -
+At the top of the file, there is a list of python versions (3.6, 3.5,
+etc.) - {[} {]} You may want to remove versions of python that your
+package cannot support. - For example, f-string formatting wasn't added
+until Python 3.6
+\texttt{print(f"Print\ the\ \{variable\_contents\}\textquotesingle{})} -
+Otherwise, your build will fail when travis tests the older version of
+python, since you used functions that were not compatible with old
+versions. - bs\_ds only supports 3.6 at the moment. - At the bottom of
+the file, there is a \texttt{deploy:} section. - I personally had
+difficult using \texttt{-\/-tags} in order to trigger the deployment of
+bs\_ds. - I removed the \texttt{tags:true} line under \texttt{on:},
+which is at the bottom of the \texttt{deploy:} section.
+
+\hypertarget{setup.cfg}{%
+\subsubsection{setup.cfg}\label{setup.cfg}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} If you removed the
+  \texttt{tags:true\textasciigrave{}\textasciigrave{}\ line\ from\ travis.yml,\ you\ should\ also\ remove:}tag
+  = True``under {[}bumpversion{]}
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{[bumpversion]}
+\NormalTok{current_version }\OperatorTok{=} \DecValTok{0}\NormalTok{.}\FloatTok{1.0}
+\NormalTok{commit }\OperatorTok{=} \VariableTok{True}
+\NormalTok{tag }\OperatorTok{=} \VariableTok{True}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+- This means that instead of waiting for a special --tagged commit ...
+\end{verbatim}
+
+{[}!{]} \_\_\_ \# Updating and Deploying Your Package - For a checklist
+of steps to deploy an updated version of your package,
+\href{https://gist.github.com/audreyr/5990987}{see this file.}
+
+\hypertarget{to-deploy-an-updated-version-of-your-package}{%
+\subsection{To deploy an updated version of your
+package:}\label{to-deploy-an-updated-version-of-your-package}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} Debug your modules.
+\item
+  {[} {]} Save all updated files and commit them to your repo.
+\item
+  {[} {]} Bump the version number and commit again.
+\item
+  {[} {]} Push the repo back to git.
+\end{enumerate}
+
+\hypertarget{to-check-on-the-status-of-your-package}{%
+\subsection{To check on the status of your
+package:}\label{to-check-on-the-status-of-your-package}}
+
+\hypertarget{checking-build-tests-on-travis-ci.org}{%
+\subsubsection{Checking build tests on
+travis-CI.org}\label{checking-build-tests-on-travis-ci.org}}
+
+\hypertarget{checking-documentation-creation-on-readthedocs.org}{%
+\subsubsection{Checking documentation creation on
+readthedocs.org}\label{checking-documentation-creation-on-readthedocs.org}}
+
+\hypertarget{debug-your-modules-before-committing-to-save-time-instead-of-waiting-for-travis-ci}{%
+\subsubsection{Debug your modules before committing (to save time
+instead of waiting for
+Travis-CI)}\label{debug-your-modules-before-committing-to-save-time-instead-of-waiting-for-travis-ci}}
+
+\begin{itemize}
+\tightlist
+\item
+  Visual Studio Code has a very handy Debug feature, which you can
+  access from the sidebar (its the symbol with the bug on it).
+\item
+  On the top of the sidebar that appears, there is a dropdown menu with
+  a green play button.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Open the file you want to test (testing \textbf{init}.py is always
+    recommended, but you should test any modules that have been updated.
+  \item
+    From this menu, select Python Module. \#\#\# UPDATE THE VERSION \#:
+  \item
+    PyPi.org will only accept new versions of your package if it has a
+    unique version number.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      It does not matter if your code has changed, PyPi will not publish
+      it if the version number already exists.
+    \item
+      To change the version \#s for your package, we use ``bumpversion''
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{bumpversion}{%
+\paragraph{bumpversion:}\label{bumpversion}}
+
+\begin{itemize}
+\tightlist
+\item
+  The version number for your package is located in 3 file locations:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    setup.cfg
+  \item
+    setup.py
+  \item
+    \textbf{init}.py
+  \end{itemize}
+\item
+  \textbf{bumpversion} will increment all 3 locations when you enter a
+  bumpversion command in your terminal.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    bumpversion has understands 3 types of updates: major, minor, and
+    patch.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      For example, let's say your package is currently v 0.1.0
+
+      \begin{itemize}
+      \tightlist
+      \item
+        \texttt{bumpversion\ major}
+
+        \begin{itemize}
+        \tightlist
+        \item
+          Increment version \#'s by 1's
+        \item
+          v 0.1.0 is bumped to v 1.0.0
+        \end{itemize}
+      \item
+        \texttt{bumpversion\ minor}
+
+        \begin{itemize}
+        \tightlist
+        \item
+          increments version by 0.1
+        \item
+          v 0.1.0 is bumped to v 0.2.0
+        \end{itemize}
+      \item
+        \texttt{bumpversion\ patch}
+
+        \begin{itemize}
+        \tightlist
+        \item
+          increments version by 0.0.1
+        \item
+          v 0.1.0 is bumped to v 0.1.1
+        \end{itemize}
+      \end{itemize}
+    \end{itemize}
+  \item
+    Before entering the bumpversion command, you must commit any changes
+    you've made to your repo.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      bumpversion will return an error if you try to bump without
+      committing first.
+    \end{itemize}
+  \item
+    {[} {]} To increment your package's version \#:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Commit any changes you've made for your new version. (note: you do
+      not need to \texttt{git\ push} yet. Committing the changes is
+      sufficient to appease bumpversion)
+    \end{itemize}
+  \item
+    {[} {]} Enter the appropriate bumpversion command depending on how
+    much you'd like to increase the version \#.
+  \item
+    {[} {]} Push the updated repo. If you removed the tags:true entries
+    as suggested above, Travis-CI will automatically build test and
+    attempt to deploy any commits to your package.
+  \end{itemize}
+\item
+  NOTE: While this may sound risky, its actually not, since PyPi will
+  not deploy any packages with the same version \#.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    As long as you do not bumpversion, Travis will \emph{test} your
+    updated package, but it will \emph{fail to deploy it}. since PyPi
+    already has a pre-existing distribution for that version \#.
+  \item
+    Documentation Note:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Readthedocs.org will test and update your documentation for ANY
+      commit. So if you only need to update an aspect of the doc's, you
+      can simply change the settings and push your repo \emph{without}
+      having to bumpversion.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}
