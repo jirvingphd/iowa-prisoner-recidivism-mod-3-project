@@ -7,6 +7,7 @@ __pycache__
 *.tsv
 *.tfevents
 *.zip
+catboost_info/*
 punkt/corpora/stopwords/arabic
 punkt/corpora/stopwords/azerbaijani
 punkt/corpora/stopwords/danish
@@ -36,3 +37,4 @@ catboost_info/learn_error.tsv
 catboost_info/test/events.out.tfevents
 catboost_info/test_error.tsv
 catboost_info/time_left.tsv
+catboost_info/catboost_training.json
