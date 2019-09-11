@@ -21,19 +21,32 @@ def evaluate_catboost_model(model,  X_train,X_test,y_train,y_test,test_pool=None
     from IPython.display import display
     import pandas as pd
     import matplotlib as mpl
+    import matplotlib.pyplot as plt
     numFmt = '.4f'
     num_dashes = 30
 
     # results_list=[['Metric','Value']]
     # metric_list = ['accuracy','precision','recall','f1']
+    print('---'*num_dashes)
+    print('\tTRAINING HISTORY:')
+    print('---'*num_dashes)
+
+    ## Plot Training History
+    
+    results = model.evals_result_
+    # df_results = pd.concat([
+    pd.Series(results['learn']['Logloss'],name='Logloss').plot()
+    pd.Series(results['validation']['AUC'],name='AUC').plot()
+    plt.legend()
+    plt.title('Model Training History')
+    plt.xlabel('Training Epoch')
+    plt.ylabel('Metric Value')
+    plt.show()
    
     print('\n')
     print('---'*num_dashes)
     print('\tCLASSIFICATION REPORT:')
     print('---'*num_dashes)
-    # print('---'*num_dashes)
-    # print('\tEVALUATE MODEL:')
-    # print('---'*num_dashes)
 
     ## Get model predictions
     y_hat_train = model.predict(X_train)

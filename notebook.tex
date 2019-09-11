@@ -141,7 +141,7 @@
     \def\gt{>}
     \def\lt{<}
     % Document parameters
-    \title{blog\_post\_making\_using\_bs\_ds\_no\_EDA}
+    \title{student-JMI-Final-Revised}
     
     
     
@@ -280,1205 +280,1363 @@
     
 
     
+    \hypertarget{final-project-submission}{%
+\section{Final Project Submission}\label{final-project-submission}}
+
+\begin{itemize}
+\tightlist
+\item
+  Student name: James M. Irivng, Ph.D.
+\item
+  Student pace: full time
+\item
+  Scheduled project review date/time: 05/15/19 2:30 pm
+\item
+  Instructor name: Jeff Herman / Brandon Lewis
+\end{itemize}
+
+    Table of Contents{}
+
+{Final Project Submission}
+
+{Iowa Prisoner Recidivism Data}
+
+{USING THE OSEMN MODEL TO GUIDE WORKFLOW}
+
+{OBTAIN:}
+
+{Importing Packages}
+
+{Loading data, preliminary cleaning}
+
+{SCRUB / EXPLORE}
+
+{EDA with Pandas\_Profiling}
+
+{ADDRESSING NULL VALUES}
+
+{COMBINING AND REMAPPING CLASSES}
+
+{ENGINEERING FEATURES}
+
+{Processing Chosen Feature Columns}
+
+{FITTING AN INITIAL MODEL}
+
+{REVISING THE MODEL}
+
+{Balancing Target Classes Using Synthetic Minority Oversampling}
+
+{Summary Visuals}
+
+{CONCLUSIONS}
+
+{Recommendatons}
+
+{FUTURE DIRECTIONS}
+
+    \hypertarget{iowa-prisoner-recidivism-data}{%
+\subsection{Iowa Prisoner Recidivism
+Data}\label{iowa-prisoner-recidivism-data}}
+
+\begin{itemize}
+\tightlist
+\item
+  Source:
+  https://www.kaggle.com/slonnadube/recidivism-for-offenders-released-from-prison
+\item
+  \textbf{Statistics about recidivism in prisoners from a 3 year
+  prisoner}
+\item
+  \textbf{Target:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Recidivism - Return to Prison
+  \end{itemize}
+\item
+  \textbf{Features:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fiscal Year Released
+  \item
+    Recidivism Reporting Year
+  \item
+    Race - Ethnicity
+  \item
+    Age At Release
+  \item
+    Convicting Offense Classification
+  \item
+    Convicting Offense Type
+  \item
+    Convicting Offense Subtype
+  \item
+    Main Supervising District
+  \item
+    Release Type
+  \item
+    Release type: Paroled to Detainder united
+  \item
+    Part of Target Population
+  \end{itemize}
+\end{itemize}
+
     
 
-    \hypertarget{how-i-published-my-own-python-package-and-how-you-can-too}{%
-\section{How I published my own Python package and how YOU can
-too!}\label{how-i-published-my-own-python-package-and-how-you-can-too}}
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-https://pypi.org/project/bs-ds/ ‡
-
-\texttt{pip\ install\ bs\_ds} \_\_\_
-
-‡ \emph{Note: BroadSteel DataScience is: inspired by, an homage to,
-legally distinct from, and in no way representative of} \textbf{Flatiron
-School's Online
-\href{https://flatironschool.com/career-courses/data-science-bootcamp/online/}{Data
-Science bootcamp program.}}
-
-\hypertarget{in-this-post-we-will}{%
-\subsection{\texorpdfstring{In this post, we
-will:}{In this post, we will: }}\label{in-this-post-we-will}}
-
-\hypertarget{walk-you-through-how-i-made-and-published-my-own-pip-installable-python-package-called-broadsteel_datascience-a.k.a.-bs_ds---using-the-python-package-cookiecutter-to-set-up-the-infrastructure-for-a-professional-quality-pythin-package.}{%
-\paragraph{\texorpdfstring{1) \textbf{Walk you through how I made and
-published my own pip-installable Python package} called
-BroadSteel\_DataScience (A.K.A.
-\href{https://pypi.org/project/bs-ds/}{\texttt{bs\_ds}}) - using the
-python package \texttt{cookiecutter} to set up the infrastructure for a
-professional quality Pythin
-package.}{1) Walk you through how I made and published my own pip-installable Python package  called BroadSteel\_DataScience (A.K.A. bs\_ds) - using the python package cookiecutter to set up the infrastructure for a professional quality Pythin package.}}\label{walk-you-through-how-i-made-and-published-my-own-pip-installable-python-package-called-broadsteel_datascience-a.k.a.-bs_ds---using-the-python-package-cookiecutter-to-set-up-the-infrastructure-for-a-professional-quality-pythin-package.}}
-
-\begin{itemize}
-\tightlist
-\item
-  incuding \href{https://bs-ds.readthedocs.io/en/latest/}{auto-generated
-  documentation with Sphinx}
-\item
-  automatic build-testing and deployment with
-  \href{https://travis-ci.org/}{travis-ci.org.} 
-\end{itemize}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi})}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  \textbf{Explain how to share access and control of the github/pypi
-  package with collaborators}. 
-\item
-  **Walk through some of my favorite tools in bs\_ds for EDA and
-  prettifying DataFrames for projects and presentations.
-\end{enumerate}
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-\hypertarget{butwhy-would-i-bother-you-may-be-wondering}{%
-\section{\texorpdfstring{``But\ldots{}\emph{why would I bother?}'', you
-may be
-wondering\ldots{}}{``But\ldots{}why would I bother?'', you may be wondering\ldots{}}}\label{butwhy-would-i-bother-you-may-be-wondering}}
-
-\hypertarget{lots-of-reasons-mostly-convenience}{%
-\subsection{\texorpdfstring{\textbf{Lots of reasons!} (\emph{mostly
-convenience})}{Lots of reasons! (mostly convenience)}}\label{lots-of-reasons-mostly-convenience}}
-
-\hypertarget{but-also}{%
-\subsubsection{But also\ldots{}}\label{but-also}}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  \textbf{Becuase you're \emph{sick} of having to copy and paste your
-  favorite functions into every new notebook.}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    I work on several computers and also in the cloud. It was always a
-    pain to have to log into Dropbox on any new computer and remmeber
-    where I saved that notebook that had all of those cool little
-    functions I wrote\ldots{}I
-  \end{itemize}
-\item
-  \textbf{Because you collaborate with others and want to ensure you all
-  have the same toolkit at your disposal.}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    My collaborator and fellow student,
-    \href{https://github.com/MichaelMoravetz}{Michael Moravetz}, and I
-    have been working closely together and we wanted an easy way to
-    share the cool/helpful tools each of us that we either wrote
-    ourselves or were given in our bootcamp lessons.
-  \end{itemize}
-\item
-  \textbf{Because you're instructor tells you that your notebook has WAY
-  too many functions up front, and its distracting\ldots{}}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{\emph{You:}} ``But aren't I \emph{supposed} to write a lot
-    of functions to become a better programmer?''"
-  \item
-    \textbf{\emph{Me:}} ``Yes\ldots{}you're right\ldots{} BUT when
-    someone has to scroll through a lot of functions-as-appetizers
-    before geting to your main-course-notebook, they may not have much
-    attentional-appetite left.''
-  \end{itemize}
-\item
-  \textbf{Because you're a little OCD and like having ALL of your
-  notebook's settings JUST THE RIGHT WAY.}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    pandas.set\_options()
-  \item
-    HTML/CSS styling, etc.)
-  \item
-    Matplotlib Params
-  \end{itemize}
-\item
-  \textbf{Finally, becuase you're lazy coder} and just want all of your
-  tools imported for you and ready to use whereever you go with as
-  little effort as possible.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{I'm a big believer in exerting extra up-front-effort in the
-    name of future-laziness-convience.}
-  \end{itemize}
-\end{enumerate}
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-\hypertarget{ok-i-get-it-youre-hopefully-thinking-so-how}{%
-\section{\texorpdfstring{``OK, I get it,'' you're (hopefully)
-thinking\ldots{} ``So,
-\emph{how?}''}{``OK, I get it,'' you're (hopefully) thinking\ldots{} ``So, how?''}}\label{ok-i-get-it-youre-hopefully-thinking-so-how}}
-
-There are simpler ways to go about this, but I am going to show you the
-exact tools I use that allow me to have an
-automatically-updated-and-deployed package with very little effort (once
-its set up). \#\# THE TOOLS I USE: -
-\href{https://www.anaconda.com/}{Anaconda-installed Python} -
-\href{https://code.visualstudio.com/docs/introvideos/basics}{Microsoft's
-Visual Studio Code} - Its optionally installed with Anaconda and has
-quickly become my favorite editor. \emph{(Sorry, SublimeText3\ldots{}
-It's not you! Its me. I still love you..I'm just not as }\textbf{in
-love}* with you as I used to be. But we can still be friends, right?!)*
-- \href{https://desktop.github.com/}{GitHub Desktop} - Its SO convenient
-and simplifies the workflow and collaboration immensely. -
-\href{https://cookiecutter-pypackage.readthedocs.io/en/latest/}{Cookiecutter}
-python package - For the total package infrastructure, with the opton of
-setting up automation and documentation generation. - \href{}{Google
-Colab}, \href{}{Microsoft Azure Notebooks} - For testing the package in
-cloud Jupyter notebooks. Just add an `!' to the pip install command in
-any cloud-notebook \texttt{!pip\ install\ bs\_ds}
-
-    \hypertarget{how-to-create-your-package-infrastructure-using-cookiecutter}{%
-\section{HOW TO CREATE YOUR PACKAGE INFRASTRUCTURE USING
-COOKIECUTTER}\label{how-to-create-your-package-infrastructure-using-cookiecutter}}
-
-\hypertarget{please-open-the-official-cookiecutter-tutorial}{%
-\subsection{PLEASE OPEN THE OFFICIAL COOKIECUTTER
-TUTORIAL:}\label{please-open-the-official-cookiecutter-tutorial}}
-
-\begin{itemize}
-\tightlist
-\item
-  {[} {]} \textbf{Open Cookiecutter's
-  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html}{official
-  tutorial from their documentation.}}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Its very good overall but I suggest doing a few steps a little
-    differently. My suggested steps will start with ``REC'D'' to
-    indicate deviations from the official steps.
-  \end{itemize}
-\item
-  {[} {]} \textbf{Make sure to reference BOTH my instructions beklow as
-  well as the official tutorial.}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Make \textbf{read my recommended steps first,} as I suggest doing
-    some steps earlier than the tutorial does.
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{my-recommended-steps-for-cutting-your-first-cookies}{%
-\subsection{MY RECOMMENDED STEPS FOR CUTTING YOUR FIRST
-COOKIES:}\label{my-recommended-steps-for-cutting-your-first-cookies}}
-
-\hypertarget{before-getting-started-create-accounts-for-requireddesired-services}{%
-\subsubsection{\texorpdfstring{BEFORE GETTING STARTED, CREATE ACCOUNTS
-FOR REQUIRED/DESIRED
-SERVICES:}{BEFORE GETTING STARTED, CREATE ACCOUNTS FOR REQUIRED/DESIRED SERVICES: }}\label{before-getting-started-create-accounts-for-requireddesired-services}}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  {[} {]} \textbf{Go to PyPi.org and ``Register'' a new account.
-  {[}REQUIRED{]}} PyPi.org is the offical service that hosts
-  pip-installable packages.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    You will need your account name very soon, during the initial
-    cookie-cutting step below.
-  \item
-    You will need your password later, when you are ready to upload your
-    package to PyPi. 
-  \end{itemize}
-\item
-  {[} {]} \textbf{Register your github account with www.travis-ci.org.
-  {[}OPTIONAL, BUT HIGHLY RECOMMENDED{]}} for automated build testing
-  and auto-deployment to PyPi.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    NOTE: Make sure to go to \textbf{www.travis-ci.ORG} (\textbf{NOT}
-    travis-ci.\textbf{COM}, which is for commerical, non-open source
-    pcakges) 
-  \item
-    \textbf{Suggestion: This is totally worth it.} It adds a little
-    complexity to the cookie-cutting set up process, but it:
+    \hypertarget{detailed-variable-descriptions}{%
+\subsubsection{Detailed variable
+descriptions:}\label{detailed-variable-descriptions}}
 
     \begin{itemize}
-    \tightlist
-    \item
-      makes updating your package a breeze.
-    \item
-      makes it easier for others to contribute to your package
-    \item
-      it will pre-test any Pull Requests so you will already know if the
-      code is functional before you merge their code with yours.
-    \end{itemize}
-  \end{itemize}
-\item
-  {[} {]} \textbf{Register an account on
-  \href{https://readthedocs.org/}{readthedocs.org} {[}OPTIONAL, BUT
-  REC'D IF SHARING YOUR WORK{]}}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Readthedocs will host your generated user documentation for your
-    package.
-  \item
-    Note: Cookiecutter will fill in a lot of the documentation basics
-    for you.
-  \item
-    Note: There is an additional advanced method to auto-generate all
-    documentation from docstrings, which I will mention in the tutorial
-    below.
-  \end{itemize}
-\end{enumerate}
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-\hypertarget{recd-step-0.-before-instaling-anything-you-should}{%
-\subsubsection{\texorpdfstring{REC'D STEP 0. \textbf{BEFORE INSTALING
-ANYTHING}, you
-should:}{REC'D STEP 0. BEFORE INSTALING ANYTHING, you should: }}\label{recd-step-0.-before-instaling-anything-you-should}}
-
-\begin{itemize}
 \tightlist
 \item
-  {[} {]} \textbf{Create a new virtual environment}, preferably by
-  cloning your current one.
+  \textbf{Fiscal Year Released}
 
   \begin{itemize}
   \tightlist
   \item
-    Anaconda Navigator makes the cloning process easy.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      In Navigator, click on the \texttt{Environments} tab in the
-      sidebar.
-    \item
-      Click on your current enivornment of choice, then click the Clone
-      button, and give it a new name.
-    \end{itemize}
-  \item
-    {[} {]} Add this to your Jupyter notebook kernels using
-    \texttt{python\ -m\ ipykernel\ install\ -\/-user\ -\/-name\ myenv}
+    Fiscal year (year ending June 30) for which the offender was
+    released from prison.
   \end{itemize}
 \item
-  {[} {]} \textbf{Backup and export your current enviornment} to a .yml
-  file, which you can use to re-install your env, if need be.
+  \textbf{Recidivism Reporting Year}
 
   \begin{itemize}
   \tightlist
   \item
-    For Anaconda environments, open your terminal and activate your
-    environment before exporting: \texttt{source\ activate\ env-name}
-    \texttt{conda\ env\ export\ \textgreater{}\ my\_environment.yml}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      \emph{where ``env-name'' is the name of the environment you'd like
-      to clone and ``my\_environment''.yml is any-name-you'd-like.yml}
-    \end{itemize}
-  \item
-    This will save the .yml into your current directory that can be used
-    to install your environment in the future
-    using:\texttt{conda\ env\ create\ -f\ my\_environment.yml}
+    Fiscal year (year ending June 30) that marks the end of the 3-year
+    tracking period. For example, offenders exited prison in FY 2012 are
+    found in recidivism reporting year FY 2015.
   \end{itemize}
 \item
-  \textbf{DO NOT SKIP THIS STEP.} I have warned you and I am not
-  responsible for any broken environments.While nothing \emph{should}
-  break, it's always a GOOD idea to create a new environment for
-  creating and installing test packages. Really, I should say its a DUMB
-  idea not to. 
-\end{itemize}
-
-\hypertarget{recd-step-1-install-cookiecutter-into-your-new-environment.}{%
-\subsubsection{REC'D STEP 1: Install cookiecutter into your new
-environment.}\label{recd-step-1-install-cookiecutter-into-your-new-environment.}}
-
-\begin{itemize}
-\tightlist
-\item
-  Tutorial ``Step 1: Install Cookiecutter'': Install Cookie Cutter and
-  cookie-cut the default template cookiecuter repo.
+  \textbf{Race - Ethnicity}
 
   \begin{itemize}
   \tightlist
   \item
-    {[}x{]} You may ignore the first part of Step 1 (using virtualenv to
-    create an env). 
+    Offender's Race and Ethnicity
+  \end{itemize}
+\item
+  \textbf{Convicting Offense Classification}
+
+  \begin{itemize}
+  \tightlist
   \item
-    {[} {]} Install cookiecutter via pip:
-    \texttt{pip\ install\ cookiecutter}
+    Maximum penalties: A Felony = Life; B Felony = 25 or 50 years; C
+    Felony = 10 years; D Felony = 5 years; Aggravated Misdemeanor = 2
+    years; Serious Misdemeanor = 1 year; Simple Misdemeanor = 30 days
+  \end{itemize}
+\item
+  \textbf{Convicting Offense Type}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    General category for the most serious offense for which the offender
+    was placed in prison.
+  \end{itemize}
+\item
+  \textbf{Convicting Offense Subtype}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Further classification of the most serious offense for which the
+    offender was placed in prison.
+  \end{itemize}
+\item
+  \textbf{Release Type}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Reasoning for Offender's release from prison.
+  \end{itemize}
+\item
+  \textbf{Main Supervising District}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The Judicial District supervising the offender for the longest time
+    during the tracking period.
+  \end{itemize}
+\item
+  \textbf{Recidivism - Return to Prison}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    No = No Recidivism; Yes = Prison admission for any reason within the
+    3-year tracking period
+  \end{itemize}
+\item
+  \textbf{Part of Target Population}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The Department of Corrections has undertaken specific strategies to
+    reduce recidivism rates for prisoners who are on parole and are part
+    of the target population. \_\_\_
   \end{itemize}
 \end{itemize}
 
-\hypertarget{recd-step-2-create-a-new-github-repo-for-your-package-and-clone-it-locally}{%
-\subsubsection{REC'D STEP 2: Create a new GitHub repo for your package
-and clone it
-locally}\label{recd-step-2-create-a-new-github-repo-for-your-package-and-clone-it-locally}}
-
-\textbf{\emph{NOTE: My recommendation deviates from the tutorial. This
-will replace ``Step 3: Create a GitHub Repo''.}} - {[} {]} Log into your
-your GitHub profile on github.com and Create a New Repository by
-clicking the + sign next to your account picture on the top-right of the
-page. - {[} {]} Create a New Repository, using the desired name for your
-published package for the repo name. - {[} {]} Check
-``\texttt{Initialize\ this\ repo\ with\ a\ README}'' (you can't clone an
-empty repo). - Leave the rest of the options blank/none.
-\texttt{Initialzie\ with\ Add\ a\ .git\ ignore},
-\texttt{Add\ a\ license} - Cookiecutter will ask you to choose a license
-later in the process. - {[} {]} Clone the new repo to your computer.
-(This is the perfect chance to try using
-\href{https://desktop.github.com/}{GitHub Desktop}, if you haven't
-before. ) - Click Clone or Download and: - Copy the url if you plan on
-using your terminal to clone. - OR ``Open in Desktop'' if you've
-installed and logged in to the GitHub Desktop App. 
-
-    \hypertarget{official-step-3.-use-the-cookiecutter-command-to-cut-your-first-cookie-template.}{%
-\subsubsection{OFFICIAL STEP \#3. Use the cookiecutter command to
-cut-your-first-cookie-template.}\label{official-step-3.-use-the-cookiecutter-command-to-cut-your-first-cookie-template.}}
-
-\begin{itemize}
-\tightlist
-\item
-  {[} {]} Activate cloned environment from step \#1, \texttt{cd}into
-  your repo's folder.
-\item
-  {[} {]} Enter the following command to create the template
-  infrastructure:
-\end{itemize}
-
-\begin{quote}
-\texttt{cookiecutter\ https://github.com/audreyr/cookiecutter-pypackage.git}
-\end{quote}
-
-\hypertarget{cookiecutter-prompts-and-recommended-answers}{%
-\subsubsection{Cookiecutter Prompts and recommended
-answers:}\label{cookiecutter-prompts-and-recommended-answers}}
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Cookiecutter will ask you several questions during the
-  cookie-cutting process,
-  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/prompts.html}{check
-  this resouce to see the descriptions for each prompt.}}
-\end{itemize}
-
-\hypertarget{the-cookiecutter-options-i-selected-for-bs_ds-were-as-follows}{%
-\paragraph{The cookiecutter options I selected for bs\_ds were as
-follows:}\label{the-cookiecutter-options-i-selected-for-bs_ds-were-as-follows}}
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{``project\_slug''}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    should match the name of your new repo from step \#2.
-  \item
-    It should be something terminal-syntax (no -'s or spaces, etc.)
-  \end{itemize}
-\item
-  \textbf{``project\_name''}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    will be what appears in all of the generated documentation. It can
-    have spaces and any characters that you wish.
-  \end{itemize}
-\item
-  \textbf{``use\_pytest''}:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    use default `n'
-  \end{itemize}
-\item
-  \textbf{``use\_pypi\_deployment\_with\_travis''}:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    use `y' for auto-deployment with travis-ci.org (will need an
-    account, as described above)
-  \end{itemize}
-\item
-  \textbf{``add\_pyup\_badge''}:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    use default `n'
-  \end{itemize}
-\item
-  \textbf{``Select command\_line\_interface:''}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    I suggest option 2 for No command-line interface.
-  \end{itemize}
-\item
-  \textbf{``Select open source license''}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    This is an important choice that determines what people are allowed
-    to do with your code with or without your permission.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Consult https://choosealicense.com/ (github website explaining
-      licenses) for information.
-    \end{itemize}
-  \item
-    Note: bs\_ds is published using option 5 - GNU General Public
-    License v3, which choosealicense.com defines as: \textgreater{}``The
-    GNU GPLv3 also lets people do almost anything they want with your
-    project, except to distribute closed source versions.''
-  \end{itemize}
-\item
-  \textbf{Cookiecutter will then create a new folder inside of your main
-  repo folder, whose name is determined by the ``project\_slug'' entered
-  above.}
-\end{itemize}
-
-\hypertarget{step-3b-required-if-you-followed-recd-step-2-and-created-the-repo-first}{%
-\paragraph{STEP \#3B {[}REQUIRED if you followed REC'D STEP \#2 and
-created the repo
-first{]}:}\label{step-3b-required-if-you-followed-recd-step-2-and-created-the-repo-first}}
-
-\begin{itemize}
-\tightlist
-\item
-  If you followed my REC'D STEP \#2, you main repo folder should now
-  contain:
-
-  \begin{itemize}
-  \item
-    a README.md file
-  \item
-    a ``.git'' folder
-  \item
-    a new subfolder whose name == project\_slug entered above (I will
-    refer to as ``slug folder \#1'')
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Inside of the project\_slug folder, you should find:
-
-      \begin{itemize}
-      \tightlist
-      \item
-        a " .github" folder
-      \item
-        a ``docs'' folder
-      \item
-        a ``tests'' folder
-      \item
-        ANOTHER folder whose name == project\_slug (I will refer to as
-        ``slug folder \#2'')
-      \item
-        and a text file called ``requirements\_dev.txt'', several .rst
-        files, setup.py, setup.cfg, and several other files.
-      \end{itemize}
-    \end{itemize}
-  \item
-    {[} {]} \textbf{Move(or cut) all of the contents from inside slug
-    folder \#1 and move/paste them into the main repo folder.}
-  \item
-    After moving the contents to the main repo folder, there should be :
-
-    \begin{itemize}
-    \item
-      A project\_slug folder (which is actually slug\_folder\#2 now),
-    \item
-      requirements-dev.txt
-    \item
-      and the .rst and setup files originally from slug folder\#2.
-    \item
-      Inisde of the project\_slug folder, there should only be 2 files
-      and 0 folders:
-
-      \begin{itemize}
-      \tightlist
-      \item
-        \textbf{init}.py
-      \item
-        project\_slug.py
-      \end{itemize}
-    \end{itemize}
-  \end{itemize}
-\item
-  \textbf{If so congratulations! You have the infrastructure properly
-  installed!}
-\end{itemize}
-
-    \hypertarget{official-step-4-install-dev-requirements}{%
-\subsubsection{Official Step 4: Install Dev
-Requirements}\label{official-step-4-install-dev-requirements}}
-
-\begin{itemize}
-\item
-  In your terminal, make sure you are still located in the main repo
-  folder, which contains \textbf{requirements-dev.txt}
-\item
-  Make sure you are still using your newly cloned environment, then
-  enter: \texttt{pip\ install\ -r\ requirements\_dev.txt} \_\_\_
-\item
-  {[} {]} This is a decent place to take a moment to commit your changes
-  and push to your github repo. \_\_\_
-\end{itemize}
-
-\hypertarget{official-step-5-set-up-travis-ci}{%
-\subsubsection{Official Step 5: Set Up Travis
-CI}\label{official-step-5-set-up-travis-ci}}
-
-\begin{itemize}
-\tightlist
-\item
-  {[} {]} \textbf{In order to follow the offical step 5, you will need
-  to install Travis CLI tool, which requires Ruby.}
-  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/travis_pypi_setup.html\#travis-pypi-setup}{Instructions
-  are located here and are OS-specific},
-
-  \begin{itemize}
-  \tightlist
-  \item
-    For MacOS, they recommend using the Homebrew travis package:
-
-    \begin{itemize}
-    \tightlist
-    \item
-      \texttt{brew\ install\ travis}
-    \end{itemize}
-  \item
-    For windows, you will need to install ruby and then use
-    \texttt{gem\ install} to install travis.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      {[} {]} \href{http://www.ruby-lang.org/en/downloads/}{Install
-      Ruby} (if not already installed on your system)
-    \item
-      {[} {]} Install Travis CLI tool: (See the OS-specifc instructions
-      directly above)
-
-      \begin{itemize}
-      \tightlist
-      \item
-        After Ruby is installed, enter the following command to install
-        Travis CLI tool.
-        \texttt{gem\ install\ travis\ -v\ 1.8.10\ -\/-no-rdoc\ -\/-no-ri}
-      \end{itemize}
-    \end{itemize}
-  \end{itemize}
-\item
-  {[} {]} \textbf{Once Travis CLI is installed, you may continue to
-  follow the
-  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html\#step-5-set-up-travis-ci}{official
-  tutorial instructions for step \#5}}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    NOTE: Here is where you will need to have your password for PyPi
-    available.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      \textbf{CAUTION:} When entering your PyPi username and password in
-      the terminal, there will be \textbf{NO VISUAL INDICATOR that you
-      have typed your password.} 
-    \item
-      There are no characters displayed and no dots or placeholders to
-      indicated the \# of characters entered, so \textbf{carefully enter
-      your password when prompted and press enter.}
-    \end{itemize}
-  \item
-    \textbf{TROUBLESHOOTING NOTE: If Travis doesn't does not ask for
-    your password after entering username:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      I experienced an issue when attempting to follow step \#5, after
-      entering the \texttt{travis\ encrypt\ -\/-add\ deploy.password}
-      command, you should first be prompted for your username, then your
-      password.
-    \item
-      I use Git Bash for my main terminal on Windows and for some reason
-      \textbf{Travis would hang after I entered my username and would
-      never ask me for password.}
-
-      \begin{itemize}
-      \tightlist
-      \item
-        I got around the issue by \textbf{using the normal windows cmd
-        prompt for this step instead of using GitBash.} (This is a
-        one-time step that will encrypt your password and store it in a
-        config file so you never have to enter it again.)
-      \end{itemize}
-    \end{itemize}
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{official-step-6-set-up-readthedocs}{%
-\subsubsection{Official Step 6: Set Up
-ReadTheDocs}\label{official-step-6-set-up-readthedocs}}
-
-\begin{itemize}
-\tightlist
-\item
-  {[} {]} Follow the
-  \href{https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html\#step-6-set-up-readthedocs}{official
-  tutorial step 6} for setting up documentation on readthedocs.org.
-\end{itemize}
-
-\hypertarget{official-step-7set-up-pyup.io}{%
-\subsubsection{\texorpdfstring{\sout{Official Step 7:Set Up
-pyup.io}}{Official Step 7:Set Up pyup.io}}\label{official-step-7set-up-pyup.io}}
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Short Version: This is an added level of complexity that I
-  chose to skip for myself and recommend you do the same for now.}
-\item
-  I recommended skipping setting up pyup.io during the cookiecutter
-  prompt responses above.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    This service would alert you when any of the required python
-    packages that are your package needs to run have been updated, so
-    that you can update the versions in your installation requirements\\
-    \textbf{\emph{ }}
-  \end{itemize}
-\end{itemize}
-
-\textbf{SIDEBAR: As of now, you may realize that you have not actually
-added any code to your python package, and yet the next official step is
-to release on PyPi.}
-
-\begin{itemize}
-\tightlist
-\item
-  If you'd like to add some of your code before submitting your package
-  to PyPi, jump down to the ``Adding Your Code / Editing your package''
-  section ( after the official instructions).
-\end{itemize}
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-\hypertarget{official-step-8-release-on-pypi}{%
-\subsubsection{Official Step 8: Release on
-PyPi}\label{official-step-8-release-on-pypi}}
-
-\hypertarget{one-last-annoying-first-time-only-hurdle-and-then-youre-on-your-way-to-automated-deployment-for-the-future}{%
-\paragraph{One last annoying, first-time-only hurdle and then you're on
-your way to automated deployment for the
-future!}\label{one-last-annoying-first-time-only-hurdle-and-then-youre-on-your-way-to-automated-deployment-for-the-future}}
-
-\begin{itemize}
-\tightlist
-\item
-  Travis-CI will automate the process for generating the distribution
-  files for your package and uploading them to PyPi, BUT it cannot
-  CREATE a NEW package that doesn't already exist on PyPi's servers.
-\item
-  {[} {]} To \emph{register} your new package with PyPi for the very
-  first version, you must \textbf{manually create and upload the very
-  first version} of your package.
-  \href{https://packaging.python.org/tutorials/packaging-projects/\#generating-distribution-archives}{Official
-  Python instructions for ``generating distribution archives'',
-  summarized below}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Briefly, from inside the main folder of your repo (that contains the
-    setup.py file):
+    \hypertarget{using-the-osemn-model-to-guide-workflow}{%
+\section{USING THE OSEMN MODEL TO GUIDE
+WORKFLOW}\label{using-the-osemn-model-to-guide-workflow}}
 
     \begin{enumerate}
-    \def\labelenumi{\arabic{enumi}.}
-    \tightlist
-    \item
-      {[} {]} In your terminal (in your cloned environment), make sure
-      you have the current setuptools installed:
-      \texttt{python3\ -m\ pip\ install\ -\/-user\ -\/-upgrade\ setuptools\ wheel}
-    \item
-      {[} {]} Build the current version of your package
-      \texttt{python3\ setup.py\ sdist\ bdist\_wheel}
-    \item
-      {[} {]} Install the tool for uploading to pypi, twine:
-      \texttt{python3\ -m\ pip\ install\ -\/-user\ -\/-upgrade\ twine}
-    \item
-      {[} {]} Upload the distribution files created above (inside a new
-      folder called dist/) \texttt{twine\ upload\ dist/*}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{OBTAIN:}
 
-      \begin{itemize}
-      \tightlist
-      \item
-        {[} {]} When prompted, enter your PyPi.org username and
-        password.
-      \end{itemize}
-    \item
-      Thats it! You can go to PyPi.org, log into your account and you
-      should see your package appear under ``Your Projects''\\
-    \end{enumerate}
+  \begin{itemize}
+  \tightlist
+  \item
+    {[}x{]} Import data, inspect, check for datatypes to convert and
+    null values 
+  \end{itemize}
+\item
+  \textbf{SCRUB: cast data types, identify outliers, check for
+  multicollinearity, normalize data}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Check and cast data types
+  \item
+    {[}x{]} Check for missing values
+  \item
+    {[}x{]} Check for multicollinearity
+  \item
+    {[}x{]} Normalize data (may want to do after some exploring)\\
+  \end{itemize}
+\item
+  \textbf{EXPLORE:Check distributions, outliers, etc}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {[}x{]} Check scales, ranges (df.describe())
+  \item
+    {[}x{]} Check histograms to get an idea of distributions (df.hist())
+    and data transformations to perform
+  \item
+    {[}x{]} Use scatterplots to check for linearity and possible
+    categorical variables (df.plot(kind-`scatter') 
+  \end{itemize}
+\item
+  \textbf{FIT AN INITIAL MODEL:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {[}x{]} Assess the model. 
+  \end{itemize}
+\item
+  \textbf{REVISE THE FITTED MODEL}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {[}x{]} Adjust chosen model and hyper-parameters 
+  \end{itemize}
+\item
+  \textbf{HOLDOUT VALIDATION}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {[} {]} Perform cross-validation \_\_\_
+  \end{itemize}
+\end{enumerate}
+
+    \hypertarget{obtain}{%
+\section{OBTAIN:}\label{obtain}}
+
+    \hypertarget{importing-packages}{%
+\subsection{Importing Packages}\label{importing-packages}}
+
+\begin{itemize}
+\tightlist
+\item
+  Importing custom functions from \texttt{functions\_for\_project.py} as
+  \texttt{ji}
+\item
+  Importing functions from my personal PyPi Package \texttt{bs\_ds}
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{c+c1}{\PYZsh{} Import custom functions for project}
+        \PY{k+kn}{import} \PY{n+nn}{functions\PYZus{}for\PYZus{}project} \PY{k}{as} \PY{n+nn}{ji}
+        
+        \PY{c+c1}{\PYZsh{} Import custom python package BroadSteel DataScience (bs\PYZus{}ds\PYZus{})}
+        \PY{k+kn}{from} \PY{n+nn}{bs\PYZus{}ds}\PY{n+nn}{.}\PY{n+nn}{imports} \PY{k}{import} \PY{o}{*}
+        \PY{k+kn}{from} \PY{n+nn}{bs\PYZus{}ds} \PY{k}{import} \PY{n}{inspect\PYZus{}df}\PY{p}{,} \PY{n}{check\PYZus{}null}\PY{p}{,} \PY{n}{check\PYZus{}unique}\PY{p}{,} \PY{n}{check\PYZus{}column}\PY{p}{,} \PY{n}{check\PYZus{}numeric}\PY{p}{,} \PY{n}{big\PYZus{}pandas}\PY{p}{,} \PY{n}{ignore\PYZus{}warnings}
+        
+        \PY{c+c1}{\PYZsh{} Turning off warnings for function deprecations}
+        \PY{k+kn}{import} \PY{n+nn}{warnings}
+        \PY{n}{warnings}\PY{o}{.}\PY{n}{filterwarnings}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ignore}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Adding CSS styled tables }
+        \PY{n}{bs}\PY{o}{.}\PY{n}{html\PYZus{}on}\PY{p}{(}\PY{n}{CSS}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{body}\PY{l+s+s1}{\PYZob{}}\PY{l+s+s1}{ text\PYZhy{}align: center\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+bs\_ds  v0.9.10 loaded.  Read the docs: https://bs-ds.readthedocs.io/en/latest/index.html
+For convenient loading of standard modules use: from bs\_ds.imports import *
+
+
+    \end{Verbatim}
+
+    
+    \begin{verbatim}
+<pandas.io.formats.style.Styler at 0x1b5d80755f8>
+    \end{verbatim}
+
+    
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}1}]:} <IPython.core.display.HTML object>
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Display interactive menu of code used}
+        \PY{n}{bs}\PY{o}{.}\PY{n}{ihelp\PYZus{}menu}\PY{p}{(}\PY{p}{[}\PY{n}{bs}\PY{o}{.}\PY{n}{inspect\PYZus{}df}\PY{p}{,}\PY{n}{bs}\PY{o}{.}\PY{n}{check\PYZus{}null}\PY{p}{,}\PY{n}{bs}\PY{o}{.}\PY{n}{check\PYZus{}numeric}\PY{p}{,}
+                      \PY{n}{bs}\PY{o}{.}\PY{n}{drop\PYZus{}cols}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+GridBox(box_style='warning', children=(HBox(children=(Label(value='Function Menu'), Dropdown(options=('inspect…
+    \end{verbatim}
+
+    
+    
+    \begin{verbatim}
+Output()
+    \end{verbatim}
+
+    
+    \hypertarget{loading-data-preliminary-cleaning}{%
+\subsection{Loading data, preliminary
+cleaning}\label{loading-data-preliminary-cleaning}}
 
     \begin{itemize}
-    \item
-      **After a couple moments, your package should be available on pip.
-      \texttt{pip\ install\ my\_package\_name} to install locally or
-      \texttt{!pip\ install\ my\_package\_name} to install in a cloud
-      notebook.
-    \item
-      TROUBLESHOOTING NOTE:
+\tightlist
+\item
+  \textbf{Dataset contains detailed columns about the new crime, which
+  we do not need}
 
-      \begin{itemize}
-      \tightlist
-      \item
-        For me, using \texttt{python3} for the above commnads did not
-        work. I simply had to change \texttt{python3} to just
-        \texttt{python}
+  \begin{itemize}
+  \tightlist
+  \item
+    All of these columns are dropped
+  \end{itemize}
+\item
+  \textbf{Replace long column names with shorter nicknames}
+\end{itemize}
 
-        \begin{itemize}
-        \tightlist
-        \item
-          Example:
-          \texttt{python\ -m\ pip\ install\ -\/-user\ -\/-upgrade\ setuptools\ wheel}
-        \end{itemize}
-      \item
-        If this doesn't fix it for you, you may need to update your
-        systems Path variable (basically a list that tells your computer
-        all of the locations on your PC where you may have
-        scripts/functions saved to run from your terminal).
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{c+c1}{\PYZsh{} Dataset Links}
+        \PY{n}{full\PYZus{}all\PYZus{}prisoners\PYZus{}file} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{datasets/FULL\PYZus{}3\PYZhy{}Year\PYZus{}Recidivism\PYZus{}for\PYZus{}Offenders\PYZus{}Released\PYZus{}from\PYZus{}Prison\PYZus{}in\PYZus{}Iowa.csv}\PY{l+s+s2}{\PYZdq{}}
+        \PY{c+c1}{\PYZsh{} only\PYZus{}repeat\PYZus{}criminals\PYZus{}w\PYZus{}new\PYZus{}crime\PYZus{}file= \PYZdq{}datasets/prison\PYZus{}recidivists\PYZus{}with\PYZus{}recidivism\PYZus{}type\PYZus{}only.csv\PYZdq{}}
+        
+        \PY{c+c1}{\PYZsh{} Will be using the all\PYZus{}prisoners file to predict recidivism}
+        \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{full\PYZus{}all\PYZus{}prisoners\PYZus{}file}\PY{p}{)}
+        
+        \PY{n}{df} \PY{o}{=} \PY{n}{bs}\PY{o}{.}\PY{n}{drop\PYZus{}cols}\PY{p}{(}\PY{n}{df}\PY{p}{,} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{New}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Days}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Recidivism Type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
 
-        \begin{itemize}
-        \tightlist
-        \item
-          For Windows,
-          \href{https://geek-university.com/python/add-python-to-the-windows-path/}{check
-          this article} for instructions on how to add python to your
-          system path.
-        \item
-          For Mac,
-          \href{https://programwithus.com/learn-to-code/install-python3-mac/}{try
-          this article's suggestions}
-        \end{itemize}
-      \end{itemize}
-    \end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}4}]:} \PY{c+c1}{\PYZsh{} New short\PYZhy{}hand names to use}
+        \PY{n}{colnames\PYZus{}short} \PY{o}{=} \PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{yr\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{report\PYZus{}year}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{race\PYZus{}ethnicity}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}subtype}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{release\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{super\PYZus{}dist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{target\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Zipping the original and new into a renaming dictionary}
+        \PY{n}{column\PYZus{}legend} \PY{o}{=} \PY{n+nb}{dict}\PY{p}{(}\PY{n+nb}{zip}\PY{p}{(}\PY{n}{df}\PY{o}{.}\PY{n}{columns}\PY{p}{,}\PY{n}{colnames\PYZus{}short}\PY{p}{)}\PY{p}{)}
+        
+        \PY{c+c1}{\PYZsh{} Rename df with shorter names}
+        \PY{n}{df}\PY{o}{.}\PY{n}{rename}\PY{p}{(}\PY{n}{mapper}\PY{o}{=}\PY{n}{column\PYZus{}legend}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        \PY{n}{df}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}4}]:}    yr\_released  report\_year        race\_ethnicity age\_released crime\_class  \textbackslash{}
+        0         2010         2013  Black - Non-Hispanic        25-34    C Felony   
+        1         2010         2013  White - Non-Hispanic        25-34    D Felony   
+        2         2010         2013  White - Non-Hispanic        35-44    B Felony   
+        3         2010         2013  White - Non-Hispanic        25-34    B Felony   
+        4         2010         2013  Black - Non-Hispanic        35-44    D Felony   
+        
+          crime\_type   crime\_subtype                  release\_type super\_dist  \textbackslash{}
+        0    Violent         Robbery                        Parole        7JD   
+        1   Property           Theft  Discharged – End of Sentence        NaN   
+        2       Drug     Trafficking                        Parole        5JD   
+        3      Other  Other Criminal                        Parole        6JD   
+        4    Violent         Assault  Discharged – End of Sentence        NaN   
+        
+          recidivist target\_pop   sex  
+        0        Yes        Yes  Male  
+        1        Yes         No  Male  
+        2        Yes        Yes  Male  
+        3         No        Yes  Male  
+        4        Yes         No  Male  
+\end{Verbatim}
+            
+    \hypertarget{scrub-explore}{%
+\section{SCRUB / EXPLORE}\label{scrub-explore}}
+
+\hypertarget{eda-with-pandas_profiling}{%
+\subsection{EDA with
+Pandas\_Profiling}\label{eda-with-pandas_profiling}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}5}]:} \PY{k+kn}{import} \PY{n+nn}{pandas\PYZus{}profiling} \PY{k}{as} \PY{n+nn}{pp}
+        \PY{n}{profile} \PY{o}{=} \PY{n}{pp}\PY{o}{.}\PY{n}{ProfileReport}\PY{p}{(}\PY{n}{df}\PY{p}{,}\PY{n}{style}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{full\PYZus{}width}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{k+kc}{True}\PY{p}{\PYZcb{}}\PY{p}{)}
+        \PY{n}{profile}\PY{o}{.}\PY{n}{to\PYZus{}file}\PY{p}{(}\PY{n}{output\PYZus{}file}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{profile\PYZus{}report.html}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{addressing-null-values}{%
+\subsection{ADDRESSING NULL VALUES}\label{addressing-null-values}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}6}]:} \PY{n}{bs}\PY{o}{.}\PY{n}{column\PYZus{}report}\PY{p}{(}\PY{n}{df}\PY{p}{,} \PY{n}{as\PYZus{}df}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}\PY{p}{;}\PY{c+c1}{\PYZsh{}check\PYZus{}null(df)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+               column name  dtypes  # zeros  # null  % null Notes
+.iloc[:,i]                                                       
+0              yr_released   int64      0.0       0    0.00      
+1              report_year   int64      0.0       0    0.00      
+2           race_ethnicity  object      0.0      30    0.12      
+3             age_released  object      0.0       3    0.01      
+4              crime_class  object      0.0       0    0.00      
+5               crime_type  object      0.0       0    0.00      
+6            crime_subtype  object      0.0       0    0.00      
+7             release_type  object      0.0    1762    6.77      
+8               super_dist  object      0.0    9581   36.82      
+9               recidivist  object      0.0       0    0.00      
+10              target_pop  object      0.0       0    0.00      
+11                     sex  object      0.0       3    0.01      
+    \end{verbatim}
+
+    
+    \textbf{Results of Null Check}
+
+\begin{itemize}
+\tightlist
+\item
+  Null values that represent \textless{}10\% of data will be dropped.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{race\_ethnicity} has 30 (0.12\%), \texttt{age\_released} has
+    3 (0.01\%),\texttt{sex} has 3 (0.01\% of
+    data),\texttt{release\_type} has 1762 (6.77\% of data)
+  \end{itemize}
+\item
+  \texttt{super\_district} has 9581(36.82\% of data)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    replace with ``unknown''
   \end{itemize}
 \end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}7}]:} \PY{c+c1}{\PYZsh{} Filling NA\PYZsq{}s in super\PYZus{}dist and release\PYZus{}type}
+        \PY{n}{df}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{n}{subset}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{race\PYZus{}ethnicity}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{release\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}\PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{super\PYZus{}dist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{fillna}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{unknown}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+        
+        \PY{n}{report} \PY{o}{=} \PY{n}{bs}\PY{o}{.}\PY{n}{column\PYZus{}report}\PY{p}{(}\PY{n}{df}\PY{p}{,}\PY{n}{as\PYZus{}df}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+               column name  dtypes  # zeros  # null  % null Notes
+.iloc[:,i]                                                       
+0              yr_released   int64      0.0       0     0.0      
+1              report_year   int64      0.0       0     0.0      
+2           race_ethnicity  object      0.0       0     0.0      
+3             age_released  object      0.0       0     0.0      
+4              crime_class  object      0.0       0     0.0      
+5               crime_type  object      0.0       0     0.0      
+6            crime_subtype  object      0.0       0     0.0      
+7             release_type  object      0.0       0     0.0      
+8               super_dist  object      0.0       0     0.0      
+9               recidivist  object      0.0       0     0.0      
+10              target_pop  object      0.0       0     0.0      
+11                     sex  object      0.0       0     0.0      
+    \end{verbatim}
+
+    
+    \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{combining-and-remapping-classes}{%
+\subsection{COMBINING AND REMAPPING
+CLASSES}\label{combining-and-remapping-classes}}
+
+    \hypertarget{dfrace_ethnicity}{%
+\subsubsection{df{[}`race\_ethnicity'{]}}\label{dfrace_ethnicity}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Remapping race\_ethnicity}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Due to the low numbers for several of the race\_ethnicity types,
+    reducing and combining Hispanic and Non-Hispanic groups
+  \item
+    Alternative approach of separating race and ethnicity into 2
+    separate features was rejected after modeling
+  \end{itemize}
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}8}]:} \PY{n}{check\PYZus{}unique}\PY{p}{(}\PY{n}{df}\PY{p}{,}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{race\PYZus{}ethnicity}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+---------------------------
+
+race\_ethnicity Type: object
+Number unique values: 11.
+
+    \end{Verbatim}
+
+    
+    \begin{verbatim}
+                                                 race_ethnicity
+White - Non-Hispanic                                      16460
+Black - Non-Hispanic                                       5687
+White - Hispanic                                           1365
+American Indian or Alaska Native - Non-Hispanic             463
+Asian or Pacific Islander - Non-Hispanic                    175
+Black - Hispanic                                             36
+American Indian or Alaska Native - Hispanic                  19
+White -                                                      12
+Asian or Pacific Islander - Hispanic                          5
+Black -                                                       2
+N/A -                                                         1
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}9}]:} \PY{c+c1}{\PYZsh{} Defining Dictionary Map for race\PYZus{}ethnicity categories}
+        \PY{n}{race\PYZus{}ethnicity\PYZus{}map} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{White \PYZhy{} Non\PYZhy{}Hispanic}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{White}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Black \PYZhy{} Non\PYZhy{}Hispanic}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Black}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{White \PYZhy{} Hispanic}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Hispanic}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{American Indian or Alaska Native \PYZhy{} Non\PYZhy{}Hispanic}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{American Native}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Asian or Pacific Islander \PYZhy{} Non\PYZhy{}Hispanic}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Asian or Pacific Islander}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Black \PYZhy{} Hispanic}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Black}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{American Indian or Alaska Native \PYZhy{} Hispanic}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{American Native}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{White \PYZhy{}}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{White}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Asian or Pacific Islander \PYZhy{} Hispanic}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Asian or Pacific Islander}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{N/A \PYZhy{}}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{np}\PY{o}{.}\PY{n}{nan}\PY{p}{,}
+                                \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Black \PYZhy{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Black}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}
+        
+        \PY{c+c1}{\PYZsh{} Replacing original race\PYZus{}ethnicity column with remapped one.}
+        \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{race\PYZus{}ethnicity}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{race\PYZus{}ethnicity}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{map}\PY{p}{(}\PY{n}{race\PYZus{}ethnicity\PYZus{}map}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{dfcrime_class}{%
+\subsubsection{df{[}`crime\_class'{]}}\label{dfcrime_class}}
+
+    \begin{itemize}
+\tightlist
+\item
+  \textbf{Remapping crime\_class}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Combine `Other Felony' and `Other Felony (Old Code)' -\textgreater{}
+    nan
+  \item
+    Other Misdemeanor -\textgreater{} np.nan
+  \item
+    Felony - Mandatory Minimum -\textgreater{} np.nan
+  \item
+    Special Sentence 2005 -\textgreater{} Sex Offender
+  \item
+    `Sexual Predator Community Supervision' -\textgreater{} `Sex
+    Offender'
+  \item
+    Other Felony -\textgreater{} np.nan
+  \end{itemize}
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}10}]:} \PY{n}{check\PYZus{}unique}\PY{p}{(}\PY{n}{df}\PY{p}{,}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+---------------------------
+
+crime\_class Type: object
+Number unique values: 14.
+
+    \end{Verbatim}
+
+    
+    \begin{verbatim}
+                                          crime_class
+D Felony                                         9786
+C Felony                                         6453
+Aggravated Misdemeanor                           4327
+B Felony                                         1716
+Felony - Enhancement to Original Penalty         1488
+Felony - Enhanced                                 220
+Serious Misdemeanor                               139
+Special Sentence 2005                              69
+Felony - Mandatory Minimum                         10
+Other Felony                                        6
+A Felony                                            4
+Simple Misdemeanor                                  3
+Sexual Predator Community Supervision               2
+Other Felony (Old Code)                             2
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}11}]:} \PY{c+c1}{\PYZsh{} Remapping}
+         \PY{n}{crime\PYZus{}class\PYZus{}map} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Other Felony (Old Code)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{n}{np}\PY{o}{.}\PY{n}{nan} \PY{p}{,}\PY{c+c1}{\PYZsh{}or other felony}
+                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Other Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{np}\PY{o}{.}\PY{n}{nan}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Felony \PYZhy{} Mandatory Minimum}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{n}{np}\PY{o}{.}\PY{n}{nan}\PY{p}{,} \PY{c+c1}{\PYZsh{} if minimum then lowest sentence ==  D Felony}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Special Sentence 2005}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex Offender}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Other Felony}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{n}{np}\PY{o}{.}\PY{n}{nan} \PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sexual Predator Community Supervision}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex Offender}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{D Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{D Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{C Felony}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{C Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{B Felony}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{B Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{A Felony}\PY{l+s+s1}{\PYZsq{}} \PY{p}{:} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{A Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Aggravated Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Aggravated Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Felony \PYZhy{} Enhancement to Original Penalty}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Felony \PYZhy{} Enhanced}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Felony \PYZhy{} Enhanced}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Felony \PYZhy{} Enhanced}\PY{l+s+s1}{\PYZsq{}} \PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Serious Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Serious Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                            \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Simple Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Simple Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}
+         
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{map}\PY{p}{(}\PY{n}{crime\PYZus{}class\PYZus{}map}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{dfage_released}{%
+\subsubsection{df{[}`age\_released'{]}}\label{dfage_released}}
+
+    \begin{itemize}
+\tightlist
+\item
+  \textbf{Encoding age groups as ordinal}
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{c+c1}{\PYZsh{} Encoding age groups as ordinal}
+         \PY{n}{age\PYZus{}map} \PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Under 25}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{l+m+mi}{0}\PY{p}{,}
+                   \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{25\PYZhy{}34}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{l+m+mi}{1}\PY{p}{,} 
+                   \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{35\PYZhy{}44}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{l+m+mi}{2}\PY{p}{,} 
+                   \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{45\PYZhy{}54}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{l+m+mi}{3}\PY{p}{,}
+                   \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{55 and Older}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:} \PY{l+m+mi}{4}\PY{p}{\PYZcb{}}
+         
+         \PY{c+c1}{\PYZsh{} Mapping age\PYZus{}map onto \PYZsq{}age\PYZus{}released\PYZsq{}}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{map}\PY{p}{(}\PY{n}{age\PYZus{}map}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{remapping-binary-categories-dfrecidivisttarget_popsex}{%
+\subsubsection{Remapping binary categories
+df{[}{[}`recidivist',`target\_pop',`sex'{]}{]}}\label{remapping-binary-categories-dfrecidivisttarget_popsex}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Remapping binary categories}
+         
+         \PY{c+c1}{\PYZsh{} Recidivist}
+         \PY{n}{recidivist\PYZus{}map} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{No}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+m+mi}{0}\PY{p}{,}
+                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Yes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+m+mi}{1} \PY{p}{\PYZcb{}}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{map}\PY{p}{(}\PY{n}{recidivist\PYZus{}map}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Target\PYZus{}pop}
+         \PY{n}{target\PYZus{}pop\PYZus{}map} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{No}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+m+mi}{0}\PY{p}{,}
+                           \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Yes}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+m+mi}{1}\PY{p}{\PYZcb{}}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{target\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{target\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{map}\PY{p}{(}\PY{n}{target\PYZus{}pop\PYZus{}map}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Sex}
+         \PY{n}{sex\PYZus{}map} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Male}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+m+mi}{0}\PY{p}{,}
+                    \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Female}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+m+mi}{1}\PY{p}{\PYZcb{}}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{map}\PY{p}{(}\PY{n}{sex\PYZus{}map}\PY{p}{)}
+\end{Verbatim}
+
 
     \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
-\hypertarget{adding-your-code-editing-your-packagemodules}{%
-\section{Adding Your Code / Editing your
-package/modules}\label{adding-your-code-editing-your-packagemodules}}
+\hypertarget{engineering-features}{%
+\subsection{ENGINEERING FEATURES}\label{engineering-features}}
 
 \begin{itemize}
 \tightlist
 \item
-  When working on your package/modules, I highly recommend using
-  \textbf{Microsoft Visual Studio Code.}
+  \textbf{We wanted to better represent the severity of the crimes as
+  something other than just unordered categories. To do so, we
+  engineered additional features.}
 
   \begin{itemize}
   \tightlist
   \item
-    Visual Studio was likely installed with Anaconda, but if it wasn't.
-    Open Anaconda Navigator, and look for Visual Studio code on the Home
-    tab, in the same section as Jupyter Lab and Jupyter Notebooks.
+    \texttt{felony}= true / false category
+  \item
+    \texttt{max\_sentence} = mapping approximate maximum sentences to
+    crime classes.
   \end{itemize}
 \item
-  The easiest way to manage all of your package's setup files and
-  modules is to the the File \textgreater{} Open Folder option and
-  select your repo's main folder.
-\end{itemize}
-
-\hypertarget{important-files-you-will-want-to-edit}{%
-\subsection{Important Files You Will Want to
-Edit:}\label{important-files-you-will-want-to-edit}}
-
-\hypertarget{your-package-init-and-module-.py-files}{%
-\subsubsection{\texorpdfstring{Your package \textbf{init} and module .py
-files:}{Your package init and module .py files:}}\label{your-package-init-and-module-.py-files}}
-
-\begin{itemize}
-\tightlist
-\item
-  Inside of your main repo folder, you should have your project\_slug
-  folder (where project\_slug = your package's name)
+  \textbf{Additionally, we combined crime\_type and crime\_subtype into
+  one feature to reduce dimensionality.}
 
   \begin{itemize}
   \tightlist
   \item
-    There should be 2 files inside that folder: \textbf{init}.py, and
-    project\_slug.py .
-
-    \begin{itemize}
-    \item
-      \textbf{\textbf{init}.py is the most critical file of your
-      package.} When you import your package, you are actually running
-      the \textbf{init}.py file and importing the functions inside it.
-    \item
-      \textbf{The simplest way to add your own functions is to add them
-      to the \textbf{init}.py file.}
-
-      \begin{itemize}
-      \tightlist
-      \item
-        When you use \texttt{import\ package\_name}:
-
-        \begin{itemize}
-        \tightlist
-        \item
-          The functions and commands contained in your \textbf{init}.py
-          file will be imported under your package's name.
-        \item
-          Example:\texttt{package\_name.some\_function()}
-        \end{itemize}
-      \item
-        As with all python packages, you can assign it a short handle to
-        make accessing your functions less tedious:
-
-        \begin{itemize}
-        \tightlist
-        \item
-          Example
-          \texttt{import\ package\_name\ as\ pn\ \ pn.some\_function()}
-        \end{itemize}
-      \item
-        If you use \texttt{from\ package\_name\ import\ *}:
-
-        \begin{itemize}
-        \item
-          All of the functions inside of the init file will be available
-          without needing to specify the package.
-        \item
-          Example:
-          \texttt{from\ package\_name\ import\ *}\texttt{some\_function()}
-        \end{itemize}
-      \end{itemize}
-    \item
-      **The more advanced way to add your own functions is to add them
-      as a sub-module.
-
-      \begin{itemize}
-      \tightlist
-      \item
-        The project\_slug.py file is actually a submodule of your
-        package, but shares the same name.
-
-        \begin{itemize}
-        \tightlist
-        \item
-          For bs\_ds, we have many functions stored inside of the
-          package submodule:
-
-          \begin{itemize}
-          \tightlist
-          \item
-            Which is accessed by bs\_ds.bs\_ds which is the
-            (package\_name).(submodule\_name)
-          \item
-            The package name is essentially the project\_slug folder and
-            then the submodule name is specifying which .py file (INSIDE
-            of that folder) should be imported.
-          \end{itemize}
-        \end{itemize}
-      \end{itemize}
-    \end{itemize}
+    \texttt{crime\_types\_combined} = crime\_type and crime\_subtype
+    into types\_combined
+  \item
+    \texttt{crime\_class\_type\_subtype} = crime\_class, type, and
+    subtype combined
   \end{itemize}
 \end{itemize}
 
-\hypertarget{setup.py}{%
-\subsubsection{Setup.py}\label{setup.py}}
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}14}]:} \PY{c+c1}{\PYZsh{} Engineering a simple \PYZsq{}felony\PYZsq{} true false category}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{where}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{contains}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{case}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Mapping years onto crime class}
+         \PY{n}{crime\PYZus{}class\PYZus{}max\PYZus{}sentence\PYZus{}map} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{A Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{75}\PY{p}{,}  \PY{c+c1}{\PYZsh{} Life}
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Aggravated Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{2}\PY{p}{,} \PY{c+c1}{\PYZsh{} 2 years}
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{B Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{50}\PY{p}{,} \PY{c+c1}{\PYZsh{} 25 or 50 years}
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{C Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{10}\PY{p}{,} \PY{c+c1}{\PYZsh{} 10 years}
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{D Felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{5}\PY{p}{,}  \PY{c+c1}{\PYZsh{} 5 yeras}
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Felony \PYZhy{} Enhanced}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{10}\PY{p}{,} \PY{c+c1}{\PYZsh{} Add on to class C and D felonies, hard to approximate. }
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Serious Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{1}\PY{p}{,} \PY{c+c1}{\PYZsh{} 1 year}
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex Offender}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mi}{10}\PY{p}{,} \PY{c+c1}{\PYZsh{} 10 years}
+                                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Simple Misdemeanor}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:} \PY{l+m+mf}{0.83}\PY{p}{\PYZcb{}} \PY{c+c1}{\PYZsh{} 30 days}
+         
+         \PY{c+c1}{\PYZsh{} Mapping max\PYZus{}sentence\PYZus{}column}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{max\PYZus{}sentence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{map}\PY{p}{(}\PY{n}{crime\PYZus{}class\PYZus{}max\PYZus{}sentence\PYZus{}map}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{}\PYZsh{} Creating combined classes and types}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}types\PYZus{}combined}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}subtype}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+         
+         \PY{c+c1}{\PYZsh{} Combining crime\PYZus{}type and crime\PYZus{}subtype into types\PYZus{}combined}
+         \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class\PYZus{}type\PYZus{}subtype}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}subtype}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Dropping null values filled in during feature remapping}
+         \PY{n}{df}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+         \PY{n}{df}\PY{o}{.}\PY{n}{reset\PYZus{}index}\PY{p}{(}\PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+         
+         \PY{n}{df}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Iowa\PYZus{}recidivism\PYZus{}features\PYZus{}pre\PYZhy{}processing.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{df}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}15}]:}    index  yr\_released  report\_year race\_ethnicity  age\_released crime\_class  \textbackslash{}
+         0      0         2010         2013          Black             1    C Felony   
+         1      1         2010         2013          White             1    D Felony   
+         2      2         2010         2013          White             2    B Felony   
+         3      3         2010         2013          White             1    B Felony   
+         4      4         2010         2013          Black             2    D Felony   
+         
+           crime\_type   crime\_subtype                  release\_type super\_dist  \textbackslash{}
+         0    Violent         Robbery                        Parole        7JD   
+         1   Property           Theft  Discharged – End of Sentence    unknown   
+         2       Drug     Trafficking                        Parole        5JD   
+         3      Other  Other Criminal                        Parole        6JD   
+         4    Violent         Assault  Discharged – End of Sentence    unknown   
+         
+            recidivist  target\_pop  sex  felony  max\_sentence  crime\_types\_combined  \textbackslash{}
+         0           1           1    0       1          10.0       Violent\_Robbery   
+         1           1           0    0       1           5.0        Property\_Theft   
+         2           1           1    0       1          50.0      Drug\_Trafficking   
+         3           0           1    0       1          50.0  Other\_Other Criminal   
+         4           1           0    0       1           5.0       Violent\_Assault   
+         
+                 crime\_class\_type\_subtype  
+         0       C Felony\_Violent\_Robbery  
+         1        D Felony\_Property\_Theft  
+         2      B Felony\_Drug\_Trafficking  
+         3  B Felony\_Other\_Other Criminal  
+         4       D Felony\_Violent\_Assault  
+\end{Verbatim}
+            
+    \hypertarget{processing-chosen-feature-columns}{%
+\subsection{Processing Chosen Feature
+Columns}\label{processing-chosen-feature-columns}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}16}]:} \PY{c+c1}{\PYZsh{} List of features to be analyzed as categories}
+         \PY{n}{category\PYZus{}cols} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{yr\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{race\PYZus{}ethnicity}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}class}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{release\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{crime\PYZus{}subtype}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{target\PYZus{}pop}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{super\PYZus{}dist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{felony}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+         
+         \PY{c+c1}{\PYZsh{} List of features to be analzyed as numbers}
+         \PY{n}{number\PYZus{}cols} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{max\PYZus{}sentence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+         
+         \PY{c+c1}{\PYZsh{} Target feature}
+         \PY{n}{target\PYZus{}col} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}17}]:} \PY{c+c1}{\PYZsh{} Creating new dataframe (\PYZsq{}df\PYZus{}to\PYZus{}split\PYZsq{}) to contain processed features for train\PYZus{}test\PYZus{}split}
+         \PY{n}{df\PYZus{}to\PYZus{}split}\PY{o}{=}\PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{}\PYZsh{} MinMaxing Numerical Columns}
+         \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{preprocessing} \PY{k}{import} \PY{n}{MinMaxScaler}
+         \PY{n}{sca} \PY{o}{=} \PY{n}{MinMaxScaler}\PY{p}{(}\PY{p}{)}
+         
+         \PY{k}{for} \PY{n}{header} \PY{o+ow}{in} \PY{n}{number\PYZus{}cols}\PY{p}{:}
+             \PY{n+nb}{print}\PY{p}{(}\PY{n}{header}\PY{p}{)}
+             \PY{n}{data} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{n}{header}\PY{p}{]}\PY{p}{)}
+             \PY{n}{res} \PY{o}{=} \PY{n}{sca}\PY{o}{.}\PY{n}{fit\PYZus{}transform}\PY{p}{(}\PY{n}{data}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}
+             \PY{n}{df\PYZus{}to\PYZus{}split}\PY{p}{[}\PY{n}{header}\PY{p}{]} \PY{o}{=} \PY{n}{res}\PY{o}{.}\PY{n}{ravel}\PY{p}{(}\PY{p}{)}    
+         
+         
+         \PY{c+c1}{\PYZsh{}\PYZsh{} Convert categories to cat.codes}
+         \PY{k}{for} \PY{n}{header} \PY{o+ow}{in} \PY{n}{category\PYZus{}cols}\PY{p}{:}
+             \PY{n}{df\PYZus{}to\PYZus{}split}\PY{p}{[}\PY{n}{header}\PY{p}{]} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{header}\PY{p}{]}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{category}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{cat}\PY{o}{.}\PY{n}{codes}
+             
+         \PY{n}{df\PYZus{}to\PYZus{}split}\PY{o}{.}\PY{n}{info}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+max\_sentence
+age\_released
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 24206 entries, 0 to 24205
+Data columns (total 12 columns):
+max\_sentence      24206 non-null float64
+age\_released      24206 non-null float64
+yr\_released       24206 non-null int8
+race\_ethnicity    24206 non-null int8
+crime\_class       24206 non-null int8
+release\_type      24206 non-null int8
+crime\_type        24206 non-null int8
+crime\_subtype     24206 non-null int8
+target\_pop        24206 non-null int8
+sex               24206 non-null int8
+super\_dist        24206 non-null int8
+felony            24206 non-null int8
+dtypes: float64(2), int8(10)
+memory usage: 614.7 KB
+
+    \end{Verbatim}
+
+    \hypertarget{fitting-an-initial-model}{%
+\section{FITTING AN INITIAL MODEL}\label{fitting-an-initial-model}}
 
 \begin{itemize}
 \tightlist
 \item
-  {[} {]} Adding dependencies to be installed with your package:
+  Due to the large number of categorical features, we chose to use
+  CatBoost.
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}18}]:} \PY{c+c1}{\PYZsh{} Define X and y to split}
+         \PY{n}{X} \PY{o}{=} \PY{n}{df\PYZus{}to\PYZus{}split}
+         \PY{n}{y} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{n}{target\PYZus{}col}\PY{p}{]}\PY{o}{.}\PY{n}{to\PYZus{}numpy}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{ravel}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+         \PY{n}{y}\PY{o}{.}\PY{n}{name} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}
+         
+         \PY{c+c1}{\PYZsh{} Split into training and testing set}
+         \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{model\PYZus{}selection} \PY{k}{import} \PY{n}{train\PYZus{}test\PYZus{}split}
+         \PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{X\PYZus{}test}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}test} \PY{o}{=} \PY{n}{train\PYZus{}test\PYZus{}split}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{test\PYZus{}size}\PY{o}{=}\PY{l+m+mf}{0.4}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}19}]:} \PY{c+c1}{\PYZsh{} Import catboost Pool to create training and testing pools}
+         \PY{k+kn}{from} \PY{n+nn}{catboost} \PY{k}{import} \PY{n}{Pool}\PY{p}{,} \PY{n}{CatBoostClassifier}
+         
+         \PY{n}{train\PYZus{}pool} \PY{o}{=}  \PY{n}{Pool}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{X\PYZus{}train}\PY{p}{,} 
+                            \PY{n}{label}\PY{o}{=}\PY{n}{y\PYZus{}train}\PY{p}{,} 
+                            \PY{n}{cat\PYZus{}features}\PY{o}{=}\PY{n}{category\PYZus{}cols}\PY{p}{)}
+         
+         \PY{n}{test\PYZus{}pool} \PY{o}{=} \PY{n}{Pool}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{X\PYZus{}test}\PY{p}{,} 
+                          \PY{n}{label}\PY{o}{=}\PY{n}{y\PYZus{}test}\PY{p}{,} 
+                          \PY{n}{cat\PYZus{}features}\PY{o}{=}\PY{n}{category\PYZus{}cols}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Instantiating CatBoostClassifier }
+         \PY{n}{cb\PYZus{}base} \PY{o}{=} \PY{n}{CatBoostClassifier}\PY{p}{(}\PY{n}{iterations}\PY{o}{=}\PY{l+m+mi}{500}\PY{p}{,} \PY{n}{depth}\PY{o}{=}\PY{l+m+mi}{5}\PY{p}{,}\PY{c+c1}{\PYZsh{}12,}
+                                     \PY{n}{boosting\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Ordered}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                     \PY{n}{learning\PYZus{}rate}\PY{o}{=}\PY{l+m+mf}{0.03}\PY{p}{,}
+                                     \PY{n}{thread\PYZus{}count}\PY{o}{=}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,}
+                                     \PY{n}{eval\PYZus{}metric}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{AUC}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                     \PY{n}{silent}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,}
+                                     \PY{n}{allow\PYZus{}const\PYZus{}label}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}\PY{c+c1}{\PYZsh{},}
+                                    \PY{c+c1}{\PYZsh{}task\PYZus{}type=\PYZsq{}GPU\PYZsq{})}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}20}]:} \PY{c+c1}{\PYZsh{} Fitting Initial CatBoost Model}
+         \PY{n}{cb\PYZus{}base}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{train\PYZus{}pool}\PY{p}{,}\PY{n}{eval\PYZus{}set}\PY{o}{=}\PY{n}{test\PYZus{}pool}\PY{p}{,} \PY{n}{plot}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,} \PY{n}{early\PYZus{}stopping\PYZus{}rounds}\PY{o}{=}\PY{l+m+mi}{20}\PY{p}{)}
+         \PY{n}{cb\PYZus{}base}\PY{o}{.}\PY{n}{best\PYZus{}score\PYZus{}}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+<IPython.core.display.HTML object>
+    \end{verbatim}
+
+    
+    
+    \begin{verbatim}
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+    \end{verbatim}
+
+    
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}20}]:} \{'learn': \{'Logloss': 0.5892129182378748\},
+          'validation': \{'Logloss': 0.5942652095596416, 'AUC': 0.6824160592431762\}\}
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}21}]:} \PY{n}{ji}\PY{o}{.}\PY{n}{evaluate\PYZus{}catboost\PYZus{}model}\PY{p}{(}\PY{n}{cb\PYZus{}base}\PY{p}{,}
+                                    \PY{n}{X\PYZus{}train}\PY{o}{=}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{X\PYZus{}test}\PY{o}{=}\PY{n}{X\PYZus{}test}\PY{p}{,}
+                                    \PY{n}{y\PYZus{}train}\PY{o}{=}\PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}test}\PY{o}{=}\PY{n}{y\PYZus{}test}\PY{p}{,} \PY{n}{test\PYZus{}pool}\PY{o}{=}\PY{n}{test\PYZus{}pool}\PY{p}{,}
+                                    \PY{n}{barcolor}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{red}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{cmap}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Reds}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                                    \PY{n}{conf\PYZus{}matrix\PYZus{}classes}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Non\PYZhy{}Recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+------------------------------------------------------------------------------------------
+	CLASSIFICATION REPORT:
+------------------------------------------------------------------------------------------
+Accuracy:0.67
+Recall:0.18
+Precision:0.57
+AUC:0.68
+
+    \end{Verbatim}
+
+    
+    \begin{verbatim}
+<pandas.io.formats.style.Styler at 0x1b5e0e12828>
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+
+    \end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_45_3.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_45_4.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+------------------------------------------------------------------------------------------
+	FEATURE IMPORTANCE:
+------------------------------------------------------------------------------------------
+
+    \end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_45_6.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \hypertarget{notes-following-initial-modeling}{%
+\subsubsection{Notes Following Initial
+Modeling:}\label{notes-following-initial-modeling}}
+
+\begin{itemize}
+\tightlist
+\item
+  The ROC-AUC Curve Shows that our model performs better than chance.
+\item
+  HOWEVER, There is a major issue with our confusion matrix.
 
   \begin{itemize}
   \tightlist
   \item
-    At the top of the file, you will see an empty list called
-    requirements \texttt{requirements\ =\ {[}\ {]}}
+    There are an extremely high \# of False Negatives (prisoners
+    Predicted to be ``Non-Recidivist'',but were actually ``Recidivist'')
   \item
-    Add any packages that you would like to be installed with your
-    package.
+    This is a serious flaw with the model and serious hinders real-world
+    applicability.
+  \end{itemize}
+\item
+  This may be due to the imbalance of cases of recidivists vs
+  non-recidivists in our dataset.
+\end{itemize}
 
-    \begin{itemize}
-    \tightlist
-    \item
-      If the user is missing any of these pip will install them as well.
-      \texttt{requirements\ =\ {[}\textquotesingle{}numpy\textquotesingle{},\textquotesingle{}pandas\textquotesingle{},\textquotesingle{}scikit-learn\textquotesingle{},\textquotesingle{}matplotlib\textquotesingle{},\textquotesingle{}scipy\textquotesingle{},\textquotesingle{}pprint\textquotesingle{}{]}}
-    \end{itemize}
+    \hypertarget{revising-the-model}{%
+\section{REVISING THE MODEL}\label{revising-the-model}}
+
+\hypertarget{balancing-target-classes-using-synthetic-minority-oversampling}{%
+\subsection{Balancing Target Classes Using Synthetic Minority
+Oversampling}\label{balancing-target-classes-using-synthetic-minority-oversampling}}
+
+    \hypertarget{addressing-class-imbalance}{%
+\subsubsection{Addressing Class
+Imbalance}\label{addressing-class-imbalance}}
+
+\begin{itemize}
+\tightlist
+\item
+  Adding Synthetic Minority Oversampling Technique to balance out the \#
+  of recidivists(1) and non-recidivists(0)
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}22}]:} \PY{k+kn}{from} \PY{n+nn}{imblearn}\PY{n+nn}{.}\PY{n+nn}{over\PYZus{}sampling} \PY{k}{import} \PY{n}{SMOTE}
+         
+         \PY{c+c1}{\PYZsh{} Define X and y }
+         \PY{n}{X} \PY{o}{=} \PY{n}{df\PYZus{}to\PYZus{}split}
+         \PY{n}{y} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{df}\PY{p}{[}\PY{n}{target\PYZus{}col}\PY{p}{]}\PY{o}{.}\PY{n}{to\PYZus{}numpy}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{ravel}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+         \PY{n}{y}\PY{o}{.}\PY{n}{name} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{f}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Class counts before SMOTE:}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{y}\PY{p}{)}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+         
+         \PY{n}{X\PYZus{}resampled}\PY{p}{,} \PY{n}{y\PYZus{}resampled} \PY{o}{=} \PY{n}{SMOTE}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{fit\PYZus{}sample}\PY{p}{(}\PY{n}{X}\PY{p}{,}\PY{n}{y}\PY{p}{)}
+         
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{f}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Class counts after SMOTE:}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{y\PYZus{}resampled}\PY{p}{)}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Reformatting SMOTE transformed data}
+         \PY{n}{X\PYZus{}resampled} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{X\PYZus{}resampled}\PY{p}{,} \PY{n}{columns} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{columns}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} X\PYZus{}resampled category columns back to integers}
+         \PY{k}{for} \PY{n}{header} \PY{o+ow}{in} \PY{n}{category\PYZus{}cols}\PY{p}{:}
+             \PY{n}{X\PYZus{}resampled}\PY{p}{[}\PY{n}{header}\PY{p}{]} \PY{o}{=} \PY{n}{X\PYZus{}resampled}\PY{p}{[}\PY{n}{header}\PY{p}{]}\PY{o}{.}\PY{n}{astype}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{int}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+             
+         \PY{c+c1}{\PYZsh{} y\PYZus{}resampled back to a named series    }
+         \PY{n}{y\PYZus{}resampled} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{y\PYZus{}resampled}\PY{p}{)}
+         \PY{n}{y\PYZus{}resampled}\PY{o}{.}\PY{n}{name} \PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Class counts before SMOTE:
+0    15880
+1     8326
+Name: recidivist, dtype: int64
+
+Class counts after SMOTE:
+1    15880
+0    15880
+dtype: int64
+
+    \end{Verbatim}
+
+    \hypertarget{fitting-a-revised-model-with-balanced-classes}{%
+\subsubsection{Fitting a Revised Model with Balanced
+Classes}\label{fitting-a-revised-model-with-balanced-classes}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}23}]:} \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{model\PYZus{}selection} \PY{k}{import} \PY{n}{train\PYZus{}test\PYZus{}split}
+         
+         \PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{X\PYZus{}test}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}test} \PY{o}{=} \PY{n}{train\PYZus{}test\PYZus{}split}\PY{p}{(}\PY{n}{X\PYZus{}resampled}\PY{p}{,} \PY{n}{y\PYZus{}resampled}\PY{p}{,} \PY{n}{test\PYZus{}size}\PY{o}{=}\PY{l+m+mf}{0.4}\PY{p}{)}
+         
+         \PY{k+kn}{from} \PY{n+nn}{catboost} \PY{k}{import} \PY{n}{Pool}\PY{p}{,} \PY{n}{CatBoostClassifier}
+         \PY{n}{train\PYZus{}pool} \PY{o}{=}  \PY{n}{Pool}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{X\PYZus{}train}\PY{p}{,} 
+                            \PY{n}{label}\PY{o}{=}\PY{n}{y\PYZus{}train}\PY{p}{,}
+                            \PY{n}{cat\PYZus{}features}\PY{o}{=}\PY{n}{category\PYZus{}cols}\PY{p}{)}
+         \PY{n}{test\PYZus{}pool} \PY{o}{=} \PY{n}{Pool}\PY{p}{(}\PY{n}{data}\PY{o}{=}\PY{n}{X\PYZus{}test}\PY{p}{,}
+                          \PY{n}{label}\PY{o}{=}\PY{n}{y\PYZus{}test}\PY{p}{,} 
+                          \PY{n}{cat\PYZus{}features}\PY{o}{=}\PY{n}{category\PYZus{}cols}\PY{p}{)}
+         
+         \PY{n}{cb\PYZus{}clf} \PY{o}{=} \PY{n}{CatBoostClassifier}\PY{p}{(}\PY{n}{iterations}\PY{o}{=}\PY{l+m+mi}{300}\PY{p}{,} \PY{n}{depth}\PY{o}{=}\PY{l+m+mi}{4}\PY{p}{,}
+                                     \PY{n}{boosting\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Ordered}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                     \PY{n}{learning\PYZus{}rate}\PY{o}{=}\PY{l+m+mf}{0.03}\PY{p}{,}
+                                     \PY{n}{thread\PYZus{}count}\PY{o}{=}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,}
+                                     \PY{n}{eval\PYZus{}metric}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{AUC}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                                     \PY{n}{allow\PYZus{}const\PYZus{}label}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,}
+                                    \PY{n}{silent}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}\PY{c+c1}{\PYZsh{},}
+         \PY{c+c1}{\PYZsh{}                            logging\PYZus{}level=\PYZsq{}Info\PYZsq{})\PYZsh{},}
+                                    \PY{c+c1}{\PYZsh{}task\PYZus{}type=\PYZsq{}GPU\PYZsq{})}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}24}]:} \PY{n}{cb\PYZus{}clf}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{train\PYZus{}pool}\PY{p}{,}\PY{n}{eval\PYZus{}set}\PY{o}{=}\PY{n}{test\PYZus{}pool}\PY{p}{,} \PY{n}{plot}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,} \PY{n}{early\PYZus{}stopping\PYZus{}rounds}\PY{o}{=}\PY{l+m+mi}{20}\PY{p}{)}
+         \PY{n}{cb\PYZus{}clf}\PY{o}{.}\PY{n}{best\PYZus{}score\PYZus{}}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+<IPython.core.display.HTML object>
+    \end{verbatim}
+
+    
+    
+    \begin{verbatim}
+MetricVisualizer(layout=Layout(align_self='stretch', height='500px'))
+    \end{verbatim}
+
+    
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}24}]:} \{'learn': \{'Logloss': 0.551707319692565\},
+          'validation': \{'Logloss': 0.5575688386561498, 'AUC': 0.7679978192731957\}\}
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}25}]:} \PY{n}{df\PYZus{}results} \PY{o}{=} \PY{n}{ji}\PY{o}{.}\PY{n}{evaluate\PYZus{}catboost\PYZus{}model}\PY{p}{(}\PY{n}{cb\PYZus{}clf}\PY{p}{,}\PY{n}{X\PYZus{}train}\PY{o}{=}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{X\PYZus{}test}\PY{o}{=}\PY{n}{X\PYZus{}test}\PY{p}{,}
+                                                 \PY{n}{test\PYZus{}pool}\PY{o}{=}\PY{n}{test\PYZus{}pool}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{o}{=}\PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}test}\PY{o}{=}\PY{n}{y\PYZus{}test}\PY{p}{,}
+                                                 \PY{n}{conf\PYZus{}matrix\PYZus{}classes}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Non\PYZhy{}Recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+------------------------------------------------------------------------------------------
+	CLASSIFICATION REPORT:
+------------------------------------------------------------------------------------------
+Accuracy:0.69
+Recall:0.67
+Precision:0.70
+AUC:0.77
+
+    \end{Verbatim}
+
+    
+    \begin{verbatim}
+<pandas.io.formats.style.Styler at 0x1b5807ab3c8>
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+
+    \end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_53_3.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_53_4.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+------------------------------------------------------------------------------------------
+	FEATURE IMPORTANCE:
+------------------------------------------------------------------------------------------
+
+    \end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_53_6.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}26}]:} \PY{c+c1}{\PYZsh{} cb\PYZus{}clf.plot\PYZus{}tree(1, pool=test\PYZus{}pool,)}
+\end{Verbatim}
+
+
+    \hypertarget{summary-visuals}{%
+\section{Summary Visuals}\label{summary-visuals}}
+
+\begin{itemize}
+\tightlist
+\item
+  Plotting histograms for top 4 most important features by recividist
+\end{itemize}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}27}]:} \PY{c+c1}{\PYZsh{}\PYZsh{} Mape inverse\PYZus{}map for coded categories to plot}
+         \PY{n}{inverse\PYZus{}map} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{\PYZob{}}\PY{n}{v}\PY{p}{:}\PY{n}{k} \PY{k}{for} \PY{n}{k}\PY{p}{,}\PY{n}{v} \PY{o+ow}{in} \PY{n}{age\PYZus{}map}\PY{o}{.}\PY{n}{items}\PY{p}{(}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{,}
+             \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{recidivist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{p}{\PYZob{}}\PY{n}{v}\PY{p}{:}\PY{n}{k} \PY{k}{for} \PY{n}{k}\PY{p}{,}\PY{n}{v} \PY{o+ow}{in} \PY{n}{recidivist\PYZus{}map}\PY{o}{.}\PY{n}{items}\PY{p}{(}\PY{p}{)}\PY{p}{\PYZcb{}}\PY{p}{\PYZcb{}}
+         
+         \PY{c+c1}{\PYZsh{} Create df\PYZus{}plot, save age\PYZus{}code column}
+         \PY{n}{df\PYZus{}plot} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{copy}\PY{p}{(}\PY{p}{)}
+         \PY{n}{df\PYZus{}plot}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}plot}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{copy}\PY{p}{(}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Inverse\PYZhy{}map original columns names}
+         \PY{k}{for} \PY{n}{k}\PY{p}{,}\PY{n}{mapper} \PY{o+ow}{in} \PY{n}{inverse\PYZus{}map}\PY{o}{.}\PY{n}{items}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+             \PY{n}{df\PYZus{}plot}\PY{p}{[}\PY{n}{k}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}plot}\PY{p}{[}\PY{n}{k}\PY{p}{]}\PY{o}{.}\PY{n}{apply}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{mapper}\PY{p}{[}\PY{n}{x}\PY{p}{]}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{} Drop cols, preview df\PYZus{}plot}
+         \PY{n}{df\PYZus{}plot}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{index}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{,}\PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+         \PY{n}{df\PYZus{}plot}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}27}]:}    yr\_released  report\_year race\_ethnicity age\_released crime\_class  \textbackslash{}
+         0         2010         2013          Black        25-34    C Felony   
+         1         2010         2013          White        25-34    D Felony   
+         2         2010         2013          White        35-44    B Felony   
+         3         2010         2013          White        25-34    B Felony   
+         4         2010         2013          Black        35-44    D Felony   
+         
+           crime\_type   crime\_subtype                  release\_type super\_dist  \textbackslash{}
+         0    Violent         Robbery                        Parole        7JD   
+         1   Property           Theft  Discharged – End of Sentence    unknown   
+         2       Drug     Trafficking                        Parole        5JD   
+         3      Other  Other Criminal                        Parole        6JD   
+         4    Violent         Assault  Discharged – End of Sentence    unknown   
+         
+           recidivist  target\_pop  sex  felony  max\_sentence  crime\_types\_combined  \textbackslash{}
+         0        Yes           1    0       1          10.0       Violent\_Robbery   
+         1        Yes           0    0       1           5.0        Property\_Theft   
+         2        Yes           1    0       1          50.0      Drug\_Trafficking   
+         3         No           1    0       1          50.0  Other\_Other Criminal   
+         4        Yes           0    0       1           5.0       Violent\_Assault   
+         
+                 crime\_class\_type\_subtype  age\_code  
+         0       C Felony\_Violent\_Robbery         1  
+         1        D Felony\_Property\_Theft         1  
+         2      B Felony\_Drug\_Trafficking         2  
+         3  B Felony\_Other\_Other Criminal         1  
+         4       D Felony\_Violent\_Assault         2  
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}28}]:} \PY{c+c1}{\PYZsh{} Plot age}
+         \PY{n}{ji}\PY{o}{.}\PY{n}{plot\PYZus{}hist\PYZus{}by\PYZus{}group}\PY{p}{(}\PY{n}{df\PYZus{}plot}\PY{p}{,}\PY{n}{groupby\PYZus{}col}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}code}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                               \PY{n}{label\PYZus{}map}\PY{o}{=}\PY{n}{inverse\PYZus{}map}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age\PYZus{}released}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} 
+                               \PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Recidivism by Age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+         \PY{c+c1}{\PYZsh{} Plot judicial district}
+         \PY{n}{ji}\PY{o}{.}\PY{n}{plot\PYZus{}hist\PYZus{}by\PYZus{}group}\PY{p}{(}\PY{n}{df\PYZus{}plot}\PY{p}{,}\PY{n}{groupby\PYZus{}col}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{super\PYZus{}dist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{barh}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,}\PY{n}{rot}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{,}
+                               \PY{n}{label\PYZus{}map}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,} \PY{n}{xlabel}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{District}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                               \PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Recidivism by Judicial District}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+         \PY{c+c1}{\PYZsh{} Plot max sentence}
+         \PY{n}{ji}\PY{o}{.}\PY{n}{plot\PYZus{}hist\PYZus{}by\PYZus{}group}\PY{p}{(}\PY{n}{df\PYZus{}plot}\PY{p}{,}\PY{n}{groupby\PYZus{}col}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{max\PYZus{}sentence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                               \PY{n}{label\PYZus{}map}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,}\PY{n}{xlabel}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Years}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} 
+                               \PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Recidivism by Maximum Sentence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+         \PY{c+c1}{\PYZsh{} Plot Release Type}
+         \PY{n}{ji}\PY{o}{.}\PY{n}{plot\PYZus{}hist\PYZus{}by\PYZus{}group}\PY{p}{(}\PY{n}{df\PYZus{}plot}\PY{p}{,}\PY{n}{groupby\PYZus{}col}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{release\PYZus{}type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{barh}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,}\PY{n}{rot}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{,}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,}\PY{l+m+mi}{6}\PY{p}{)}\PY{p}{,}
+                               \PY{n}{label\PYZus{}map}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,}\PY{n}{xlabel}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Release Type}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                               \PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Recidivism by Type of Release}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_57_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_57_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_57_2.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_57_3.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \hypertarget{conclusions}{%
+\section{CONCLUSIONS}\label{conclusions}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{After adjusting for imbalanced classes, the most important
+  factor for determining recidivism are:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Age at Release}
+  \item
+    \textbf{Supervising Judicial District}
+  \item
+    \textbf{Release Type}
+  \item
+    \textbf{Crime Subtype}
   \end{itemize}
 \end{itemize}
 
-\hypertarget{travis.yml}{%
-\subsubsection{travis.yml}\label{travis.yml}}
-
-\textbf{travis.yml controls the build testing and deployment process.} -
-At the top of the file, there is a list of python versions (3.6, 3.5,
-etc.) - {[} {]} You may want to remove versions of python that your
-package cannot support. - For example, f-string formatting wasn't added
-until Python 3.6
-\texttt{print(f"Print\ the\ \{variable\_contents\}\textquotesingle{})} -
-Otherwise, your build will fail when travis tests the older version of
-python, since you used functions that were not compatible with old
-versions. - bs\_ds only supports 3.6 at the moment. - At the bottom of
-the file, there is a \texttt{deploy:} section. - I personally had
-difficult using \texttt{-\/-tags} in order to trigger the deployment of
-bs\_ds. - I removed the \texttt{tags:true} line under \texttt{on:},
-which is at the bottom of the \texttt{deploy:} section.
-
-\hypertarget{setup.cfg}{%
-\subsubsection{setup.cfg}\label{setup.cfg}}
+\hypertarget{recommendatons}{%
+\subsection{Recommendatons}\label{recommendatons}}
 
 \begin{itemize}
 \tightlist
 \item
-  {[} {]} If you removed the
-  \texttt{tags:true\textasciigrave{}\textasciigrave{}\ line\ from\ travis.yml,\ you\ should\ also\ remove:}tag
-  = True``under {[}bumpversion{]}
-\end{itemize}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{[bumpversion]}
-\NormalTok{current_version }\OperatorTok{=} \DecValTok{0}\NormalTok{.}\FloatTok{1.0}
-\NormalTok{commit }\OperatorTok{=} \VariableTok{True}
-\NormalTok{tag }\OperatorTok{=} \VariableTok{True}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-- This means that instead of waiting for a special --tagged commit ...
-\end{verbatim}
-
-{[}!{]} \_\_\_ \# Updating and Deploying Your Package - For a checklist
-of steps to deploy an updated version of your package,
-\href{https://gist.github.com/audreyr/5990987}{see this file.}
-
-\hypertarget{to-deploy-an-updated-version-of-your-package}{%
-\subsection{To deploy an updated version of your
-package:}\label{to-deploy-an-updated-version-of-your-package}}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  {[} {]} Debug your modules.
-\item
-  {[} {]} Save all updated files and commit them to your repo.
-\item
-  {[} {]} Bump the version number and commit again.
-\item
-  {[} {]} Push the repo back to git.
-\end{enumerate}
-
-\hypertarget{to-check-on-the-status-of-your-package}{%
-\subsection{To check on the status of your
-package:}\label{to-check-on-the-status-of-your-package}}
-
-\hypertarget{checking-build-tests-on-travis-ci.org}{%
-\subsubsection{Checking build tests on
-travis-CI.org}\label{checking-build-tests-on-travis-ci.org}}
-
-\hypertarget{checking-documentation-creation-on-readthedocs.org}{%
-\subsubsection{Checking documentation creation on
-readthedocs.org}\label{checking-documentation-creation-on-readthedocs.org}}
-
-\hypertarget{debug-your-modules-before-committing-to-save-time-instead-of-waiting-for-travis-ci}{%
-\subsubsection{Debug your modules before committing (to save time
-instead of waiting for
-Travis-CI)}\label{debug-your-modules-before-committing-to-save-time-instead-of-waiting-for-travis-ci}}
-
-\begin{itemize}
-\tightlist
-\item
-  Visual Studio Code has a very handy Debug feature, which you can
-  access from the sidebar (its the symbol with the bug on it).
-\item
-  On the top of the sidebar that appears, there is a dropdown menu with
-  a green play button.
+  This model could be used to predict which prisoners due for release
+  may at the greatest risk for recidivism.
 
   \begin{itemize}
   \tightlist
   \item
-    Open the file you want to test (testing \textbf{init}.py is always
-    recommended, but you should test any modules that have been updated.
+    Using this knowledge, the state of Iowa could put new programs into
+    action that target those at high risk for recidivism and provide
+    additional assistance and guidance following release.
   \item
-    From this menu, select Python Module. \#\#\# UPDATE THE VERSION \#:
-  \item
-    PyPi.org will only accept new versions of your package if it has a
-    unique version number.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      It does not matter if your code has changed, PyPi will not publish
-      it if the version number already exists.
-    \item
-      To change the version \#s for your package, we use ``bumpversion''
-    \end{itemize}
+    Additionally, there could be additional counseling or education
+    \emph{prior} to release to supply the inmate with tools and options
+    to avoid returning to a life of crime.
   \end{itemize}
 \end{itemize}
 
-\hypertarget{bumpversion}{%
-\paragraph{bumpversion:}\label{bumpversion}}
+\hypertarget{future-directions}{%
+\section{FUTURE DIRECTIONS}\label{future-directions}}
 
 \begin{itemize}
 \tightlist
 \item
-  The version number for your package is located in 3 file locations:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    setup.cfg
-  \item
-    setup.py
-  \item
-    \textbf{init}.py
-  \end{itemize}
+  With more time and reliable performance, would perform
+  cross-validation of our final model.
 \item
-  \textbf{bumpversion} will increment all 3 locations when you enter a
-  bumpversion command in your terminal.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    bumpversion has understands 3 types of updates: major, minor, and
-    patch.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      For example, let's say your package is currently v 0.1.0
-
-      \begin{itemize}
-      \tightlist
-      \item
-        \texttt{bumpversion\ major}
-
-        \begin{itemize}
-        \tightlist
-        \item
-          Increment version \#'s by 1's
-        \item
-          v 0.1.0 is bumped to v 1.0.0
-        \end{itemize}
-      \item
-        \texttt{bumpversion\ minor}
-
-        \begin{itemize}
-        \tightlist
-        \item
-          increments version by 0.1
-        \item
-          v 0.1.0 is bumped to v 0.2.0
-        \end{itemize}
-      \item
-        \texttt{bumpversion\ patch}
-
-        \begin{itemize}
-        \tightlist
-        \item
-          increments version by 0.0.1
-        \item
-          v 0.1.0 is bumped to v 0.1.1
-        \end{itemize}
-      \end{itemize}
-    \end{itemize}
-  \item
-    Before entering the bumpversion command, you must commit any changes
-    you've made to your repo.
-
-    \begin{itemize}
-    \tightlist
-    \item
-      bumpversion will return an error if you try to bump without
-      committing first.
-    \end{itemize}
-  \item
-    {[} {]} To increment your package's version \#:
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Commit any changes you've made for your new version. (note: you do
-      not need to \texttt{git\ push} yet. Committing the changes is
-      sufficient to appease bumpversion)
-    \end{itemize}
-  \item
-    {[} {]} Enter the appropriate bumpversion command depending on how
-    much you'd like to increase the version \#.
-  \item
-    {[} {]} Push the updated repo. If you removed the tags:true entries
-    as suggested above, Travis-CI will automatically build test and
-    attempt to deploy any commits to your package.
-  \end{itemize}
-\item
-  NOTE: While this may sound risky, its actually not, since PyPi will
-  not deploy any packages with the same version \#.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    As long as you do not bumpversion, Travis will \emph{test} your
-    updated package, but it will \emph{fail to deploy it}. since PyPi
-    already has a pre-existing distribution for that version \#.
-  \item
-    Documentation Note:
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Readthedocs.org will test and update your documentation for ANY
-      commit. So if you only need to update an aspect of the doc's, you
-      can simply change the settings and push your repo \emph{without}
-      having to bumpversion.
-    \end{itemize}
-  \end{itemize}
+  An additional model to predict the types of crimes types committed by
+  recidivists.
 \end{itemize}
 
 
