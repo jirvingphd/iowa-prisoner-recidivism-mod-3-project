@@ -1,0 +1,1001 @@
+,main_supervising_district,release_type,race_ethnicity,age_at_release,sex,offense_class,offense_type,offense_subtype,return_to_prison,target_population
+0,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,Yes,Yes
+1,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,Yes,No
+2,5JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,Yes,Yes
+3,6JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Other,Other Criminal,No,Yes
+4,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,Yes,No
+5,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+6,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+7,6JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,OWI,Yes,Yes
+8,7JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Forgery/Fraud,No,Yes
+9,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Other Violent,Yes,Yes
+10,3JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+11,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+12,8JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,Yes
+13,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,No
+14,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,No
+15,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Property,Burglary,No,Yes
+16,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,OWI,Yes,No
+17,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Theft,Yes,Yes
+18,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,C Felony,Violent,Sex,No,No
+19,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+20,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+21,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,Yes
+22,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,Yes
+23,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+24,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+25,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+26,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+27,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,Yes
+28,1JD,Parole,Black - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,No,Yes
+29,2JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Property,Theft,No,Yes
+30,1JD,Parole,American Indian or Alaska Native - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+31,5JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,Yes
+32,8JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Theft,Yes,Yes
+33,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,Yes
+34,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+35,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+36,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+37,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+38,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+39,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+40,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+41,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+42,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+43,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,Yes
+44,6JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,Yes
+45,1JD,Parole,White - Non-Hispanic,55 and Older,Male,C Felony,Property,Theft,No,Yes
+46,8JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,Yes
+47,1JD,Parole,Black - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+48,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,Yes
+49,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,Yes
+50,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,Yes
+51,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+52,7JD,Parole,White - Non-Hispanic,45-54,Female,Felony - Enhanced,Drug,Trafficking,Yes,Yes
+53,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,No,No
+54,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,Yes,No
+55,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,45-54,Female,D Felony,Drug,Other Drug,No,No
+56,6JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Burglary,Yes,Yes
+57,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,Yes,Yes
+58,1JD,Parole,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+59,1JD,Parole,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+60,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,No
+61,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,No
+62,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,No
+63,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Theft,Yes,No
+64,,Discharged – End of Sentence,American Indian or Alaska Native - Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+65,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,Yes
+66,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,Yes
+67,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,Yes
+68,4JD,Parole,White - Non-Hispanic,25-34,Female,B Felony,Other,Other Criminal,Yes,Yes
+69,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,Yes
+70,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+71,,Discharged – End of Sentence,Asian or Pacific Islander - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Vandalism,No,No
+72,2JD,Parole,Black - Non-Hispanic,55 and Older,Male,C Felony,Drug,Trafficking,Yes,Yes
+73,8JD,Parole,White - Hispanic,35-44,Male,C Felony,Violent,Robbery,No,Yes
+74,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+75,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+76,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+77,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+78,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+79,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Female,B Felony,Violent,Sex,No,No
+80,4JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,Yes
+81,1JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Other Drug,No,Yes
+82,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Other Violent,No,No
+83,1JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Weapons,No,Yes
+84,1JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,Yes
+85,5JD,Parole,White - Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+86,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+87,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+88,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+89,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+90,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+91,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+92,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+93,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+94,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+95,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+96,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,No
+97,8JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Drug,Drug Possession,No,Yes
+98,8JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,Yes,Yes
+99,1JD,Parole,White - Non-Hispanic,55 and Older,Female,D Felony,Property,Theft,Yes,Yes
+100,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Other Violent,Yes,Yes
+101,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Violent,Other Violent,Yes,Yes
+102,1JD,Parole,White - Non-Hispanic,45-54,Female,D Felony,Property,Theft,No,Yes
+103,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,Yes,Yes
+104,7JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+105,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,Yes,No
+106,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,Yes
+107,7JD,Parole,Black - Non-Hispanic,35-44,Female,D Felony,Property,Theft,No,Yes
+108,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Burglary,No,No
+109,,Discharged – End of Sentence,Asian or Pacific Islander - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,No
+110,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,Yes
+111,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,Yes
+112,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,Yes
+113,2JD,Parole,White - Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+114,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,No
+115,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,Yes
+116,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+117,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,Yes
+118,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,Yes,No
+119,,Discharged – End of Sentence,White - Hispanic,35-44,Female,D Felony,Property,Theft,No,No
+120,,Discharged – End of Sentence,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Trafficking,No,No
+121,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,No,No
+122,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,No,No
+123,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,No,No
+124,6JD,Parole,Black - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Theft,Yes,Yes
+125,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+126,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+127,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+128,,Discharged – End of Sentence,White - Hispanic,25-34,Male,C Felony,Violent,Sex,No,No
+129,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,No,Yes
+130,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,No,Yes
+131,7JD,Parole,White - Hispanic,55 and Older,Male,C Felony,Drug,Trafficking,No,Yes
+132,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,Yes,Yes
+133,8JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Assault,No,Yes
+134,7JD,Parole,White - Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+135,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Violent,Robbery,Yes,Yes
+136,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+137,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+138,4JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,Yes,Yes
+139,2JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Vandalism,Yes,Yes
+140,2JD,Parole,White - Hispanic,25-34,Male,D Felony,Public Order,OWI,No,Yes
+141,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Drug,Drug Possession,No,No
+142,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,Yes,Yes
+143,5JD,Parole,White - Non-Hispanic,Under 25,Female,C Felony,Drug,Trafficking,Yes,Yes
+144,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Flight/Escape,No,No
+145,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Alcohol,Yes,No
+146,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,Yes,No
+147,7JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,Yes
+148,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Vandalism,Yes,No
+149,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,Yes
+150,5JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,No,Yes
+151,5JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,Yes
+152,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Drug Possession,Yes,Yes
+153,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,Yes,Yes
+154,1JD,Special Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,Yes
+155,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,No,Yes
+156,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,Yes
+157,5JD,Parole,Black - Non-Hispanic,25-34,Female,C Felony,Property,Theft,Yes,Yes
+158,1JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,Yes,Yes
+159,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,No
+160,5JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,Yes,Yes
+161,5JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,Yes
+162,7JD,Parole,Black - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Forgery/Fraud,Yes,Yes
+163,5JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,Yes
+164,4JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Public Order,OWI,Yes,Yes
+165,7JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+166,7JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+167,2JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,No,Yes
+168,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,Yes,No
+169,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+170,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,Yes,No
+171,1JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,Yes,Yes
+172,8JD,Parole,Black - Non-Hispanic,45-54,Female,C Felony,Property,Theft,No,Yes
+173,3JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Weapons,No,Yes
+174,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Burglary,No,No
+175,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,Yes,No
+176,5JD,Special Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Sex,No,Yes
+177,7JD,Parole,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,Yes
+178,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Property,Burglary,No,No
+179,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Property,Burglary,No,No
+180,3JD,Parole,American Indian or Alaska Native - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+181,8JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Property,Forgery/Fraud,Yes,Yes
+182,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+183,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,Yes
+184,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+185,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+186,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Other Felony (Old Code),Violent,Murder/Manslaughter,No,No
+187,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Other Felony (Old Code),Violent,Murder/Manslaughter,No,No
+188,6JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,Yes
+189,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,Yes,Yes
+190,7JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,No,Yes
+191,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,Yes
+192,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+193,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+194,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+195,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+196,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+197,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+198,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+199,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+200,7JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,Yes
+201,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,No
+202,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,Yes,No
+203,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Public Order,Weapons,Yes,No
+204,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,D Felony,Property,Theft,No,No
+205,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,D Felony,Property,Theft,No,No
+206,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,D Felony,Property,Theft,No,No
+207,1JD,Parole,American Indian or Alaska Native - Non-Hispanic,35-44,Female,D Felony,Property,Burglary,No,Yes
+208,8JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,No,Yes
+209,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,D Felony,Property,Theft,Yes,No
+210,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,No
+211,5JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Violent,Assault,Yes,Yes
+212,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,No
+213,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,No
+214,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,Yes,No
+215,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,Yes
+216,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Theft,Yes,Yes
+217,4JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Arson,No,Yes
+218,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,No
+219,1JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,Yes
+220,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Burglary,No,No
+221,3JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Burglary,Yes,Yes
+222,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,Yes
+223,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,Yes
+224,3JD,Parole,White - Hispanic,55 and Older,Female,D Felony,Public Order,OWI,Yes,Yes
+225,5JD,Parole,White - Hispanic,Under 25,Male,C Felony,Property,Burglary,No,Yes
+226,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Burglary,No,No
+227,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Burglary,No,No
+228,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Violent,Assault,No,No
+229,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Violent,Assault,No,No
+230,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Violent,Assault,No,No
+231,6JD,Parole,White - Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,Yes
+232,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,Yes
+233,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Burglary,No,No
+234,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Burglary,No,No
+235,7JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Violent,Sex,No,Yes
+236,8JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,Yes
+237,6JD,Parole,White - Non-Hispanic,Under 25,Female,D Felony,Drug,Other Drug,Yes,Yes
+238,4JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,Yes
+239,7JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,Yes
+240,2JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+241,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,OWI,No,Yes
+242,1JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+243,1JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+244,1JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+245,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Vandalism,No,No
+246,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Vandalism,No,No
+247,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+248,3JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Trafficking,No,Yes
+249,3JD,Special Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Sex,Yes,Yes
+250,3JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,Yes
+251,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,Yes
+252,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Assault,No,Yes
+253,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+254,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+255,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+256,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+257,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+258,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+259,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+260,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+261,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+262,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+263,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+264,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+265,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+266,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+267,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+268,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+269,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+270,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+271,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+272,7JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,Yes,Yes
+273,1JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Property,Theft,No,Yes
+274,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,Yes
+275,1JD,Parole,White - Non-Hispanic,45-54,Female,Felony - Enhanced,Public Order,Flight/Escape,Yes,Yes
+276,8JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,Yes
+277,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,Yes
+278,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,Flight/Escape,Yes,Yes
+279,4JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,Yes
+280,1JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,Yes
+281,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+282,5JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,Yes
+283,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+284,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,Yes
+285,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+286,4JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Property,Arson,No,Yes
+287,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Murder/Manslaughter,No,Yes
+288,7JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,Yes
+289,,Discharged – End of Sentence,White -,35-44,Male,Aggravated Misdemeanor,Violent,Assault,No,No
+290,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,Yes
+291,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,Yes
+292,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,Yes,No
+293,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,Yes,Yes
+294,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Drug Possession,Yes,Yes
+295,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,No,Yes
+296,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,Yes
+297,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,Yes
+298,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Other Drug,No,Yes
+299,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,No
+300,3JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,Yes
+301,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Burglary,Yes,No
+302,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,Yes
+303,5JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,Yes,Yes
+304,1JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,Yes
+305,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+306,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,No
+307,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,Yes
+308,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,Yes
+309,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+310,7JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,Yes,Yes
+311,5JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+312,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Public Order,OWI,No,No
+313,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,Yes,Yes
+314,4JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,Yes,Yes
+315,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,Yes,Yes
+316,6JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,Yes
+317,8JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Sex,No,Yes
+318,2JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Violent,Other Violent,Yes,Yes
+319,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,No
+320,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+321,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+322,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+323,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+324,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+325,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+326,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+327,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+328,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+329,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,Yes
+330,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Serious Misdemeanor,Violent,Assault,No,No
+331,2JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Violent,Assault,No,Yes
+332,7JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Public Order,Flight/Escape,Yes,Yes
+333,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,Yes
+334,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,Yes
+335,6JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Violent,Murder/Manslaughter,No,Yes
+336,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Vandalism,No,Yes
+337,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,No
+338,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,No
+339,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,No
+340,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,No
+341,8JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,Yes
+342,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,No,Yes
+343,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,No,Yes
+344,3JD,Parole,White - Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,Yes
+345,,Discharged – End of Sentence,White - Hispanic,25-34,Female,Aggravated Misdemeanor,Property,Theft,No,No
+346,5JD,Parole,White - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Property,Theft,No,Yes
+347,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Felony - Enhanced,Drug,Trafficking,No,No
+348,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Murder/Manslaughter,No,Yes
+349,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,Yes,Yes
+350,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,Yes
+351,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,Yes
+352,2JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+353,1JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,Yes
+354,7JD,Special Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Other,Special Sentence Revocation,No,Yes
+355,5JD,Parole,White - Non-Hispanic,45-54,Female,B Felony,Drug,Trafficking,No,Yes
+356,5JD,Parole,Black - Non-Hispanic,45-54,Male,B Felony,Other,Other Criminal,No,Yes
+357,5JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,Yes
+358,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+359,5JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,Yes
+360,1JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Public Order,OWI,No,Yes
+361,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Other Violent,No,No
+362,5JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,Yes
+363,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,Yes
+364,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+365,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+366,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+367,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+368,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+369,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+370,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+371,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Violent,Sex,Yes,No
+372,2JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Theft,Yes,Yes
+373,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,No
+374,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Vandalism,Yes,No
+375,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,Serious Misdemeanor,Drug,Trafficking,No,No
+376,7JD,Parole,White - Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,Yes
+377,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,No,No
+378,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,No,No
+379,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,No
+380,6JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,Yes
+381,6JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,Yes
+382,5JD,Parole,White - Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,No,Yes
+383,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,Yes
+384,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Public Order,Traffic,No,Yes
+385,3JD,Special Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Sex,Yes,Yes
+386,,Discharged – End of Sentence,White - Hispanic,25-34,Male,C Felony,Violent,Other Violent,No,No
+387,,Discharged – End of Sentence,White - Hispanic,25-34,Male,C Felony,Violent,Other Violent,No,No
+388,5JD,Parole,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,Yes,Yes
+389,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,No,No
+390,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,No
+391,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,Yes,Yes
+392,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+393,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+394,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+395,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+396,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+397,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+398,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+399,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+400,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,No
+401,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,Yes
+402,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,No
+403,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,No
+404,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,No
+405,1JD,Parole,White - Non-Hispanic,Under 25,Male,B Felony,Drug,Trafficking,Yes,Yes
+406,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,No,No
+407,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,No,No
+408,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,No,No
+409,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Drug Possession,No,Yes
+410,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+411,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+412,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+413,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+414,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+415,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+416,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+417,5JD,Parole,Black - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,Yes
+418,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Vandalism,Yes,No
+419,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,No
+420,1JD,Parole,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Drug,Trafficking,Yes,Yes
+421,6JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Violent,Sex,No,Yes
+422,2JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,Yes
+423,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,Yes
+424,3JD,Parole,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,Yes
+425,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,No,No
+426,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,No,No
+427,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Vandalism,No,Yes
+428,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Vandalism,No,Yes
+429,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Sex,Yes,No
+430,7JD,Parole,White - Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,Yes,Yes
+431,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+432,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+433,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+434,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+435,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+436,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+437,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+438,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+439,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,Yes
+440,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,Yes
+441,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,Yes
+442,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,No
+443,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Violent,Assault,Yes,No
+444,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,Yes
+445,1JD,Parole,White - Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,Yes
+446,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,Yes
+447,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,Yes
+448,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Violent,Assault,No,No
+449,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Violent,Assault,No,No
+450,8JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+451,7JD,Parole,White - Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+452,7JD,Parole,White - Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+453,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,Yes
+454,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,Yes
+455,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,B Felony,Violent,Murder/Manslaughter,Yes,No
+456,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,No,No
+457,7JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,Yes
+458,7JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,Yes
+459,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Theft,No,No
+460,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Theft,No,No
+461,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,Felony - Enhanced,Property,Theft,Yes,No
+462,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,Yes
+463,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Public Order,Alcohol,No,No
+464,5JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Burglary,Yes,Yes
+465,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,Serious Misdemeanor,Violent,Assault,Yes,No
+466,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,No
+467,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,No
+468,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,No
+469,6JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Public Order,OWI,No,Yes
+470,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Other,Other Violent,No,No
+471,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,No
+472,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,No
+473,7JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,No,Yes
+474,7JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,No,Yes
+475,1JD,Parole,Black - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Property,Theft,No,Yes
+476,,Discharged – End of Sentence,White - Hispanic,35-44,Female,D Felony,Public Order,OWI,No,No
+477,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+478,5JD,Parole,Black - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,Yes,Yes
+479,5JD,Parole,White - Non-Hispanic,25-34,Female,C Felony,Property,Burglary,Yes,Yes
+480,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+481,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+482,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+483,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,No
+484,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,Yes
+485,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Violent,Sex,Yes,No
+486,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Theft,Yes,Yes
+487,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,No
+488,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,No
+489,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,No
+490,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,No
+491,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,No
+492,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Murder/Manslaughter,No,Yes
+493,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,No
+494,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,No
+495,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,No
+496,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,No
+497,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,No
+498,5JD,Parole,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,Yes,Yes
+499,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,No
+500,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,No
+501,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,No
+502,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,No
+503,7JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,Yes
+504,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,Yes
+505,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,No
+506,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,No
+507,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,No
+508,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+509,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+510,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+511,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+512,5JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,Yes
+513,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,Yes
+514,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+515,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+516,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+517,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+518,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+519,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+520,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+521,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+522,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+523,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+524,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+525,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+526,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+527,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,No
+528,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,No
+529,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,No
+530,7JD,Special Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Sex,Yes,Yes
+531,1JD,Parole,White - Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,Yes
+532,2JD,Parole,White - Hispanic,35-44,Male,D Felony,Property,Theft,No,Yes
+533,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,No
+534,2JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Public Order,Traffic,No,Yes
+535,,Discharged – End of Sentence,White - Hispanic,45-54,Male,D Felony,Property,Theft,No,No
+536,8JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Violent,Sex,No,Yes
+537,1JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,Yes,Yes
+538,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,No,No
+539,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,Yes,Yes
+540,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Serious Misdemeanor,Violent,Assault,No,No
+541,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Serious Misdemeanor,Violent,Assault,No,No
+542,1JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Burglary,Yes,Yes
+543,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Other Drug,No,No
+544,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Other Drug,No,No
+545,8JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,Yes
+546,1JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Violent,Assault,No,Yes
+547,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Burglary,Yes,No
+548,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,Yes
+549,4JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Trafficking,No,Yes
+550,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Violent,Murder/Manslaughter,No,No
+551,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Violent,Murder/Manslaughter,No,No
+552,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+553,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+554,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+555,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+556,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+557,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+558,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+559,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+560,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+561,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+562,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Burglary,No,No
+563,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Female,D Felony,Property,Theft,No,No
+564,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+565,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+566,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+567,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+568,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+569,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,Yes,Yes
+570,1JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,Yes
+571,1JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,Yes
+572,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,Yes
+573,5JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,Yes
+574,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,No
+575,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,No
+576,4JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,Yes
+577,4JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,Yes
+578,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,Yes
+579,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,Yes
+580,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,Yes
+581,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,Yes
+582,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+583,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,No
+584,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,Aggravated Misdemeanor,Violent,Assault,No,No
+585,6JD,Parole,Black - Non-Hispanic,45-54,Male,C Felony,Property,Burglary,No,Yes
+586,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Arson,Yes,No
+587,3JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,No,Yes
+588,3JD,Parole,White - Non-Hispanic,55 and Older,Male,B Felony,Drug,Trafficking,No,Yes
+589,1JD,Parole,Black - Non-Hispanic,45-54,Female,Felony - Enhanced,Drug,Trafficking,No,Yes
+590,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Arson,No,No
+591,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,35-44,Male,D Felony,Violent,Murder/Manslaughter,No,No
+592,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+593,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+594,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+595,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,No
+596,8JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,Yes
+597,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,No
+598,6JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,Yes
+599,2JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Forgery/Fraud,No,Yes
+600,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,Yes,Yes
+601,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,D Felony,Violent,Assault,No,No
+602,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,D Felony,Violent,Assault,No,No
+603,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,No
+604,8JD,Parole,White - Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+605,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,C Felony,Violent,Kidnap,No,No
+606,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,No
+607,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,No
+608,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,No
+609,1JD,Parole,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,Yes
+610,1JD,Parole,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,Yes
+611,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Drug,Drug Possession,Yes,No
+612,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Robbery,No,No
+613,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Robbery,No,No
+614,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,Yes
+615,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,Yes
+616,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,Yes
+617,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,No
+618,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,No
+619,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,No
+620,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,No
+621,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,Yes
+622,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,D Felony,Property,Vandalism,No,No
+623,,Discharged – End of Sentence,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,Yes,No
+624,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,Yes
+625,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,Yes
+626,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,Yes
+627,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,Yes
+628,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,No
+629,1JD,Parole,Black - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Drug Possession,Yes,Yes
+630,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,Yes
+631,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,No
+632,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+633,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Property,Forgery/Fraud,Yes,No
+634,,Discharged – End of Sentence,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,OWI,No,No
+635,,Discharged – End of Sentence,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,OWI,No,No
+636,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Stolen Property,No,No
+637,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Arson,No,Yes
+638,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,Yes
+639,3JD,Parole,White - Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,Yes
+640,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,No
+641,3JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,Yes
+642,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,Yes
+643,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Trafficking,Yes,Yes
+644,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Sex,No,Yes
+645,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Burglary,Yes,No
+646,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+647,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+648,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+649,7JD,Parole,White - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Public Order,Prostitution/Pimping,No,Yes
+650,2JD,Parole,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,Yes
+651,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,No
+652,7JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Public Order,OWI,Yes,Yes
+653,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,Yes,No
+654,5JD,Parole,White - Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+655,,Discharged – End of Sentence,Asian or Pacific Islander - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,No
+656,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Public Order,Weapons,Yes,No
+657,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,Yes
+658,6JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Drug,Trafficking,Yes,Yes
+659,1JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,Yes,Yes
+660,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,No
+661,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,No
+662,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,No
+663,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,Yes,No
+664,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Drug,Drug Possession,Yes,No
+665,5JD,Parole,White - Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,Yes
+666,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Arson,No,Yes
+667,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,No
+668,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+669,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+670,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+671,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+672,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+673,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+674,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,Yes
+675,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+676,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+677,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+678,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+679,8JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Public Order,OWI,Yes,Yes
+680,,Discharged – End of Sentence,White - Hispanic,55 and Older,Male,D Felony,Violent,Assault,No,No
+681,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+682,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+683,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+684,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+685,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,C Felony,Drug,Trafficking,Yes,No
+686,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Assault,No,No
+687,5JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Other Drug,No,Yes
+688,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,Yes
+689,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,Yes,No
+690,1JD,Parole,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,Yes
+691,3JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+692,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,C Felony,Drug,Trafficking,No,No
+693,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,No
+694,6JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,Yes
+695,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+696,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Public Order,OWI,No,No
+697,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,No
+698,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,No
+699,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,No
+700,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,No
+701,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,No
+702,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+703,8JD,Parole,White - Hispanic,25-34,Male,C Felony,Property,Burglary,No,Yes
+704,5JD,Parole,White - Non-Hispanic,25-34,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,No,Yes
+705,6JD,Parole,Asian or Pacific Islander - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+706,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+707,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+708,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+709,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+710,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+711,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+712,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+713,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+714,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,No
+715,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+716,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+717,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+718,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+719,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+720,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+721,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+722,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+723,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,No
+724,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,B Felony,Violent,Sex,No,No
+725,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,Yes,No
+726,2JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+727,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,No
+728,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,No,Yes
+729,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,No,Yes
+730,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+731,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+732,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+733,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,No
+734,2JD,Parole,Asian or Pacific Islander - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+735,7JD,Parole,White - Non-Hispanic,Under 25,Female,D Felony,Property,Theft,No,Yes
+736,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,Yes
+737,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Property,Arson,No,No
+738,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,No
+739,7JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,Yes,Yes
+740,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,Yes
+741,5JD,Special Sentence,White - Non-Hispanic,25-34,Male,Serious Misdemeanor,Violent,Sex,Yes,Yes
+742,5JD,Parole,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,Yes,Yes
+743,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,Yes
+744,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+745,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+746,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+747,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+748,1JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,Yes,Yes
+749,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,No
+750,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,No
+751,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,B Felony,Violent,Other Violent,No,No
+752,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,Yes,No
+753,1JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Drug Possession,Yes,Yes
+754,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+755,,,White - Non-Hispanic,35-44,Male,C Felony,Violent,Sex,No,No
+756,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+757,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+758,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+759,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+760,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+761,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+762,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+763,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+764,,,White - Non-Hispanic,35-44,Male,C Felony,Violent,Sex,No,No
+765,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+766,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+767,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+768,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+769,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+770,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+771,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,No
+772,,Discharged – End of Sentence,White - Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+773,,Discharged – End of Sentence,White - Hispanic,35-44,Male,D Felony,Property,Burglary,No,No
+774,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Other Violent,No,No
+775,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Robbery,Yes,No
+776,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+777,1JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,Yes
+778,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+779,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+780,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+781,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+782,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,No
+783,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+784,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,No
+785,2JD,Parole,American Indian or Alaska Native - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,Yes
+786,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Theft,Yes,Yes
+787,1JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+788,5JD,Parole,White - Non-Hispanic,55 and Older,Female,D Felony,Drug,Drug Possession,No,Yes
+789,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,Yes
+790,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,Yes
+791,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,Yes
+792,3JD,Parole,Black - Non-Hispanic,Under 25,Female,D Felony,Public Order,Flight/Escape,No,Yes
+793,1JD,Parole,Black - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,Yes,Yes
+794,6JD,Parole,Black - Hispanic,25-34,Male,C Felony,Violent,Robbery,Yes,Yes
+795,5JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Burglary,No,Yes
+796,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,No
+797,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Violent,Assault,No,No
+798,5JD,Special Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Sex,Yes,Yes
+799,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,Yes,Yes
+800,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,Yes
+801,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,Yes
+802,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,Yes
+803,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,No
+804,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,No
+805,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,No
+806,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,Yes
+807,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+808,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+809,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,Yes
+810,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Weapons,No,No
+811,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Other Violent,No,No
+812,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Other Violent,No,No
+813,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,B Felony,Violent,Sex,No,No
+814,5JD,Special Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Violent,Sex,Yes,Yes
+815,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,No
+816,2JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Violent,Assault,No,Yes
+817,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Female,D Felony,Property,Forgery/Fraud,Yes,No
+818,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,No
+819,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,No
+820,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,Yes,No
+821,2JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,Yes
+822,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,No
+823,6JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,Yes
+824,6JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,Yes
+825,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,D Felony,Public Order,OWI,Yes,No
+826,5JD,Special Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Sex,Yes,Yes
+827,7JD,Parole,Black - Non-Hispanic,25-34,Female,C Felony,Drug,Trafficking,No,Yes
+828,5JD,Parole,White - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Public Order,Alcohol,Yes,Yes
+829,4JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,Yes
+830,4JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,Yes
+831,2JD,Parole,White - Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+832,2JD,Parole,White - Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,Yes
+833,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+834,5JD,Special Sentence,White - Non-Hispanic,35-44,Male,D Felony,Violent,Sex,Yes,Yes
+835,6JD,Parole,White - Hispanic,35-44,Male,D Felony,Public Order,OWI,Yes,Yes
+836,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,Yes
+837,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,No
+838,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,Felony - Enhanced,Property,Theft,Yes,No
+839,7JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Vandalism,No,Yes
+840,3JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,Yes
+841,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,Yes,Yes
+842,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,No
+843,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+844,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,Yes,Yes
+845,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Sex Offender Registry/Residency,Yes,No
+846,7JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,Yes
+847,6JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Theft,Yes,Yes
+848,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+849,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+850,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+851,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+852,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+853,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+854,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+855,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+856,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+857,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+858,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+859,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,No
+860,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Violent,Murder/Manslaughter,No,Yes
+861,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,Yes
+862,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,OWI,Yes,Yes
+863,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,Yes
+864,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,No
+865,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,No
+866,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,No
+867,8JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,No,Yes
+868,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,Yes
+869,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,Yes
+870,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,Yes
+871,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,Yes
+872,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Violent,Assault,No,No
+873,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Violent,Assault,No,No
+874,8JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,Yes
+875,5JD,Parole,White - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Property,Theft,No,Yes
+876,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+877,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,Yes
+878,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,Yes,Yes
+879,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Sex,No,No
+880,7JD,Special Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Sex,Yes,Yes
+881,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,Yes
+882,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Violent,Sex,No,No
+883,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Violent,Sex,No,No
+884,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Violent,Sex,No,No
+885,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,No
+886,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,No
+887,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,No
+888,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,No
+889,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,No
+890,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,No
+891,5JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,Yes
+892,2JD,Parole,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Public Order,Traffic,Yes,Yes
+893,2JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,Yes
+894,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,OWI,Yes,Yes
+895,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,No,Yes
+896,5JD,Parole,White - Non-Hispanic,Under 25,Male,B Felony,Violent,Other Violent,No,Yes
+897,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,25-34,Female,D Felony,Public Order,OWI,No,No
+898,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Other Violent,No,Yes
+899,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+900,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+901,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+902,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+903,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,No,Yes
+904,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,No,Yes
+905,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,No
+906,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,No
+907,5JD,Parole,White - Non-Hispanic,25-34,Female,Felony - Enhanced,Drug,Trafficking,No,Yes
+908,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+909,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+910,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+911,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+912,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+913,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,Yes
+914,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,No
+915,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,No
+916,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,No
+917,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,No
+918,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,No
+919,2JD,Special Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Other,Special Sentence Revocation,No,Yes
+920,6JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,Yes
+921,2JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Other,Other Criminal,Yes,Yes
+922,1JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Traffic,No,Yes
+923,4JD,Parole,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,Yes
+924,8JD,Parole,White - Non-Hispanic,55 and Older,Male,Serious Misdemeanor,Violent,Sex,No,Yes
+925,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,Yes
+926,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,Yes
+927,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,Yes
+928,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,Yes
+929,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,Yes
+930,1JD,Parole,White - Non-Hispanic,25-34,Male,Sexual Predator Community Supervision,Violent,Sex,No,Yes
+931,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,Yes
+932,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+933,6JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,Yes,Yes
+934,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,Yes
+935,5JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,Yes
+936,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,Yes
+937,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,Yes
+938,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Assault,Yes,Yes
+939,6JD,Special Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Sex,No,Yes
+940,5JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Theft,No,Yes
+941,8JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Murder/Manslaughter,No,Yes
+942,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Violent,Murder/Manslaughter,No,No
+943,8JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+944,8JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+945,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,No
+946,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,No
+947,2JD,Parole,White - Non-Hispanic,25-34,Female,C Felony,Drug,Trafficking,Yes,Yes
+948,5JD,Parole,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,Yes
+949,7JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Property,Arson,No,Yes
+950,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,No,No
+951,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,Yes
+952,6JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,Yes
+953,5JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Drug,Trafficking,Yes,Yes
+954,4JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,No,Yes
+955,4JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,No,Yes
+956,4JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,No,Yes
+957,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Theft,Yes,No
+958,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,No
+959,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,No
+960,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,No
+961,8JD,Parole,White - Non-Hispanic,Under 25,Female,D Felony,Property,Forgery/Fraud,No,Yes
+962,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,No,No
+963,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,No,No
+964,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,No,No
+965,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,D Felony,Public Order,OWI,No,No
+966,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,D Felony,Public Order,OWI,No,No
+967,8JD,Parole,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,No,Yes
+968,7JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,Yes
+969,1JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,OWI,Yes,Yes
+970,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+971,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+972,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+973,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+974,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+975,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+976,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+977,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,Yes
+978,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,No
+979,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,Yes
+980,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,Yes
+981,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Drug Possession,No,Yes
+982,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,Aggravated Misdemeanor,Violent,Assault,No,No
+983,3JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,Yes
+984,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,Yes
+985,5JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Drug,Drug Possession,Yes,Yes
+986,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,Yes
+987,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+988,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+989,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+990,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,Yes
+991,5JD,Parole,Black - Non-Hispanic,35-44,Female,C Felony,Drug,Trafficking,No,Yes
+992,5JD,Parole,Black - Non-Hispanic,35-44,Female,C Felony,Drug,Trafficking,No,Yes
+993,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,No
+994,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,No
+995,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,No
+996,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,No
+997,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,No
+998,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,Yes
+999,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,No
