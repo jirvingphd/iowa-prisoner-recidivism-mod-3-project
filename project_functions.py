@@ -12,7 +12,7 @@ from IPython.display import display
 
 
 def evaluate_classification(model, X_test,y_test,cmap='Greens',
-                            normalize='true',classes=None,figsize=(10,4),
+                            normalize='true',classes=['No-Recid','Yes-Recid'],figsize=(10,4),
                             X_train = None, y_train = None,label='Test Data',
                             return_report=False):
     """Evaluates a scikit-learn binary classification model.
@@ -33,7 +33,7 @@ def evaluate_classification(model, X_test,y_test,cmap='Greens',
                                 for train and test. Defaults to None.
     """
     ## 
-    get_report(model,X_test,y_test,as_df=False,label=label)
+    get_report(model,X_test,y_test,as_df=False,label=label,target_names=classes)
     
     ## Plot Confusion Matrid and roc curve
     fig,ax = plt.subplots(ncols=2, figsize=figsize)
@@ -75,12 +75,13 @@ def get_time(verbose=False):
     return now,tic
         
     
-def get_report(model,X_test,y_test,as_df=False,label="TEST DATA"):
+def get_report(model,X_test,y_test,as_df=False,target_names=None,label="TEST DATA"):
     """Get classification report from sklearn and converts to DataFrame"""
     ## Get Preds and report
     y_hat_test = model.predict(X_test)
     scores = metrics.classification_report(y_test, y_hat_test,
-                                          output_dict=as_df) 
+                                          output_dict=as_df,
+                                          target_names=target_names) 
     ## convert to df if as_df
     if as_df:
         report = pd.DataFrame(scores).T.round(2)
