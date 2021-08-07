@@ -3,8 +3,6 @@
 
 **Author**: James M. Irving, Ph.D.
 
-The contents of this repository detail an analysis of the module one project. This analysis is detailed in hopes of making the work accessible and replicable.
-
 
 
 <img src="images/iowa_in_jail.png">
@@ -12,8 +10,12 @@ The contents of this repository detail an analysis of the module one project. Th
 ### Business problem:
 The state of Iowa has a prisoner recidivism issue that it has asked for help in understanding. 
 In 2015, nearly 1/3 of all released prisoners from Iowa were returning to prison within 3 years of being released.
-<img src="images/recidivism_report_1.png">
-<img src="images/recidivism_report_2.png">
+
+
+<img src="images/recidivism_report_1.png" width=70%>
+<img src="images/recidivism_report_2.png" width=80%>
+
+- Excerpt from [Iowa Department of Corrections Annual Report 2018](https://doc.iowa.gov/document/fy-2018-corrections-annual-report)
 
 ### Data 
 
