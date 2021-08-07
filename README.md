@@ -25,7 +25,6 @@ In 2015, nearly 1/3 of all released prisoners from Iowa were returning to prison
     - Up-to-Date Dataset
         - https://data.iowa.gov/Correctional-System/3-Year-Recidivism-for-Offenders-Released-from-Pris/mw8r-vqy4
 
-<img src="images/LSA_map_with_counties_districts_and_B54A5BBCE4156.jpg">
 
 - **Statistics about recidivism in prisoners from a 3 year prisoner**
 - **Target:**
@@ -38,19 +37,36 @@ In 2015, nearly 1/3 of all released prisoners from Iowa were returning to prison
     - Convicting Offense Classification
     - Convicting Offense Type
     - Convicting Offense Subtype
-    - Main Supervising District
     - Release Type
     - Release type: Paroled to Detainder united
     - Part of Target Population
+    - Main Supervising Judicial District
+
+
+
+<img src="images/LSA_map_with_counties_districts_and_B54A5BBCE4156.jpg">
+- Iowa Judicial District Map
 
 ## Methods
-- Used multiple machine learning models to find model with the best recall score for correctly identify which prisoners will return to jain.
+
 - Features related to the crime committed after release and the time until return to jail were removed, since they are not appropriate to use to predict who will be a recidivist. 
-    - All features were categorical, except for age, which was converted to a numeric vallue (e.g. "35 - 45"-> "40"
+    - All features were categorical, except for age, which was converted to a numeric vallue (e.g. "35 - 45"-> 40).
 
 
-- The large number of categorical features and imbalanced classes made it very difficult for most machine learning models to achieve quality performance. 
-- The models tried were:
+
+- Used multiple machine learning models to find model with the best recall score for correctly identify which prisoners will return to jain.
+    - Logisitic Regression
+    - Random Forest
+    - Catboost 
+    - Support Vector Classifier 
+    - XGBoost Classifier
+
+
+- There were several aspects of the dataset that made difficult to produce a model that could break .60 recall for recidivists. 
+    - The large number of categorical features (only 1 final feature was continuous/numeric) 
+    - The classes were imbalanced (66% non-recidivist to 33% recidivist), which we addressed via 2 approaches: using class weights as well as oversampling with SMOTENC.
+
+- After identifying our best model, we used model explainers, such as the SHAP package to better understand the relationship between the features and the target.
 
 <img src="images/modeling.png">
 
@@ -98,15 +114,15 @@ In 2015, nearly 1/3 of all released prisoners from Iowa were returning to prison
 
 ## Limitations & Next Steps
 
-The lack of numerical features was a major hurdle. The next steps should be to pull in additional information regarding the judical districts and their associated counties (population/crime rate/income, etc)
+The lack of numerical features was a major hurdle. The next steps should be to pull in additional information regarding the judical districts and their associated counties (population/crime rate/income, etc). We considered applying neural networks but decided against it due to the black-box nature of artificial neural networks. 
 
-<!-- 
+
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./index.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
+Please review the narrative of our analysis in [our jupyter notebook](./student-JMI-v2021.ipynb) or review our [presentation](./Predicting Recidivism in Released Prisoner in Iowa_Final_v2.pdf)
 
 For any additional questions, please contact **james.irving.phd@gmail.com**
 
-
+<!-- 
 ##### Repository Structure:
 
 Here is where you would describe the structure of your repoistory and its contents, for exampe:
