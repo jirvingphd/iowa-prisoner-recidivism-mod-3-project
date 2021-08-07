@@ -1,0 +1,1001 @@
+fiscal_year_released,recidivism_reporting_year,main_supervising_district,release_type,race_ethnicity,age_at_release,sex,offense_class,offense_type,offense_subtype,return_to_prison,days_return,recidivism_type,new_offense_class,new_offense_type,new_offense_subtype,target_population
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,Yes,433.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,Yes,453.0,Tech,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,Yes,832.0,Tech,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Other,Other Criminal,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,Yes,116.0,Tech,,,,No
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,OWI,Yes,84.0,Tech,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Other Violent,Yes,274.0,Tech,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,165.0,New,D Felony,Drug,Other Drug,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,249.0,Tech,,,,Yes
+2010,2013,8JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,1001.0,New,Aggravated Misdemeanor,Public Order,Traffic,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,OWI,Yes,763.0,New,Serious Misdemeanor,Violent,Assault,No
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Theft,Yes,598.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,399.0,New,D Felony,Drug,Trafficking,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,American Indian or Alaska Native - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,497.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Theft,Yes,147.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,263.0,New,Serious Misdemeanor,Public Order,Flight/Escape,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,467.0,New,D Felony,Property,Burglary,No
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,160.0,Tech,,,,Yes
+2010,2013,6JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,55 and Older,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,314.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Female,Felony - Enhanced,Drug,Trafficking,Yes,898.0,New,Aggravated Misdemeanor,Violent,Assault,Yes
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,Yes,212.0,New,Serious Misdemeanor,Violent,Assault,No
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,45-54,Female,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Burglary,Yes,166.0,Tech,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,Yes,653.0,New,D Felony,Property,Forgery/Fraud,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Theft,Yes,582.0,New,Felony - Enhancement to Original Penalty,Other,Other Criminal,No
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Female,B Felony,Other,Other Criminal,Yes,629.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,796.0,New,Aggravated Misdemeanor,Property,Theft,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,272.0,New,Aggravated Misdemeanor,Public Order,Traffic,No
+2010,2013,,Discharged – End of Sentence,Asian or Pacific Islander - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Vandalism,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,Black - Non-Hispanic,55 and Older,Male,C Felony,Drug,Trafficking,Yes,455.0,New,Aggravated Misdemeanor,Violent,Assault,Yes
+2010,2013,8JD,Parole,White - Hispanic,35-44,Male,C Felony,Violent,Robbery,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Female,B Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Weapons,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,Yes,323.0,New,D Felony,Violent,Assault,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,55 and Older,Female,D Felony,Property,Theft,Yes,593.0,New,Aggravated Misdemeanor,Property,Theft,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Other Violent,Yes,737.0,New,Aggravated Misdemeanor,Property,Theft,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Violent,Other Violent,Yes,846.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Female,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,Yes,216.0,Tech,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,Yes,874.0,New,D Felony,Public Order,Weapons,No
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,35-44,Female,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Asian or Pacific Islander - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,146.0,Tech,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,449.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,127.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,403.0,New,D Felony,Drug,Drug Possession,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,1085.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,Yes,949.0,New,D Felony,Property,Theft,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Female,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,Black - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Theft,Yes,734.0,Tech,,,,Yes
+2010,2013,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Hispanic,55 and Older,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,Yes,494.0,New,Serious Misdemeanor,Public Order,OWI,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Violent,Robbery,Yes,46.0,Tech,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,541.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,324.0,New,D Felony,Public Order,OWI,No
+2010,2013,4JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,Yes,343.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Vandalism,Yes,58.0,New,Aggravated Misdemeanor,Public Order,Alcohol,Yes
+2010,2013,2JD,Parole,White - Hispanic,25-34,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,No
+2010,2013,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,Yes,16.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Female,C Felony,Drug,Trafficking,Yes,273.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Flight/Escape,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Alcohol,Yes,353.0,New,Aggravated Misdemeanor,Public Order,OWI,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,Yes,555.0,New,D Felony,Drug,Trafficking,No
+2010,2013,7JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Vandalism,Yes,921.0,New,Aggravated Misdemeanor,Violent,Assault,No
+2010,2013,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,516.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,235.0,New,B Felony,Drug,Trafficking,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Drug Possession,Yes,169.0,Tech,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,Yes,182.0,Tech,,,,Yes
+2010,2013,1JD,Special Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,90.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Female,C Felony,Property,Theft,Yes,442.0,New,Aggravated Misdemeanor,Property,Theft,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,Yes,194.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Property,Burglary,Yes,174.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Forgery/Fraud,Yes,880.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Public Order,OWI,Yes,134.0,Tech,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,Yes,283.0,New,D Felony,Property,Theft,No
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,95.0,New,Serious Misdemeanor,Public Order,Flight/Escape,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,Yes,547.0,Tech,,,,No
+2010,2013,1JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,Yes,1037.0,New,Aggravated Misdemeanor,Public Order,Traffic,Yes
+2010,2013,8JD,Parole,Black - Non-Hispanic,45-54,Female,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Weapons,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,Yes,500.0,New,C Felony,Violent,Robbery,No
+2010,2013,5JD,Special Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,3JD,Parole,American Indian or Alaska Native - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,341.0,Tech,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Property,Forgery/Fraud,Yes,511.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,1035.0,New,Aggravated Misdemeanor,Property,Theft,No
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Other Felony (Old Code),Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Other Felony (Old Code),Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,293.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,Yes,305.0,New,D Felony,Public Order,OWI,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,377.0,New,D Felony,Property,Theft,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Theft,Yes,473.0,New,Aggravated Misdemeanor,Property,Vandalism,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Public Order,Weapons,Yes,776.0,New,Aggravated Misdemeanor,Property,Vandalism,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,American Indian or Alaska Native - Non-Hispanic,35-44,Female,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,D Felony,Property,Theft,Yes,411.0,New,Aggravated Misdemeanor,Public Order,Traffic,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Violent,Assault,Yes,301.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,Yes,1094.0,New,Aggravated Misdemeanor,Public Order,Traffic,No
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,342.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Theft,Yes,262.0,New,Felony - Enhancement to Original Penalty,Other,Other Criminal,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Arson,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,392.0,New,D Felony,Drug,Trafficking,No
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,470.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,3JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Burglary,Yes,218.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Hispanic,55 and Older,Female,D Felony,Public Order,OWI,Yes,202.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Hispanic,Under 25,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,252.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,178.0,Tech,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,Under 25,Female,D Felony,Drug,Other Drug,Yes,159.0,Tech,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,457.0,New,Aggravated Misdemeanor,Property,Forgery/Fraud,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Vandalism,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Vandalism,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,103.0,New,D Felony,Property,Burglary,No
+2010,2013,3JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Special Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Sex,Yes,86.0,Tech,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,26.0,Tech,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,Yes,66.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,383.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Female,Felony - Enhanced,Public Order,Flight/Escape,Yes,385.0,New,D Felony,Property,Theft,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,Flight/Escape,Yes,240.0,New,Aggravated Misdemeanor,Public Order,Traffic,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,456.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,385.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,173.0,New,Felony - Enhancement to Original Penalty,Other,Other Criminal,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,160.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,912.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,174.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,842.0,Tech,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Property,Arson,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,1027.0,New,Serious Misdemeanor,Public Order,OWI,Yes
+2010,2013,,Discharged – End of Sentence,White -,35-44,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,Yes,228.0,Tech,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,Yes,1087.0,New,D Felony,Drug,Drug Possession,Yes
+2010,2013,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Drug Possession,Yes,133.0,New,D Felony,Drug,Trafficking,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,175.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,708.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,497.0,New,Aggravated Misdemeanor,Property,Burglary,No
+2010,2013,3JD,Parole,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Property,Burglary,Yes,1009.0,Tech,,,,No
+2010,2013,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,Yes,405.0,New,B Felony,Drug,Trafficking,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Assault,Yes,376.0,New,D Felony,Property,Burglary,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,655.0,New,Aggravated Misdemeanor,Drug,Drug Possession,No
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,692.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,Yes,143.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,Yes,362.0,Tech,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,Yes,492.0,New,C Felony,Violent,Murder/Manslaughter,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,Yes,350.0,New,Aggravated Misdemeanor,Property,Burglary,Yes
+2010,2013,6JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Violent,Other Violent,Yes,366.0,New,Serious Misdemeanor,Drug,Drug Possession,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,474.0,New,Aggravated Misdemeanor,Violent,Assault,No
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Serious Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Public Order,Flight/Escape,Yes,223.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,25-34,Male,B Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Vandalism,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Female,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,Yes,275.0,New,Serious Misdemeanor,Public Order,Flight/Escape,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,283.0,New,D Felony,Drug,Drug Possession,Yes
+2010,2013,7JD,Special Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Other,Special Sentence Revocation,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Female,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,45-54,Male,B Felony,Other,Other Criminal,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,513.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,763.0,New,Serious Misdemeanor,Violent,Assault,No
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,191.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Violent,Sex,Yes,89.0,Tech,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Theft,Yes,735.0,New,D Felony,Property,Forgery/Fraud,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,332.0,New,Aggravated Misdemeanor,Property,Theft,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Vandalism,Yes,713.0,New,D Felony,Drug,Drug Possession,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,Serious Misdemeanor,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,563.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,574.0,Tech,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,414.0,Tech,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Special Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Sex,Yes,150.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Traffic,Yes,216.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,474.0,New,D Felony,Public Order,OWI,No
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,Yes,1079.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,3JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,B Felony,Drug,Trafficking,Yes,547.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,988.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Vandalism,Yes,881.0,New,Aggravated Misdemeanor,Public Order,Traffic,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,830.0,New,Aggravated Misdemeanor,Public Order,Traffic,No
+2010,2013,1JD,Parole,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Drug,Trafficking,Yes,700.0,New,D Felony,Drug,Drug Possession,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,228.0,New,C Felony,Property,Burglary,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,173.0,Tech,,,,Yes
+2010,2013,3JD,Parole,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Vandalism,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Vandalism,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Sex,Yes,620.0,New,D Felony,Public Order,Other Public Order,No
+2010,2013,7JD,Parole,White - Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,Yes,825.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,677.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,1040.0,New,C Felony,Property,Burglary,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Violent,Assault,Yes,259.0,New,Simple Misdemeanor,Public Order,Other Public Order,No
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,795.0,New,Aggravated Misdemeanor,Violent,Assault,Yes
+2010,2013,1JD,Parole,White - Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,70.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,251.0,Tech,,,,Yes
+2010,2013,7JD,Parole,White - Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,B Felony,Violent,Murder/Manslaughter,Yes,391.0,New,D Felony,Violent,Assault,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,Felony - Enhanced,Property,Theft,Yes,769.0,Tech,,,,No
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Burglary,Yes,134.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,Serious Misdemeanor,Violent,Assault,Yes,477.0,New,Aggravated Misdemeanor,Drug,Drug Possession,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Other,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,518.0,New,Aggravated Misdemeanor,Public Order,Alcohol,No
+2010,2013,7JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Female,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,359.0,New,D Felony,Drug,Drug Possession,No
+2010,2013,5JD,Parole,Black - Non-Hispanic,45-54,Female,D Felony,Property,Forgery/Fraud,Yes,350.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Female,C Felony,Property,Burglary,Yes,321.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,492.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Violent,Sex,Yes,342.0,New,D Felony,Property,Theft,No
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Theft,Yes,134.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,282.0,New,D Felony,Property,Forgery/Fraud,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,Yes,243.0,New,Aggravated Misdemeanor,Public Order,Traffic,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,605.0,New,C Felony,Property,Arson,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Property,Arson,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,988.0,New,Aggravated Misdemeanor,Property,Vandalism,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,778.0,New,Aggravated Misdemeanor,Violent,Assault,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,7JD,Special Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Violent,Sex,Yes,75.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,176.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,273.0,Tech,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,45-54,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Burglary,Yes,222.0,New,Aggravated Misdemeanor,Public Order,Alcohol,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,Yes,184.0,New,D Felony,Violent,Assault,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Serious Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Serious Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Burglary,Yes,393.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Other Drug,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,360.0,New,Felony - Enhancement to Original Penalty,Other,Other Criminal,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Burglary,Yes,1086.0,New,D Felony,Property,Theft,No
+2010,2013,6JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Female,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,Yes,284.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,541.0,New,C Felony,Property,Burglary,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,394.0,Tech,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,531.0,New,Serious Misdemeanor,Public Order,OWI,No
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,Yes,632.0,New,Aggravated Misdemeanor,Public Order,Traffic,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Female,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,Black - Non-Hispanic,45-54,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Arson,Yes,642.0,New,Serious Misdemeanor,Violent,Assault,No
+2010,2013,3JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,55 and Older,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,45-54,Female,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Property,Arson,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,35-44,Male,D Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,382.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,No
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,514.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,6JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,66.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,Yes,882.0,New,B Felony,Drug,Trafficking,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,387.0,New,D Felony,Public Order,OWI,No
+2010,2013,8JD,Parole,White - Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,C Felony,Violent,Kidnap,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Drug,Drug Possession,Yes,1075.0,New,Aggravated Misdemeanor,Violent,Assault,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Robbery,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Robbery,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,22.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,D Felony,Property,Vandalism,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,Yes,642.0,New,Serious Misdemeanor,Public Order,Alcohol,No
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,Black - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Drug Possession,Yes,319.0,Tech,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,282.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Property,Forgery/Fraud,Yes,1090.0,New,Felony - Enhancement to Original Penalty,Other,Other Criminal,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Stolen Property,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Arson,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,Yes,723.0,Tech,,,,Yes
+2010,2013,3JD,Parole,White - Hispanic,Under 25,Male,C Felony,Drug,Trafficking,Yes,193.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,C Felony,Property,Theft,Yes,603.0,New,Aggravated Misdemeanor,Property,Burglary,No
+2010,2013,3JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,424.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Trafficking,Yes,494.0,New,D Felony,Public Order,Traffic,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Property,Burglary,Yes,152.0,New,C Felony,Property,Burglary,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Public Order,Prostitution/Pimping,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,755.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,855.0,Tech,,,,No
+2010,2013,7JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Public Order,OWI,Yes,749.0,New,D Felony,Public Order,OWI,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,Yes,918.0,New,D Felony,Public Order,Weapons,No
+2010,2013,5JD,Parole,White - Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Asian or Pacific Islander - Non-Hispanic,Under 25,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Public Order,Weapons,Yes,993.0,Tech,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,198.0,Tech,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Drug,Trafficking,Yes,341.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,Yes,914.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Drug,Other Drug,Yes,974.0,New,D Felony,Public Order,OWI,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Drug,Drug Possession,Yes,326.0,New,Aggravated Misdemeanor,Public Order,Traffic,No
+2010,2013,5JD,Parole,White - Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,210.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Arson,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,612.0,New,Aggravated Misdemeanor,Violent,Assault,No
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Assault,Yes,712.0,New,Aggravated Misdemeanor,Drug,Trafficking,No
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,Felony - Enhanced,Public Order,OWI,Yes,307.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,55 and Older,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,C Felony,Drug,Trafficking,Yes,453.0,Tech,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Other Drug,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Property,Forgery/Fraud,Yes,261.0,New,D Felony,Public Order,OWI,No
+2010,2013,1JD,Parole,White - Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,53.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Female,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,624.0,New,D Felony,Violent,Assault,No
+2010,2013,6JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,619.0,New,Aggravated Misdemeanor,Violent,Assault,No
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Drug,Drug Possession,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,291.0,Tech,,,,Yes
+2010,2013,8JD,Parole,White - Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,Asian or Pacific Islander - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,B Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,Yes,709.0,New,C Felony,Violent,Sex,No
+2010,2013,2JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,Yes,267.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,No
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,Asian or Pacific Islander - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,Under 25,Female,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,341.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,25-34,Male,B Felony,Property,Arson,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,733.0,New,Aggravated Misdemeanor,Property,Forgery/Fraud,No
+2010,2013,7JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,Yes,449.0,New,D Felony,Violent,Assault,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Special Sentence,White - Non-Hispanic,25-34,Male,Serious Misdemeanor,Violent,Sex,Yes,613.0,Tech,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,Yes,289.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,360.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,B Felony,Drug,Trafficking,Yes,681.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,27.0,Tech,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,747.0,New,D Felony,Property,Forgery/Fraud,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,B Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Public Order,Sex Offender Registry/Residency,Yes,198.0,New,D Felony,Public Order,Other Public Order,No
+2010,2013,1JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Drug Possession,Yes,323.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2014,2017,,,White - Non-Hispanic,35-44,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2014,2017,,,White - Non-Hispanic,35-44,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,D Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Robbery,Yes,916.0,New,C Felony,Drug,Trafficking,No
+2010,2013,8JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,405.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,274.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,426.0,New,D Felony,Violent,Assault,No
+2010,2013,2JD,Parole,American Indian or Alaska Native - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Theft,Yes,266.0,New,Aggravated Misdemeanor,Property,Theft,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,55 and Older,Female,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,Black - Non-Hispanic,Under 25,Female,D Felony,Public Order,Flight/Escape,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,35-44,Male,Felony - Enhanced,Drug,Trafficking,Yes,254.0,New,D Felony,Drug,Drug Possession,Yes
+2010,2013,6JD,Parole,Black - Hispanic,25-34,Male,C Felony,Violent,Robbery,Yes,647.0,New,D Felony,Drug,Other Drug,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,714.0,New,Felony - Enhancement to Original Penalty,Other,Other Criminal,No
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,5JD,Special Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Sex,Yes,407.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Drug,Trafficking,Yes,210.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,D Felony,Public Order,Weapons,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,Yes,175.0,Tech,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,Weapons,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,B Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,5JD,Special Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Violent,Sex,Yes,600.0,New,Simple Misdemeanor,Public Order,Other Public Order,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Theft,Yes,279.0,New,D Felony,Property,Theft,No
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Female,D Felony,Property,Forgery/Fraud,Yes,485.0,Tech,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Sex Offender Registry/Residency,Yes,94.0,New,Aggravated Misdemeanor,Public Order,Other Public Order,No
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,D Felony,Property,Forgery/Fraud,Yes,962.0,New,D Felony,Property,Burglary,No
+2010,2013,6JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,Under 25,Male,D Felony,Public Order,OWI,Yes,695.0,New,Felony - Enhancement to Original Penalty,Other,Other Criminal,No
+2010,2013,5JD,Special Sentence,White - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Violent,Sex,Yes,341.0,Tech,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Female,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Female,Aggravated Misdemeanor,Public Order,Alcohol,Yes,509.0,New,Aggravated Misdemeanor,Public Order,Alcohol,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Hispanic,25-34,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,295.0,Tech,,,,Yes
+2010,2013,5JD,Special Sentence,White - Non-Hispanic,35-44,Male,D Felony,Violent,Sex,Yes,65.0,Tech,,,,Yes
+2010,2013,6JD,Parole,White - Hispanic,35-44,Male,D Felony,Public Order,OWI,Yes,168.0,Tech,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,Yes,686.0,Tech,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,Felony - Enhanced,Property,Theft,Yes,947.0,New,Aggravated Misdemeanor,Property,Theft,No
+2010,2013,7JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Vandalism,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,Yes,312.0,Tech,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,Traffic,Yes,170.0,New,Aggravated Misdemeanor,Public Order,Other Public Order,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,410.0,New,Aggravated Misdemeanor,Property,Burglary,No
+2010,2013,7JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,687.0,New,C Felony,Drug,Trafficking,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,Yes,378.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Sex Offender Registry/Residency,Yes,579.0,New,Serious Misdemeanor,Violent,Assault,No
+2010,2013,7JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Theft,Yes,195.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,Yes,667.0,Tech,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Public Order,OWI,Yes,232.0,New,Aggravated Misdemeanor,Public Order,OWI,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,874.0,New,Aggravated Misdemeanor,Drug,Drug Possession,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,35-44,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Female,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,Yes,273.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,7JD,Special Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Violent,Sex,Yes,248.0,Tech,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,199.0,New,D Felony,Public Order,Weapons,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Felony - Enhanced,Violent,Sex,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Violent,Assault,Yes,332.0,New,Aggravated Misdemeanor,Property,Theft,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Public Order,Traffic,Yes,112.0,Tech,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Violent,Assault,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,OWI,Yes,231.0,Tech,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,B Felony,Violent,Other Violent,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,American Indian or Alaska Native - Non-Hispanic,25-34,Female,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Other Violent,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Female,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,35-44,Male,D Felony,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,2JD,Special Sentence,White - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Other,Special Sentence Revocation,No,,No Recidivism,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,55 and Older,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,2JD,Parole,White - Non-Hispanic,35-44,Female,B Felony,Other,Other Criminal,Yes,223.0,New,D Felony,Property,Forgery/Fraud,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Hispanic,25-34,Male,B Felony,Drug,Trafficking,Yes,511.0,Tech,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,55 and Older,Male,Serious Misdemeanor,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,25-34,Male,C Felony,Property,Burglary,Yes,1026.0,New,Aggravated Misdemeanor,Public Order,Alcohol,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Public Order,OWI,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,Sexual Predator Community Supervision,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,3JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,85.0,Tech,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Violent,Assault,Yes,910.0,New,Aggravated Misdemeanor,Violent,Assault,No
+2010,2013,6JD,Parole,White - Non-Hispanic,35-44,Female,D Felony,Property,Forgery/Fraud,Yes,910.0,New,D Felony,Property,Forgery/Fraud,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Assault,Yes,231.0,New,Serious Misdemeanor,Violent,Assault,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Male,C Felony,Violent,Assault,Yes,831.0,New,Serious Misdemeanor,Violent,Assault,Yes
+2010,2013,6JD,Special Sentence,White - Non-Hispanic,45-54,Male,D Felony,Violent,Sex,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Violent,Murder/Manslaughter,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Male,Aggravated Misdemeanor,Public Order,Alcohol,No,,No Recidivism,,,,No
+2010,2013,2JD,Parole,White - Non-Hispanic,25-34,Female,C Felony,Drug,Trafficking,Yes,919.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Property,Arson,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,Under 25,Female,Aggravated Misdemeanor,Property,Forgery/Fraud,No,,No Recidivism,,,,No
+2010,2013,5JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Drug,Trafficking,Yes,83.0,Tech,,,,Yes
+2010,2013,6JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Property,Forgery/Fraud,Yes,320.0,Tech,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Female,C Felony,Drug,Trafficking,Yes,295.0,New,Felony - Enhancement to Original Penalty,Drug,Trafficking,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,45-54,Male,D Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,55 and Older,Male,Aggravated Misdemeanor,Property,Theft,Yes,580.0,New,Aggravated Misdemeanor,Property,Theft,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Male,D Felony,Other,Other Criminal,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Female,D Felony,Property,Forgery/Fraud,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,25-34,Male,C Felony,Violent,Robbery,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,35-44,Female,D Felony,Public Order,OWI,No,,No Recidivism,,,,No
+2010,2013,8JD,Parole,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Public Order,Traffic,No,,No Recidivism,,,,Yes
+2010,2013,7JD,Parole,Black - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,Aggravated Misdemeanor,Public Order,OWI,Yes,682.0,New,D Felony,Drug,Drug Possession,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,45-54,Male,Felony - Enhanced,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,Black - Non-Hispanic,45-54,Male,Aggravated Misdemeanor,Violent,Assault,Yes,730.0,New,Aggravated Misdemeanor,Violent,Assault,No
+2010,2013,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Property,Burglary,No,,No Recidivism,,,,Yes
+2010,2013,1JD,Parole,White - Non-Hispanic,25-34,Male,D Felony,Drug,Drug Possession,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,25-34,Female,Aggravated Misdemeanor,Violent,Assault,No,,No Recidivism,,,,No
+2010,2013,3JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Drug,Trafficking,Yes,704.0,New,D Felony,Property,Burglary,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,45-54,Male,C Felony,Property,Theft,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,White - Non-Hispanic,25-34,Female,D Felony,Drug,Drug Possession,Yes,889.0,New,Aggravated Misdemeanor,Drug,Drug Possession,Yes
+2010,2013,8JD,Parole,White - Non-Hispanic,Under 25,Male,D Felony,Property,Theft,Yes,420.0,Tech,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,4JD,Parole,White - Non-Hispanic,35-44,Male,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Female,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,5JD,Parole,Black - Non-Hispanic,35-44,Female,C Felony,Drug,Trafficking,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,,Discharged – End of Sentence,White - Hispanic,35-44,Male,B Felony,Drug,Trafficking,No,,No Recidivism,,,,No
+2010,2013,7JD,Parole,Black - Non-Hispanic,35-44,Male,D Felony,Public Order,Sex Offender Registry/Residency,No,,No Recidivism,,,,Yes
+2010,2013,,Discharged – End of Sentence,White - Non-Hispanic,Under 25,Male,D Felony,Property,Burglary,Yes,1050.0,New,D Felony,Public Order,Weapons,No

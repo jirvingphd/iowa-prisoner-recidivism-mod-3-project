@@ -8,44 +8,92 @@
 <img src="images/iowa_in_jail.png">
 
 ### Business problem:
-The state of Iowa has a prisoner recidivism issue that it has asked for help in understanding. 
-In 2015, nearly 1/3 of all released prisoners from Iowa were returning to prison within 3 years of being released.
 
 
-<img src="images/recidivism_report_1.png" width=70%>
-<img src="images/recidivism_report_2.png" width=80%>
+- The state of Iowa has had a prisoner recidivism issue that has become an increasing problem over several decades, with recidivism rates over 35% in 2007-2009.  While there was a period of gradual reduction from 2010-2014, there was a major jump in recidivism in 2015-2016.
+<img src="images/recidivism_report_1.png" width=400px>
 
-- Excerpt from [Iowa Department of Corrections Annual Report 2018](https://doc.iowa.gov/document/fy-2018-corrections-annual-report)
+- In 2015, US Dept. of Justice gave Iowa a $3 million Grant to help reduce recividism. At the time, 31.9% of  all released prisoners from Iowa were returning to prison within 3 years of being released.
+Despite this investment, the recidivism rate has continued to clime, reaching 36% by 2018.
+
+
+<img src="images/recidivism_report_2.png" width=400px>
+
+- *Recidivism statistics and visualizations above are from the [Iowa Department of Corrections Annual Report 2018](https://doc.iowa.gov/document/fy-2018-corrections-annual-report)*
+
+
+
+- In order the better address the increase in prisoner recidivism, the Iowa State Department of Corrections has released data regarding which prisoners return to jail within 3 years of release, in the hopes of finding insights for areas of possible intervention.
+
+### Project Goal
+- Our goals for this analysis was two-fold: 
+    1. Build a machine learning model that could predict which released prisoners will become recidivists/return-to-prison within 3 years of release.
+    2. To identify which of the prisoner's demographics/features best predicts/explains which prisoners become recidivists.
+
 
 ### Data 
 
-- Source: Iowa Department of Corrections 
-    - Original Kaggle Dataset:
-        - https://www.kaggle.com/slonnadube/recidivism-for-offenders-released-from-prison
-    - Up-to-Date Dataset
-        - https://data.iowa.gov/Correctional-System/3-Year-Recidivism-for-Offenders-Released-from-Pris/mw8r-vqy4
-
-
+- Source: 
+    - https://www.kaggle.com/slonnadube/recidivism-for-offenders-released-from-prison
+- Original/Up-to-date Source: 
+    - https://data.iowa.gov/Correctional-System/3-Year-Recidivism-for-Offenders-Released-from-Pris/mw8r-vqy4
 - **Statistics about recidivism in prisoners from a 3 year prisoner**
-- **Target:**
-    - Recidivism - Return to Prison
-- **Features:**
-    - Fiscal Year Released
+
+#### **Target:**
+- Recidivism - Return to Prison
+    - No = No Recidivism; 
+    - Yes = Prison admission for any reason within the 3-year tracking period
+
+#### **Features:**
+<!--     - Fiscal Year Released
     - Recidivism Reporting Year
     - Race - Ethnicity
     - Age At Release
     - Convicting Offense Classification
     - Convicting Offense Type
     - Convicting Offense Subtype
+    - Main Supervising District
     - Release Type
     - Release type: Paroled to Detainder united
-    - Part of Target Population
-    - Main Supervising Judicial District
+    - Part of Target Population -->
+
+- ~~**Fiscal Year Released**~~ [Not used in model]
+    - Fiscal year (year ending June 30) for which the offender was released from prison.
+
+- ~~**Recidivism Reporting Year**~~ [Not used in model]
+    - Fiscal year (year ending June 30) that marks the end of the 3-year tracking period. For example, offenders exited prison in FY 2012 are found in recidivism reporting year FY 2015.
+
+- **Race - Ethnicity**
+    - Offender's Race and Ethnicity
+
+- **Convicting Offense Classification**
+    - Maximum penalties: A Felony = Life; B Felony = 25 or 50 years; C Felony = 10 years; D Felony = 5 years; Aggravated Misdemeanor = 2 years; Serious Misdemeanor = 1 year; Simple Misdemeanor = 30 days
+
+- **Convicting Offense Type**
+    - General category for the most serious offense for which the offender was placed in prison.
+
+- **Convicting Offense Subtype**
+    - Further classification of the most serious offense for which the offender was placed in prison.
+
+- **Release Type**
+    - Reasoning for Offender's release from prison.
+
+- **Main Supervising District**
+    - The Judicial District supervising the offender for the longest time during the tracking period.
+
+
+- **Part of Target Population** 
+    - The Department of Corrections has undertaken specific strategies to reduce recidivism rates for prisoners who are on parole and are part of the target population.
+
+
+#### Missing Values
+<img src="./images/missingno.png">
 
 
 
-<img src="images/LSA_map_with_counties_districts_and_B54A5BBCE4156.jpg">
-- Iowa Judicial District Map
+- There were many missing values for the main suprivising judicial district column. Since these values may be missing for a meaningful reason (e.g. prisoners were not assigned a superivising district), I imputed them with a new "MISSING" category. 
+
+<img src="./images/LSA_map_with_counties_districts_and_B54A5BBCE4156.jpg" width=70%>
 
 ## Methods
 
@@ -72,9 +120,30 @@ In 2015, nearly 1/3 of all released prisoners from Iowa were returning to prison
 
 ## Results
 
-### Best Model
+<!-- 
+### Logistic Regression
+<img src="./images/">
+- Interpretation
 
-- [ ] Add scores
+### SVC
+<img src="./images/">
+- Interpretation -->
+
+
+### Random Forest - Class-Weights
+<img src="./images/random_forest_classweight.png">
+- RandomForestClassifiers struggled to learn about the target 1 class, recidivist prisoners (Return to Prison==Yes)
+
+<img src="./images/random_forest_smote.png">
+- Oversampling the training data with SMOTENC only improved performance slighly. 
+    - Recall increased from 0.43 to 0.53
+    - Accuracy increased from .71 to .74
+
+### Best Model - XGBoost Random Forests
+<img src="./images/xgboost_rf.png">
+- XGBoost's RandomForest Classifier outperformaned sklearn's RandomForests significantly. 
+
+
 
 #### Feature Importances
 <img src="images/feature_importance.png" width=70%>
@@ -108,8 +177,8 @@ In 2015, nearly 1/3 of all released prisoners from Iowa were returning to prison
 ## Recommendations:
 
 - Using our model,Iowa Department of corrections can predict which prisoners may become recidivist.
-- Using this information, Iowa can implement pre-release educational programs to target at-risk prisoners.
-- Following release, Iowa could also provide  post-release support and intervention to at-risk prisoners. 
+- Using this information, Iowa can implement pre-release educational programs to target at-risk prisoners, as well as provide  post-release support and intervention to at-risk prisoners. 
+- Additionally, we highly recommend that the Iowa Dept of Corrections investigate the differences between the Supervising Judicial districts to better understand why it is a large factor in the prisoner's outcome. 
 
 
 ## Limitations & Next Steps
@@ -118,7 +187,7 @@ The lack of numerical features was a major hurdle. The next steps should be to p
 
 
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./student-JMI-v2021.ipynb) or review our [presentation](./Predicting Recidivism in Released Prisoner in Iowa_Final_v2.pdf)
+Please review the narrative of our analysis in [our jupyter notebook `project-notebook-iowa-prisoners.ipynb`](./project-notebook-iowa-prisoners.ipynb) or review our [presentation](./Predicting Recidivism in Released Prisoner in Iowa_Final_v2.pdf)
 
 For any additional questions, please contact **james.irving.phd@gmail.com**
 
