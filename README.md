@@ -129,30 +129,127 @@ Despite this investment, the recidivism rate has continued to clime, reaching 36
 <img src="./images/">
 - Interpretation -->
 
+### Baseline Moddel - Dummy Classififer
 
-### Random Forest - Class-Weights
+- Since the dataset was fairly imbalanced (66:33 recidivist:non-recidivist), we first created a DummyClassifier set to use the stratified strategy, in which is guesses randomly based on the target's class balance. 
+<img src="./images/dummy_classifier.png">
+- The DummyClassifier performed terribly, as expected, with an accuracy score of 0.54, with an ROC-AUC of 0.47. The ROC AUC confirms this model is worthless.
+- In terms of identifying recidivists ("Yes-Recid"), our baseline recall for recidivists was 0.31 with a precision score of 0.25. 
+- Translated into words, this means that:
+    - of all of the recidivists, our model correctly identified 0.31% of them (recall)- Of all of the model's predictions for our target class, only 25% of them are correct (precision).
+- This is obviously a terrible model, so any model with greater scores will be better than random chance.
+
+
+### Random Forest - Class Weights
 <img src="./images/random_forest_classweight.png">
+
+- Due to the glass-box nature of the model and the power of ensemble methods, we started with RandomForestClassifiers. 
+
 - RandomForestClassifiers struggled to learn about the target 1 class, recidivist prisoners (Return to Prison==Yes)
+- Even though this model is horribly biased towards predicting non-recidivist, it still is a dramatic improvement over our basement DummyClassifier.
+
+### Best Random Forest - Resampled Data
+
+- In order to better address class balance, we oversampled the training data with SMOTENC.
 
 <img src="./images/random_forest_smote.png">
-- Oversampling the training data with SMOTENC only improved performance slighly. 
-    - Recall increased from 0.43 to 0.53
-    - Accuracy increased from .71 to .74
 
-### Best Model - XGBoost Random Forests
+- Oversampling the training data with SMOTENC improved the model's performance
+    - Recall increased to 0.53 for recidivists
+    - Accuracy increased to .74
+    - ROC-AUC increased to 0.75
+
+### Other Models 
+
+- We spent time tuning various other model types, but in the end XGBoost's RandomForest Classifier was our best performing model.
+- Other models used:
+    - Logistic Regression
+    - LinearSVC
+    - Catboost
+
+
+### Best Recidivist Recall Model - XGBoost Random Forests
+
 <img src="./images/xgboost_rf.png">
-- XGBoost's RandomForest Classifier outperformaned sklearn's RandomForests significantly. 
+
+- XGBoost's RandomForest Classifier outperformaned sklearn's RandomForests significantly, in terms of recall, which increased from 0.53 to 0.71 with xgboost. 
+- However, this came at a tradde off of increased false positives, which lowred our overall accuracy to 0.63 and our ROC-AUC to 0.64.
+- Despite the decrease in other metrics, we still selected the xgboost random forest classifier as our best model to use for inferences into what may be contributing towards recidivism. 
+
+## Interpretation
+
+#### Top Features - XGBoost RF Importances
+ 
+<img src="./images/best_feature_importances.png">
+
+- According to the inherent importances from our best model, the following are the 5 most important features for predicting recidivists:
+    1. main_supervising_district_MISSING
+    2. target_population
+    3. offense_subtype_Drug Possession
+    4. main_supervising_district_8JD
+    5. offense_subtype_Murder/Manslaughter
+- The remaining top features are various crime offense subtypes, race/ethnicities, and release types.
+
+#### Top Features - SHAP Feature Importances
+- We next used the SHAP package and its game-thoery-based approach to calculating the influence of each feature on the target's predictions. 
+- This provides a more nuanced view of feature importances, but will also allow us to better understand the directionality of the relationship between our most important features and the likihood of predicting Yes-Recidivist.
+    - Before examining this nuanced perspective, we will first compare top important features before visualizing the nuanced interactions.
+<img src="images/best_feature_importances_shap.png">
+
+- According to the Shapely values calculated by the SHAP package, the following 5 features and
+    1. target_population
+    2. age_at_release
+    3. release_type_Parole
+    4. main_supervising_district_MISSING
+    5. max-sentence
+    
+- The remaining top features are various crime offense subtypes, race/ethnicities. 
+- Interestingly, no release types appear in the top features, unlike our xgboost-identified features.
+#### Relationship Between Top Features  & the Target
+
+##### Shap Summary Plot of Important Features
+**Interpreting `shap.summary_plot`**
+> - Feature importance: Variables are ranked in descending order.
+- Impact: The horizontal location shows whether the effect of that value is associated with a higher or lower prediction.
+- Original value: Color shows whether that variable is high (in red) or low (in blue) for that observation.
 
 
+<img src="images/shap_summary_plot.png">
 
-#### Feature Importances
+
+- According to the Shapely values calculated by the SHAP package, the following 5 features had the following relationships with the target:
+    1. `target_population`: 
+        - Being part of the target_population, which was a group of prisoners already receiving additional interventions to prevent recidivism, actually makes the prisoner MORE likely to return to crime. 
+        - While one could interpret this as the state's interventions not being effective, I suggest we instead use this to affirm that the state was correctly targeting at-risk prisoners already, at least partially. 
+    2. `age_at_release`:
+        - Unsurprisingly, the younger the prisoner is when released, the more likely they are to return to crime. 
+        - This makes sense in a few ways. For one, the younger they are they less likely they are to be well-established in life and financially stable. 
+    3. `release_type_Parole`:
+        - Being released on Parole makes a prisoner less likely to return to crime. 
+        - This makes sense, as parolees are monitored regularly by their parole officers, which would 
+    4. `main_supervising_district_MISSING`:
+        - Prisoners who were missing a supervising judicial district were LESS likely to return to crime. 
+        - Future work: investigate which prisoners are assigned supervising judicial districts and which ones are not. 
+        - There could be a logical reason that the prisoner may not need a supervising district, either due to the nature of their crime or release. Further investigation is warranted.
+    5. `max-sentence`:
+        - Max sentence has a more complicated relationship to the target. 
+        - It seems that the criminals in prison for the  shortest-sentence crimes and the longest-sentence crimes seem to be more likely to return to crime.
+        - Crimes that fall in the middle of the range of # of years tend to be less likely to return to crime.
+    
+<!-- - The remaining top features are various crime offense subtypes, race/ethnicities. 
+
+- The 6th feature also is an interesting observation, as those who were in prison for Drug Offenses are more likely to return to crime. 
+    - This is not surprising, as the war on drugs has disproportionately occupied US prisons with non-violent criminals. It is not surprisining these same individuals were caught  -->
+____
+
+<!-- #### Feature Importances
 <img src="images/feature_importance.png" width=70%>
 
 > The top 4 most important features for predicting recidivism are:
     1. Age At Release
     2. Supervising Judicial District
     3. Release Type
-    4. Crime Type/Subtype
+    4. Crime Type/Subtype -->
 
 
 
@@ -187,7 +284,7 @@ The lack of numerical features was a major hurdle. The next steps should be to p
 
 
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook `project-notebook-iowa-prisoners.ipynb`](./project-notebook-iowa-prisoners.ipynb) or review our [presentation](./Predicting Recidivism in Released Prisoner in Iowa_Final_v2.pdf)
+Please review the narrative of our analysis in [our jupyter notebook `project-notebook-iowa-prisoners.ipynb`](./project-notebook-iowa-prisoners.ipynb) or review our [presentation]("./Predicting Recidivism in Released Prisoner in Iowa_Final_v2.pdf")
 
 For any additional questions, please contact **james.irving.phd@gmail.com**
 
