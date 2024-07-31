@@ -4,7 +4,10 @@
 ## Identifying Risk Factors with Machine Learning
 
 **Author**: James M. Irving, Ph.D.
+___
+>✨New Multi-Part Blog Series on Using IBM AI Fairness 360 applied to this prisoner recividism dataset. [Blog Link](https://medium.com/@james.irving.phd/blog-post-series-ai-fairness-360-mitigating-bias-in-machine-learning-models-c1ec744c91c4)
 
+___
 
 
 <img src="images/iowa_in_jail.png">
